@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import argparse, os, sys, textwrap, json
+import argparse, os, json
 
 TEMPLATE = r"""<!doctype html><meta charset="utf-8" />
 <title>{title}</title>
@@ -56,18 +56,25 @@ const CONFIG = {{
   exitHref: {exit_href_json}
 }};
 
+// Project-aware absolute path helper:
+// Pages serves under /<repo>/..., while local dev is at /...
+function toAbsolute(p){{
+  const root = location.pathname.replace(/\/site\/BUILD\/.*$/, "");
+  return p.startsWith("/") ? (root + p) : (root + "/" + p);
+}}
+
 let data=null, byCode={{}}, historyStack=[], speaking=false;
 
 function stopTTS(){{ try{{ speechSynthesis.cancel(); speaking=false; }}catch(e){{}} }}
 function speak(text){{ try{{ stopTTS(); if(!text) return; const u=new SpeechSynthesisUtterance(text); u.rate=1.0; u.pitch=1.0; u.onend=()=>{{ speaking=false; }}; speaking=true; speechSynthesis.speak(u); }} catch(e){{ speaking=false; }} }}
-function escapeHTML(s){{ return (s||'').replace(/[&<>"]/g, m=>({{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}}[m])); }}
-function escapeJS(s){{ return (s||'').replace(/`/g,"\\\\`").replace(/\\\\/g,"\\\\\\\\"); }}
+function escapeHTML(s){{ return (s||'').replace(/[&<>"]/g, m=>({{"&":"&amp;","<":"&lt;"," >":"&gt;","\"":"&quot;"}}[m])); }}
+function escapeJS(s){{ return (s||'').replace(/`/g,"\\`").replace(/\\/g,"\\\\"); }}
 function setExit(){{ const a=document.getElementById('exitBtn'); if(CONFIG.exitHref){{ a.href=CONFIG.exitHref; a.style.display='inline-flex'; }} }}
 
 async function load(){{
   stopTTS();
   let path=document.getElementById('story').value.trim()||'{story_path}';
-  if(!path.startsWith('/')) path='/'+path;
+  // keep whatever was provided (relative or absolute)
   const res=await fetch(path); if(!res.ok){{ alert('Failed '+path+' ('+res.status+')'); return; }}
   data=await res.json(); byCode={{}}; (data.frames||[]).forEach(f=>byCode[f.frame_code]=f);
   const start=data.start_code || (data.frames[0]&&data.frames[0].frame_code);
@@ -94,19 +101,18 @@ function render(code){{
     crumbsEl.style.display='none';
   }}
 
-  const img=f.image? (f.image.startsWith('/')?f.image:'/'+f.image) : '';
+  const img = f.image ? toAbsolute(f.image) : '';
   const q=f.decision_question||'';
   const choices=Array.isArray(f.choices)?f.choices:[];
   const n1=(f.narr1||'').trim(), n2=(f.narr2||'').trim(), n3=(f.narr3||'').trim();
   const uapUrl=(f.uap_url||'').trim();
 
-  // Conditionally render buttons
   const hearMeBtn   = n1 ? `<button aria-label="Hear me (Narration 1)" onclick="speak(\`${{escapeJS(n1)}}\`)">Hear me</button><button aria-label="Stop audio" onclick="stopTTS()">Stop</button>` : '';
   const readMeBtn   = n1 ? `<button aria-label="Read me (Narration 1)" onclick="openRead('read1')">Read me</button>` : '';
   const readMoreBtn = n2 ? `<button aria-label="Read more (Narration 2)" onclick="openRead('read2')">Read more</button>` : '';
   const hearMoreBtn = n3 ? `<button aria-label="Hear more (Narration 3)" onclick="speak(\`${{escapeJS(n3)}}\`)">Hear more</button><button aria-label="Stop audio" onclick="stopTTS()">Stop</button>` : '';
   const uapBtn      = uapUrl ? `<a class="btn" href="${{uapUrl}}" target="_blank" rel="noopener">To learn the steps, click here</a>` : '';
-  const toolbar = [hearMeBtn, readMeBtn, readMoreBtn, hearMoreBtn, uapBtn].filter(Boolean).join('\\n');
+  const toolbar = [hearMeBtn, readMeBtn, readMoreBtn, hearMoreBtn, uapBtn].filter(Boolean).join('\n');
 
   document.getElementById('view').innerHTML = `
     <div class="center">
@@ -147,16 +153,16 @@ load();
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--story", required=True, help="Path to story.json (as it should appear in the browser, usually starting with / )")
+    ap.add_argument("--story", required=True, help="Path to story.json as it should appear on the page (keep relative if your page is under /site/BUILD/).")
     ap.add_argument("--out",   required=True, help="Output HTML path (e.g., site/BUILD/techmobile_player.html)")
     ap.add_argument("--title", default="SOP Player – Interactive")
     ap.add_argument("--mode",  choices=["dev","prod"], default="prod", help="dev shows Details; prod hides Details")
-    ap.add_argument("--image-width", type=int, default=65, help="Image width as percent of content width (e.g., 65)")
-    ap.add_argument("--exit", default="", help="Exit URL (optional)")
+    ap.add_argument("--image-width", type=int, default=65, help="Image width percent")
+    ap.add_argument("--exit", default="", help="Exit URL (optional, may be relative like index.html)")
     ap.add_argument("--no-breadcrumb", action="store_true", help="Hide breadcrumb row")
     args = ap.parse_args()
 
-    story_path = args.story
+    story_path = args.story  # preserve exactly as given (relative/absolute)
 
     html = TEMPLATE.format(
         title=args.title,
