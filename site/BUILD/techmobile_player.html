@@ -29,7 +29,7 @@
   <div class="bar">
     <button id="backTop" onclick="back()" title="Go back one step">Back</button>
     <button onclick="restart()" title="Restart from start">Menu</button>
-    <input id="story" type="text" value="/.build/story/TechMobile/story.json" aria-label="Story JSON path"/>
+    <input id="story" type="text" value="/story/TechMobile/story.json" aria-label="Story JSON path"/>
     <button class="primary" onclick="load()">Load</button>
     <a id="exitBtn" class="btn" href="#" target="_blank" rel="noopener" style="display:none">Exit</a>
   </div>
@@ -50,7 +50,7 @@
 const CONFIG = {
   showBreadcrumb: true,
   showDetails: false,
-  exitHref: "/EdxBuild/site/BUILD/index.html"
+  exitHref: "index.html"
 };
 
 let data=null, byCode={}, historyStack=[], speaking=false;
@@ -63,7 +63,7 @@ function setExit(){ const a=document.getElementById('exitBtn'); if(CONFIG.exitHr
 
 async function load(){
   stopTTS();
-  let path=document.getElementById('story').value.trim()||'/.build/story/TechMobile/story.json';
+  let path=document.getElementById('story').value.trim()||'/story/TechMobile/story.json';
   if(!path.startsWith('/')) path='/'+path;
   const res=await fetch(path); if(!res.ok){ alert('Failed '+path+' ('+res.status+')'); return; }
   data=await res.json(); byCode={}; (data.frames||[]).forEach(f=>byCode[f.frame_code]=f);
