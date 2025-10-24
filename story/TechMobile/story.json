@@ -6,7 +6,7 @@
       "sop_id": "TechMobile",
       "frame_code": "Slide_01",
       "title": "Template on for creating  SOP PPT option",
-      "image": "/SOP/images/Palco/Service/TechMobile/Slide_01.png",
+      "image": "SOP/images/Palco/Service/TechMobile/Slide_01.png",
       "decision_question": "",
       "choices": [
         {
@@ -29,7 +29,7 @@
       "sop_id": "TechMobile",
       "frame_code": "M1",
       "title": ".M1 – Tech Mobile",
-      "image": "/SOP/images/Palco/Service/TechMobile/M1.png",
+      "image": "SOP/images/Palco/Service/TechMobile/M1.png",
       "decision_question": "",
       "choices": [
         {
@@ -52,7 +52,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S1",
       "title": "S1. Appointment Accepted – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S1.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S1.png",
       "decision_question": "",
       "choices": [
         {
@@ -75,7 +75,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S2",
       "title": "S2. Travel to Site – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S2.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S2.png",
       "decision_question": "",
       "choices": [
         {
@@ -98,7 +98,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S3",
       "title": "S3. Perform Site Work– Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S3.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S3.png",
       "decision_question": "",
       "choices": [
         {
@@ -121,7 +121,7 @@
       "sop_id": "TechMobile",
       "frame_code": "D1",
       "title": "D1. Additional Material Needed – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/D1.png",
+      "image": "SOP/images/Palco/Service/TechMobile/D1.png",
       "decision_question": "Is additional  Material needed for this appointment?",
       "choices": [
         {
@@ -148,7 +148,7 @@
       "sop_id": "TechMobile",
       "frame_code": "Y1",
       "title": "Y1. Yes Additional Material is needed– Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y1.png",
+      "image": "SOP/images/Palco/Service/TechMobile/Y1.png",
       "decision_question": "",
       "choices": [
         {
@@ -171,7 +171,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S4",
       "title": "S4. Add Additional material – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S4.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S4.png",
       "decision_question": "",
       "choices": [
         {
@@ -194,7 +194,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S5",
       "title": "S5. Travel from Site – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S5.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S5.png",
       "decision_question": "",
       "choices": [
         {
@@ -217,7 +217,7 @@
       "sop_id": "TechMobile",
       "frame_code": "D2",
       "title": "D2. Is Additional Work – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/D2.png",
+      "image": "SOP/images/Palco/Service/TechMobile/D2.png",
       "decision_question": "Is additional work needed on the unit outside the scope of this appointment",
       "choices": [
         {
@@ -244,7 +244,7 @@
       "sop_id": "TechMobile",
       "frame_code": "Y2",
       "title": "Y2. Yes  Additional Work is needed – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y2.png",
+      "image": "SOP/images/Palco/Service/TechMobile/Y2.png",
       "decision_question": "",
       "choices": [
         {
@@ -267,7 +267,7 @@
       "sop_id": "TechMobile",
       "frame_code": "D3",
       "title": "D3. Additional Work Completed during this visit – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/D3.png",
+      "image": "SOP/images/Palco/Service/TechMobile/D3.png",
       "decision_question": "Can this additional work be performed during this visit?",
       "choices": [
         {
@@ -294,7 +294,7 @@
       "sop_id": "TechMobile",
       "frame_code": "Y3",
       "title": "Y3. Additional Work can be completed  – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y3.png",
+      "image": "SOP/images/Palco/Service/TechMobile/Y3.png",
       "decision_question": "",
       "choices": [
         {
@@ -317,7 +317,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S6",
       "title": "S6. Create New SRO– Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S6.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S6.png",
       "decision_question": "",
       "choices": [
         {
@@ -344,7 +344,7 @@
       "sop_id": "TechMobile",
       "frame_code": "N3",
       "title": "N3. No Additional work not completed this visit – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/N3.png",
+      "image": "SOP/images/Palco/Service/TechMobile/N3.png",
       "decision_question": "",
       "choices": [
         {
@@ -367,7 +367,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S7",
       "title": "S7. Change Status to Call Back – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S7.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S7.png",
       "decision_question": "",
       "choices": [
         {
@@ -394,7 +394,7 @@
       "sop_id": "TechMobile",
       "frame_code": "N2",
       "title": "N2 No Additional work is needed– Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/N2.png",
+      "image": "SOP/images/Palco/Service/TechMobile/N2.png",
       "decision_question": "",
       "choices": [
         {
@@ -417,7 +417,7 @@
       "sop_id": "TechMobile",
       "frame_code": "S8",
       "title": "S8. Change Status to Closed – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S8.png",
+      "image": "SOP/images/Palco/Service/TechMobile/S8.png",
       "decision_question": "",
       "choices": [
         {
@@ -444,7 +444,7 @@
       "sop_id": "TechMobile",
       "frame_code": "N1",
       "title": "N1. No Additional Material Needed – Tech Mobile SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/N1.png",
+      "image": "SOP/images/Palco/Service/TechMobile/N1.png",
       "decision_question": "",
       "choices": [
         {
@@ -454,6 +454,24 @@
       ],
       "narr1": "N1. No Additional Material Needed",
       "narr2": "During the service the tech has no need to add any addition work to the work order hence a decision that no additional work is needed is taken",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "TechMobile",
+      "frame_code": "",
+      "title": "",
+      "image": "",
+      "decision_question": "",
+      "choices": [],
+      "narr1": "",
+      "narr2": "",
       "narr3": "",
       "uap_url": "",
       "uap_label": "",
