@@ -4,9 +4,9 @@
   "frames": [
     {
       "sop_id": "ServReqOrd",
-      "frame_code": "",
+      "frame_code": "1",
       "title": "Service Request Order SOP PPT option",
-      "image": "/SOP/images/Palco/Service/TechMobile/SLIDE_1.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/SLIDE_1.png",
       "decision_question": "",
       "choices": [
         {
@@ -29,7 +29,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "M1",
       "title": "M1. Trouble Service call SOP - Interactive",
-      "image": "/SOP/images/Palco/Service/TechMobile/M1.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/M1.png",
       "decision_question": "",
       "choices": [
         {
@@ -52,7 +52,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S1",
       "title": "S1. A call is received",
-      "image": "/SOP/images/Palco/Service/TechMobile/S1.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S1.png",
       "decision_question": "",
       "choices": [
         {
@@ -75,7 +75,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "D1",
       "title": "D1. Who Received the Call",
-      "image": "/SOP/images/Palco/Service/TechMobile/D1.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/D1.png",
       "decision_question": "Which department answered the Call",
       "choices": [
         {
@@ -102,7 +102,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "Y1",
       "title": "Y1. Yes the Service Department Answered it",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y1.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/Y1.png",
       "decision_question": "",
       "choices": [
         {
@@ -125,7 +125,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "D2",
       "title": "D2. Could you create a SRO?",
-      "image": "/SOP/images/Palco/Service/TechMobile/D2.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/D2.png",
       "decision_question": "Do you have enough information to create an SRO",
       "choices": [
         {
@@ -152,7 +152,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "Y2",
       "title": "Y2. Yes I have info to create an SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y2.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/Y2.png",
       "decision_question": "",
       "choices": [
         {
@@ -175,7 +175,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S2",
       "title": "S2. Quick Create an SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S2.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S2.png",
       "decision_question": "",
       "choices": [
         {
@@ -198,7 +198,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S3",
       "title": "S3. Add SRO lines",
-      "image": "/SOP/images/Palco/Service/TechMobile/S3.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S3.png",
       "decision_question": "",
       "choices": [
         {
@@ -221,7 +221,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "D3",
       "title": "D3. Need more lines",
-      "image": "/SOP/images/Palco/Service/TechMobile/D3.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/D3.png",
       "decision_question": "Need more lines in the SRO",
       "choices": [
         {
@@ -248,7 +248,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "Y3",
       "title": "Y3. Yes need to add Operations. Quick Create an SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y3.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/Y3.png",
       "decision_question": "",
       "choices": [
         {
@@ -271,7 +271,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S7",
       "title": "S7. Add Operations",
-      "image": "/SOP/images/Palco/Service/TechMobile/S7.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S7.png",
       "decision_question": "",
       "choices": [
         {
@@ -294,7 +294,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S8",
       "title": "S8. Add Planned Transaction. Quick Create an SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S8.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S8.png",
       "decision_question": "",
       "choices": [
         {
@@ -317,7 +317,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "D4",
       "title": "D4. Does the SRO need Non-Stock items",
-      "image": "/SOP/images/Palco/Service/TechMobile/D4.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/D4.png",
       "decision_question": "Do you need Non stock items to complete the service",
       "choices": [
         {
@@ -344,7 +344,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "Y4",
       "title": "Y4. Yes Non-stock Items are needed",
-      "image": "/SOP/images/Palco/Service/TechMobile/Y4.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/Y4.png",
       "decision_question": "",
       "choices": [
         {
@@ -367,7 +367,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S9",
       "title": "S9. Add Non-stock items SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S9.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S9.png",
       "decision_question": "",
       "choices": [
         {
@@ -390,7 +390,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S10",
       "title": "S10. Print Non-stock PO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S10.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S10.png",
       "decision_question": "",
       "choices": [
         {
@@ -413,7 +413,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S11",
       "title": "S11. Receive Non-stock Inventory",
-      "image": "/SOP/images/Palco/Service/TechMobile/S11.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S11.png",
       "decision_question": "",
       "choices": [
         {
@@ -436,7 +436,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S12",
       "title": "S12. Schedule the SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S12.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S12.png",
       "decision_question": "",
       "choices": [
         {
@@ -459,7 +459,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S13",
       "title": "S13. A Sub SRO for Tech to go to site service and close the call",
-      "image": "/SOP/images/Palco/Service/TechMobile/S13.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S13.png",
       "decision_question": "",
       "choices": [
         {
@@ -482,7 +482,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S14",
       "title": "S14. Posting transactions",
-      "image": "/SOP/images/Palco/Service/TechMobile/S14.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S14.png",
       "decision_question": "",
       "choices": [
         {
@@ -505,7 +505,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S15",
       "title": "S15. Service Invoicing",
-      "image": "/SOP/images/Palco/Service/TechMobile/S15.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S15.png",
       "decision_question": "",
       "choices": [
         {
@@ -528,7 +528,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S16",
       "title": "S16. Close SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S16.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S16.png",
       "decision_question": "",
       "choices": [
         {
@@ -551,7 +551,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "N2",
       "title": "N2. Need to create an Incident or \"call back\"",
-      "image": "/SOP/images/Palco/Service/TechMobile/N2.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/N2.png",
       "decision_question": "",
       "choices": [
         {
@@ -574,7 +574,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S4",
       "title": "S4. Create ISM Incident",
-      "image": "/SOP/images/Palco/Service/TechMobile/S4.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S4.png",
       "decision_question": "",
       "choices": [
         {
@@ -597,7 +597,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "N1",
       "title": "N1. No Other personnel received the call",
-      "image": "/SOP/images/Palco/Service/TechMobile/N1.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/N1.png",
       "decision_question": "",
       "choices": [
         {
@@ -620,7 +620,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S5",
       "title": "S5. Create a CSD Incident",
-      "image": "/SOP/images/Palco/Service/TechMobile/S5.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S5.png",
       "decision_question": "",
       "choices": [
         {
@@ -643,7 +643,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "S6",
       "title": "S6. Convert A Incident to an SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/S6.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/S6.png",
       "decision_question": "",
       "choices": [
         {
@@ -666,7 +666,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "N3",
       "title": "N3. No Additional Lines SRO",
-      "image": "/SOP/images/Palco/Service/TechMobile/N3.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/N3.png",
       "decision_question": "",
       "choices": [
         {
@@ -689,7 +689,7 @@
       "sop_id": "ServReqOrd",
       "frame_code": "N4",
       "title": "N4. No Non-stock Material Required",
-      "image": "/SOP/images/Palco/Service/TechMobile/N4.png",
+      "image": "/SOP/images/Palco/Service/ServReqOrd/N4.png",
       "decision_question": "",
       "choices": [],
       "narr1": "",
