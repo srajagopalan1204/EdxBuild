@@ -1,0 +1,707 @@
+{
+  "sop_id": "ServReqOrd",
+  "start_code": "M1",
+  "frames": [
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "",
+      "title": "Service Request Order SOP PPT option",
+      "image": "/SOP/images/Palco/Service/TechMobile/SLIDE_1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "M1",
+          "label": "M1"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "M1",
+      "title": "M1. Trouble Service call SOP - Interactive",
+      "image": "/SOP/images/Palco/Service/TechMobile/M1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S1",
+          "label": "A call is received"
+        }
+      ],
+      "narr1": "PM-selected",
+      "narr2": "How to convert an Estimate to an SRO go to  Service Orders Screen. Form-->Open-->Service Orders-->OK Click on drop down for Status Field and choose Estimate from drop. Service Order Screen From listed estimates on left choose the estimate to be converted. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. Choose JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD ENTER THE QUANTITY HOW. WHEN POSTING THIS NUMBER CAN BE CHANGED CLICK THE PLUS TO ADD MORE MATERIAL. CLICK SAVE ADD THE WORK CODE FROM THE DROP DOWN OPERARTION 20 WILL BE. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. Choose JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD TYPE THE PLANNED HOURS. FROM THE SERVICE ORDER SCREEN ADDING LINES CLICK SRO LINES SERVICE ORDER SCREEN IN. TYPE THE MODEL NUMBER AND SERIAL NUMBER IN THE ITEM AND UNIT FIELD. THIS WILL PROPMT CREATION OF A NEW ITEM/UNIT. DO NOT CHANGE THE ITEM VALUE. SAVE AND CLICK OK ON UNITS SCREEN. TO RETURN TO SRO LINES SCREEN choose THE SERIAL NUMBER FROM THE UNITS DROP. SAVE THE UNIT AND CLICK OK TO RETURN TO THE SRO LINES SCREEN CHANGE. IF ALL LINES ARE CREATED, EXIT OUT OF SERVICE ORDER LINES ***IF MULT LINES. SEE ADDING OPERATIONS PROCCESS CLICK SAVE EXIT SRO LINES SCREEN GO TO COLUMN I. Service Order Screen choose Quick Create top button on the right side In Service. In Customer Information section, enter customer number choose PIC Electric from drop down. Click OK. Pop up screen confirms your assigned SRO number for this estimate. Click OK. 1 CLOSE SRO From the Service Order Screen Click Filter In Place Icon At. With the preview button selected click process choose the commit bubble Click process SRO. Service Order Screen choose Which Service Order needs a call back from the left. Incident Screen choose Quick Create from box on the right side. Enter Customer name Quick Incident Create Screen Enter phone number Enter a description of. Click OK. Incident to SRO From the incident screen click the funnel to filter Incidents screen. E inquiry to view your SRO in CSD in shipped stage Add A Non. E Catalog/Non Stock Query In Pop Up Menu Click On Item Field And Enter. E Catalog/Non Stock Query Screen Click On Description Field And Enter Description For Non. E Purchase Order Click OK Button At Bottom Of SX. E Catalog/Non Stock Query Screen To check Create Incident CSD Open CSD Search Incidents. Choose SSR This is the Service Writer Responsible for Answering the Indecent choose Priority.",
+      "narr3": "How to convert an Estimate to an SRO Navigate to Service Orders Screen. Form-->Open-->Service Orders-->OK Click on drop down for Status Field and select Estimate from drop down Select the Funnel, filter in place, from the toolbar. Service Order Screen From listed estimates on left select the estimate to be converted to an Open SRO by clicking on Estimate Number Click. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. SELECT JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD ENTER THE QUANTITY HOW MANY MIGHT YOU NEED. WHEN POSTING THIS NUMBER CAN BE CHANGED CLICK THE PLUS TO ADD MORE MATERIAL TRANSACTIONS IS THERE MORE THAN ONE MATERIAL NEEDED? CLICK SAVE. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. SELECT JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD TYPE THE PLANNED HOURS FOR THIS WORK CODE THIS IS PLANNED TIME, IT CAN. FROM THE SERVICE ORDER SCREEN ADDING LINES CLICK SRO LINES SERVICE ORDER SCREEN IN THE ITEM TEXT BOX SEARCH FOR AN *ITEM NUMBER* SRO. TYPE THE MODEL NUMBER AND SERIAL NUMBER IN THE ITEM AND UNIT FIELD. THIS WILL PROPMT CREATION OF A NEW ITEM/UNIT. DO NOT CHANGE THE ITEM VALUE. SAVE AND CLICK OK ON UNITS SCREEN. TO RETURN TO SRO LINES SCREEN SELECT THE SERIAL NUMBER FROM THE UNITS DROP DOWN IF THE SERIAL NUMBER HAS NOT BEEN SERVICED CLICK. SAVE THE UNIT AND CLICK OK TO RETURN TO THE SRO LINES SCREEN CHANGE QTY TO 1 IN THE QTY FIELD IF ADDITIONAL LINES. IF ALL LINES ARE CREATED, EXIT OUT OF SERVICE ORDER LINES (small x in top right corner) ***IF MULT LINES ARE ADDED OPERATIONS WILL. SEE ADDING OPERATIONS PROCCESS CLICK SAVE EXIT SRO LINES SCREEN GO TO COLUMN I ADDING OPERATIONS FROM THE SERVICE ORDER SCREEN YOU SHOULD ONLY. Service Order Screen Select Quick Create top button on the right side In Service Order Options section, From SRO Status Field, select estimate from. In Customer Information section, enter customer number (In this example, enter *1059*) Select PIC Electric from drop down. Click OK. Pop up screen confirms your assigned SRO number for this estimate. (J indicates Jeannette, W indicates WV) Click OK. 1 CLOSE SRO From the Service Order Screen Click Filter In Place Icon At Top Left Of Service Order Screen To List SROs Scroll. With the preview button selected click process Select the commit bubble Click process SRO Status Change To Closed Is Displayed At The Bottom Of. Service Order Screen Select Which Service Order needs a call back from the left side Click Generate Callback SRO button on the right side. Incident Screen Select Quick Create from box on the right side. Enter Customer name Quick Incident Create Screen Enter phone number Enter a description of why the customer is calling. Click OK. Incident to SRO From the incident screen click the funnel to filter Incidents screen Select the incident you desire to turn into SRO Click. E inquiry to view your SRO in CSD in shipped stage Add A Non Stock Item As Planned Material To A Service Order From. E Catalog/Non Stock Query In Pop Up Menu Click On Item Field And Enter Needed Non Stock Part Number SX. E Catalog/Non Stock Query Screen Click On Description Field And Enter Description For Non Stock Part Click On Pull Down Menu In Product Code. E Purchase Order Click OK Button At Bottom Of SX. E Catalog/Non Stock Query Screen To Confirm Create Incident CSD Open CSD Search Incidents CSD menu Select new CSD incident screen Enter the customer.",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S1",
+      "title": "S1. A call is received",
+      "image": "/SOP/images/Palco/Service/TechMobile/S1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D1",
+          "label": "Who Received the Call"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "D1",
+      "title": "D1. Who Received the Call",
+      "image": "/SOP/images/Palco/Service/TechMobile/D1.png",
+      "decision_question": "Which department answered the Call",
+      "choices": [
+        {
+          "to": "Y1",
+          "label": "Yes the Service Department Answered it"
+        },
+        {
+          "to": "N1",
+          "label": "No Other personnel received the call"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "Y1",
+      "title": "Y1. Yes the Service Department Answered it",
+      "image": "/SOP/images/Palco/Service/TechMobile/Y1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D2",
+          "label": "Could you create a SRO?"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "D2",
+      "title": "D2. Could you create a SRO?",
+      "image": "/SOP/images/Palco/Service/TechMobile/D2.png",
+      "decision_question": "Do you have enough information to create an SRO",
+      "choices": [
+        {
+          "to": "Y2",
+          "label": "Yes I have info to create an SRO"
+        },
+        {
+          "to": "N2",
+          "label": "Need to create an Incident or \"call back\""
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "Y2",
+      "title": "Y2. Yes I have info to create an SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/Y2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S2",
+          "label": "Quick Create an SRO"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S2",
+      "title": "S2. Quick Create an SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S3",
+          "label": "Add SRO lines"
+        }
+      ],
+      "narr1": "Quick Create SRO",
+      "narr2": "Quick Create SRO Click Form ISM Click Open Search Quick SRO Create choose Quick.",
+      "narr3": "Quick Create SRO Click Form ISM Click Open Search Quick SRO Create select Quick SRO Create Select the option that says service order copy create Choose a.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/116036b4-ca1f-4c52-9ca5-544f66d3ee29?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "04_Quick Create SRO",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S3",
+      "title": "S3. Add SRO lines",
+      "image": "/SOP/images/Palco/Service/TechMobile/S3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D3",
+          "label": "Need more lines"
+        }
+      ],
+      "narr1": "ADDING LINES OPM",
+      "narr2": "FROM THE SERVICE ORDER SCREEN ADDING LINES CLICK SRO LINES SERVICE ORDER SCREEN IN. TYPE THE MODEL NUMBER AND SERIAL NUMBER IN THE ITEM AND UNIT FIELD. THIS WILL PROPMT CREATION OF A NEW ITEM/UNIT. DO NOT CHANGE THE ITEM VALUE. SAVE AND CLICK OK ON UNITS SCREEN. TO RETURN TO SRO LINES SCREEN choose THE SERIAL NUMBER FROM THE UNITS DROP. SAVE THE UNIT AND CLICK OK TO RETURN TO THE SRO LINES SCREEN CHANGE. IF ALL LINES ARE CREATED, EXIT OUT OF SERVICE ORDER LINES ***IF MULT LINES. SEE ADDING OPERATIONS PROCCESS CLICK SAVE EXIT SRO LINES SCREEN GO TO COLUMN I.",
+      "narr3": "FROM THE SERVICE ORDER SCREEN ADDING LINES CLICK SRO LINES SERVICE ORDER SCREEN IN THE ITEM TEXT BOX SEARCH FOR AN *ITEM NUMBER* SRO. TYPE THE MODEL NUMBER AND SERIAL NUMBER IN THE ITEM AND UNIT FIELD. THIS WILL PROPMT CREATION OF A NEW ITEM/UNIT. DO NOT CHANGE THE ITEM VALUE. SAVE AND CLICK OK ON UNITS SCREEN. TO RETURN TO SRO LINES SCREEN SELECT THE SERIAL NUMBER FROM THE UNITS DROP DOWN IF THE SERIAL NUMBER HAS NOT BEEN SERVICED CLICK. SAVE THE UNIT AND CLICK OK TO RETURN TO THE SRO LINES SCREEN CHANGE QTY TO 1 IN THE QTY FIELD IF ADDITIONAL LINES. IF ALL LINES ARE CREATED, EXIT OUT OF SERVICE ORDER LINES (small x in top right corner) ***IF MULT LINES ARE ADDED OPERATIONS WILL. SEE ADDING OPERATIONS PROCCESS CLICK SAVE EXIT SRO LINES SCREEN GO TO COLUMN I.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/5072aa67-ce2e-455e-ab1c-dae358077328?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "05_Add SRO Lines",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "D3",
+      "title": "D3. Need more lines",
+      "image": "/SOP/images/Palco/Service/TechMobile/D3.png",
+      "decision_question": "Need more lines in the SRO",
+      "choices": [
+        {
+          "to": "Y3",
+          "label": "Yes need to add Operations. Quick Create an SRO"
+        },
+        {
+          "to": "N3",
+          "label": "No Additional Lines SRO"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "Y3",
+      "title": "Y3. Yes need to add Operations. Quick Create an SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/Y3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S7",
+          "label": "Add Operations"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S7",
+      "title": "S7. Add Operations",
+      "image": "/SOP/images/Palco/Service/TechMobile/S7.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S8",
+          "label": "Add Planned Transaction. Quick Create an SRO"
+        }
+      ],
+      "narr1": "ADDING OPERATIONS OPM",
+      "narr2": "ADDING OPERATIONS FROM THE SERVICE ORDER SCREEN YOU SHOULD ONLY HAVE TO ADD OPERATIONS.",
+      "narr3": "ADDING OPERATIONS FROM THE SERVICE ORDER SCREEN YOU SHOULD ONLY HAVE TO ADD OPERATIONS IF YOU ARE SERVICING 2 ITEMS ON ONE SERVICE CALL.",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S8",
+      "title": "S8. Add Planned Transaction. Quick Create an SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S8.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D4",
+          "label": "Does the SRO need Non"
+        }
+      ],
+      "narr1": "ADDING TRANSACTIONS TO AN SRO TS",
+      "narr2": "ADD TRANSACTIONS TO AN SRO ISM FROM THE SERVICE ORDER SCREEN CLICK THE FIP. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. Choose JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD ENTER THE QUANTITY HOW. WHEN POSTING THIS NUMBER CAN BE CHANGED CLICK THE PLUS TO ADD MORE MATERIAL. CLICK SAVE ADD THE WORK CODE FROM THE DROP DOWN OPERARTION 20 WILL BE. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. Choose JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD TYPE THE PLANNED HOURS.",
+      "narr3": "ADD TRANSACTIONS TO AN SRO ISM FROM THE SERVICE ORDER SCREEN CLICK THE FIP FUNNEL SERVICE ORDER SCREEN SELECT THE SRO CLICK SRO TRANSACTIONS. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. SELECT JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD ENTER THE QUANTITY HOW MANY MIGHT YOU NEED. WHEN POSTING THIS NUMBER CAN BE CHANGED CLICK THE PLUS TO ADD MORE MATERIAL TRANSACTIONS IS THERE MORE THAN ONE MATERIAL NEEDED? CLICK SAVE. 10 IS MATERIAL, OPER. 20 IS LABOR, OPER 30 IS MISC. SELECT JEANETTE FROM THE DEPT. DROP DOWN WHAT BRANCH ARE YOU IN JEANETTE OR WINFIELD TYPE THE PLANNED HOURS FOR THIS WORK CODE THIS IS PLANNED TIME, IT CAN.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/4756e1fc-8b42-433d-8b52-84f357824c05?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "07_Add Planned Transactions",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "D4",
+      "title": "D4. Does the SRO need Non-Stock items",
+      "image": "/SOP/images/Palco/Service/TechMobile/D4.png",
+      "decision_question": "Do you need Non stock items to complete the service",
+      "choices": [
+        {
+          "to": "Y4",
+          "label": "Yes Non stock is needed"
+        },
+        {
+          "to": "N4",
+          "label": "No Non stock is needed"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "Y4",
+      "title": "Y4. Yes Non-stock Items are needed",
+      "image": "/SOP/images/Palco/Service/TechMobile/Y4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S9",
+          "label": "Add Non"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S9",
+      "title": "S9. Add Non-stock items SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S9.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S10",
+          "label": "Print Non"
+        }
+      ],
+      "narr1": "Add Non Stock Items To Service Order",
+      "narr2": "Add A Non Stock Item As Planned Material To A Service Order From The. E Catalog/Non Stock Query In Pop Up Menu Click On Item Field And Enter. E Catalog/Non Stock Query Screen Click On Description Field And Enter Description For Non. E Purchase Order Click OK Button At Bottom Of SX. E Catalog/Non Stock Query Screen To check.",
+      "narr3": "Add A Non Stock Item As Planned Material To A Service Order From The SRO Transaction Screen Right Click Item Field To Access Pop. E Catalog/Non Stock Query In Pop Up Menu Click On Item Field And Enter Needed Non Stock Part Number SX. E Catalog/Non Stock Query Screen Click On Description Field And Enter Description For Non Stock Part Click On Pull Down Menu In Product Code. E Purchase Order Click OK Button At Bottom Of SX. E Catalog/Non Stock Query Screen To Confirm.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/009757b9-ba09-45fc-9f03-045533ea0b67?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "08_Add a Non-Stock",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S10",
+      "title": "S10. Print Non-stock PO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S10.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S11",
+          "label": "Receive Non"
+        }
+      ],
+      "narr1": "PRINT PO",
+      "narr2": "PRINT A PO CLICK MENU CSD CLICK PURCHASE CLICK ENTRY CLICK PURCHASE ORDER CLICK.",
+      "narr3": "PRINT A PO CLICK MENU CSD CLICK PURCHASE CLICK ENTRY CLICK PURCHASE ORDER CLICK PRINT PURCHASE ORDER ENTRY SCREEN ENTER THE PO NUMBER PO.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/d9d9e204-5ee0-4429-98cb-0e16784ab3e2?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "09_Print the Non-Stock PO",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S11",
+      "title": "S11. Receive Non-stock Inventory",
+      "image": "/SOP/images/Palco/Service/TechMobile/S11.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S12",
+          "label": "Schedule the SRO"
+        }
+      ],
+      "narr1": "RECEIVE NON STOCK PO",
+      "narr2": "RECEIVE THE NON STOCK go to  TWL WAFFLE MENU CLICK RECEIVING TWL choose.",
+      "narr3": "RECEIVE THE NON STOCK NAVIGATE TO TWL WAFFLE MENU CLICK RECEIVING TWL SELECT DOCK 1 FROM THE DROP DOWN CLICK RECEIVING STOCK RECEIPT SCREEN.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/174b709d-f97e-4898-9c96-a9cdf39ebd33?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "10_Receive the Non-Stock",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S12",
+      "title": "S12. Schedule the SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S12.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S13",
+          "label": "A Sub SRO for Tech to go to site service and close the call"
+        }
+      ],
+      "narr1": "SCHEDULE NEW TS",
+      "narr2": "SCHEDULE AN SRO SERVICE DEPT ISM SERVICE DEPT FROM THR SERVICE ORDER SCREEN SERVICE.",
+      "narr3": "SCHEDULE AN SRO SERVICE DEPT ISM SERVICE DEPT FROM THR SERVICE ORDER SCREEN SERVICE DEPT CLICK THE FIP FUNNEL SERVICE ORDER SCREEN SERVICE DEPT.",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S13",
+      "title": "S13. A Sub SRO for Tech to go to site service and close the call",
+      "image": "/SOP/images/Palco/Service/TechMobile/S13.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S14",
+          "label": "Posting transactions"
+        }
+      ],
+      "narr1": "SCHEDULE NEW TS",
+      "narr2": "SCHEDULE AN SRO SERVICE DEPT ISM SERVICE DEPT FROM THR SERVICE ORDER SCREEN SERVICE.",
+      "narr3": "SCHEDULE AN SRO SERVICE DEPT ISM SERVICE DEPT FROM THR SERVICE ORDER SCREEN SERVICE DEPT CLICK THE FIP FUNNEL SERVICE ORDER SCREEN SERVICE DEPT.",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S14",
+      "title": "S14. Posting transactions",
+      "image": "/SOP/images/Palco/Service/TechMobile/S14.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S15",
+          "label": "Service Invoicing"
+        }
+      ],
+      "narr1": "Posting A Transaction",
+      "narr2": "Posting A Transaction From the service order screen click the funnel to filter choose.",
+      "narr3": "Posting A Transaction From the service order screen click the funnel to filter Select the SRO you desire Service order screen Click transactions Click.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/33eee612-7343-4596-8add-e91c5dc3d49b?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "12_Posting Transactions",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S15",
+      "title": "S15. Service Invoicing",
+      "image": "/SOP/images/Palco/Service/TechMobile/S15.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S16",
+          "label": "Close SRO"
+        }
+      ],
+      "narr1": "Invoicing In ISM",
+      "narr2": "Invoicing in ISM Choose the SRO you are billing Service orders screen Click billing. E inquiry to view your SRO in CSD in shipped stage.",
+      "narr3": "Invoicing in ISM Choose the SRO you are billing Service orders screen Click billing Click Set operator stat to invoice Click Order invoicing Click. E inquiry to view your SRO in CSD in shipped stage.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/b539bad4-8c0f-4c8b-a2b3-466457eb1fc4?contextId=7759920f-dcd8-4077-a43d-0ab583055602",
+      "uap_label": "06_ISM Invoice",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S16",
+      "title": "S16. Close SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S16.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N2",
+          "label": "Need to create an Incident or \"call back\""
+        }
+      ],
+      "narr1": "CLOSE SRO",
+      "narr2": "1 CLOSE SRO From the Service Order Screen Click Filter In Place Icon At. With the preview button selected click process choose the commit bubble Click process SRO.",
+      "narr3": "1 CLOSE SRO From the Service Order Screen Click Filter In Place Icon At Top Left Of Service Order Screen To List SROs Scroll. With the preview button selected click process Select the commit bubble Click process SRO Status Change To Closed Is Displayed At The Bottom Of.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/f3762223-d2e3-4c9a-9250-cedfd88e0cd6?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "14_Close SRO",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "N2",
+      "title": "N2. Need to create an Incident or \"call back\"",
+      "image": "/SOP/images/Palco/Service/TechMobile/N2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S4",
+          "label": "Create ISM Incident"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S4",
+      "title": "S4. Create ISM Incident",
+      "image": "/SOP/images/Palco/Service/TechMobile/S4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N1",
+          "label": "No Other personnel received the call"
+        }
+      ],
+      "narr1": "Create Incident",
+      "narr2": "Create Incident CSD Open CSD Search Incidents CSD menu choose new CSD incident screen. Choose SSR This is the Service Writer Responsible for Answering the Indecent choose Priority.",
+      "narr3": "Create Incident CSD Open CSD Search Incidents CSD menu Select new CSD incident screen Enter the customer Enter a contact email, phone Describe why.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/91e3ace4-8115-4cec-9ddd-8689a22bc42a?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "01_ISM Incident",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "N1",
+      "title": "N1. No Other personnel received the call",
+      "image": "/SOP/images/Palco/Service/TechMobile/N1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S5",
+          "label": "Create a CSD Incident"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S5",
+      "title": "S5. Create a CSD Incident",
+      "image": "/SOP/images/Palco/Service/TechMobile/S5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S6",
+          "label": "Convert A Incident to an SRO"
+        }
+      ],
+      "narr1": "Create Incident",
+      "narr2": "Create Incident CSD Open CSD Search Incidents CSD menu choose new CSD incident screen. Choose SSR This is the Service Writer Responsible for Answering the Indecent choose Priority.",
+      "narr3": "Create Incident CSD Open CSD Search Incidents CSD menu Select new CSD incident screen Enter the customer Enter a contact email, phone Describe why.",
+      "uap_url": "",
+      "uap_label": "01.2_CSD Incident",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "S6",
+      "title": "S6. Convert A Incident to an SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/S6.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N3",
+          "label": "No Additional Lines SRO"
+        }
+      ],
+      "narr1": "Incident To SRO",
+      "narr2": "Incident to SRO From the incident screen click the funnel to filter Incidents screen.",
+      "narr3": "Incident to SRO From the incident screen click the funnel to filter Incidents screen Select the incident you desire to turn into SRO Click.",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/4b3b1314-356c-4cc4-a4b2-855aa9b1b62a?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "03_Incident to SRO",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "N3",
+      "title": "N3. No Additional Lines SRO",
+      "image": "/SOP/images/Palco/Service/TechMobile/N3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N4",
+          "label": "No Non-Stock Material Required"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    },
+    {
+      "sop_id": "ServReqOrd",
+      "frame_code": "N4",
+      "title": "N4. No Non-stock Material Required",
+      "image": "/SOP/images/Palco/Service/TechMobile/N4.png",
+      "decision_question": "",
+      "choices": [],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": ""
+      }
+    }
+  ]
+}
