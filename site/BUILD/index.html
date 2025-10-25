@@ -1,8 +1,6 @@
 <!doctype html><meta charset="utf-8">
 <title>EdxBuild — SOP Menu</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Base tag ensures /SOP/... and /.build/... work on GitHub Pages under /EdxBuild/ -->
-<base href="/EdxBuild/">
 <style>
   body{margin:0;font:16px/1.5 system-ui,Segoe UI,Arial;background:#f7f7fb;color:#111}
   .wrap{max-width:980px;margin:40px auto;padding:0 16px}
@@ -21,7 +19,8 @@
     <div class="card">
       <h2>TechMobile</h2>
       <p class="muted">Tech Mobile SOP interactive player.</p>
-      <a class="btn primary" href="/EdxBuild/site/BUILD/techmobile_player.html">Open</a>
+      <!-- RELATIVE link works in Codespaces and on GitHub Pages -->
+      <a class="btn primary" href="techmobile_player.html">Open</a>
     </div>
     <div class="card">
       <h2>SRO</h2>
