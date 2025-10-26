@@ -1,0 +1,396 @@
+{
+  "sop_id": "Warranty",
+  "start_code": "S00",
+  "frames": [
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S00",
+      "title": "S00. Introduction slide for deck for the warranty processing",
+      "image": "/SOP/images/Palco/Service/Warranty/S00.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "M1",
+          "label": "Warranty Process"
+        }
+      ],
+      "narr1": "PM-selected",
+      "narr2": "Service Orders. Change Operations. Click On SRO Transactions To Navigate To Service Order transactions. Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts. Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor. Click The. Save (Disk) Invoicing in ISM. Choose the SRO you are billing. Click billing. Click. Set oper stat to invoice. Click Order invoicing. Click Process. Click Ok. Exit out of order invoiving. Click SX.e inquiry to view your SRO in CSD in shipped stage Service Orders. Change Working Status. On General Use Pull Down In Working Status And. Click On Possible Warranty. Click The. Save (Disk) Service Orders Customer Bill Override. Click On SRO Operations To Navigate To Service Order Operations. Select Operation 40 For Parts Warranty. Click On Customer Override. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk). Click Line 5 Of Listed Operations To. Select Operation 50 for Warranty Labor. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk) Service Orders. Filter Working Status. Use Pull Down In Working Status And. Click On Possible Warranty. Click. Filter In Place Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted Warranty Claim Reconciliation. Mark Reconciled. Drop Down In Claim Status And. Select To Be Reconciled. Click. Apply. Filter At Bottom Of Service Order. Click. Mark Reconciled Service Order. Select The SRO Processed As A Warranty And. Click SX.e Inquiry Order Inquiry. Drill Into The Order By Clicking The Arrow CSD. Search. Search Apece For Vendor Invoice C. Enter Vendor Invoice C. Enter. Click Vendor Invoice C. Enter. Type apeiswc In Group And. Select It. Click. Search.",
+      "narr3": "From The Service Orders Screen Change Operations — Click On SRO Transactions Button To Navigate To Service Order transactions Screen Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor Click The Save Icon (Disk) Invoicing in ISM — Choose the SRO you are billing Click billing Click Set oper stat to invoice Click Order invoicing Click Process Click Ok Exit out of order invoiving Click SX.e inquiry to view your SRO in CSD in shipped stage From The Service Orders Screen Change Working Status — On General Tab Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click The Save Icon (Disk) From The Service Orders Screen Customer Bill Override — Click On SRO Operations Button To Navigate To Service Order Operations Screen Select Operation 40 For Parts Warranty Click On Customer Override Tab Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) Click Line 5 Of Listed Operations To Select Operation 50 for Warranty Labor Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) From The Service Orders Screen Filter Working Status — Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click Filter In Place Funnel Icon From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted From The Warranty Claim Reconciliation Screen Mark Reconciled — Use The Drop Down Menu In Claim Status Field And Select To Be Reconciled Click Apply Filter Button At Bottom Of Service Order Section Click Mark Reconciled From The Service Order Screen Select The SRO Processed As A Warranty And Click SX.e Inquiry Button From The Order Inquiry Screen Drill Into The Order By Clicking The Arrow From The CSD Search Field Search Apece For Vendor Invoice Center Vendor Invoice Center — Click Vendor Invoice Center Type apeiswc In Group And Select It Click Search",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "M1",
+      "title": "M1. Warranty Process - PPS Service ISM",
+      "image": "/SOP/images/Palco/Service/Warranty/M1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S1",
+          "label": "Tech Marks Service call as possible warranty"
+        }
+      ],
+      "narr1": "PM-selected",
+      "narr2": "Service Orders. Change Operations. Click On SRO Transactions To Navigate To Service Order transactions. Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts. Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor. Click The. Save (Disk) Invoicing in ISM. Choose the SRO you are billing. Click billing. Click. Set oper stat to invoice. Click Order invoicing. Click Process. Click Ok. Exit out of order invoiving. Click SX.e inquiry to view your SRO in CSD in shipped stage Service Orders. Change Working Status. On General Use Pull Down In Working Status And. Click On Possible Warranty. Click The. Save (Disk) Service Orders Customer Bill Override. Click On SRO Operations To Navigate To Service Order Operations. Select Operation 40 For Parts Warranty. Click On Customer Override. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk). Click Line 5 Of Listed Operations To. Select Operation 50 for Warranty Labor. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk) Service Orders. Filter Working Status. Use Pull Down In Working Status And. Click On Possible Warranty. Click. Filter In Place Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted Warranty Claim Reconciliation. Mark Reconciled. Drop Down In Claim Status And. Select To Be Reconciled. Click. Apply. Filter At Bottom Of Service Order. Click. Mark Reconciled Service Order. Select The SRO Processed As A Warranty And. Click SX.e Inquiry Order Inquiry. Drill Into The Order By Clicking The Arrow CSD. Search. Search Apece For Vendor Invoice C. Enter Vendor Invoice C. Enter. Click Vendor Invoice C. Enter. Type apeiswc In Group And. Select It. Click. Search.",
+      "narr3": "From The Service Orders Screen Change Operations — Click On SRO Transactions Button To Navigate To Service Order transactions Screen Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor Click The Save Icon (Disk) Invoicing in ISM — Choose the SRO you are billing Click billing Click Set oper stat to invoice Click Order invoicing Click Process Click Ok Exit out of order invoiving Click SX.e inquiry to view your SRO in CSD in shipped stage From The Service Orders Screen Change Working Status — On General Tab Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click The Save Icon (Disk) From The Service Orders Screen Customer Bill Override — Click On SRO Operations Button To Navigate To Service Order Operations Screen Select Operation 40 For Parts Warranty Click On Customer Override Tab Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) Click Line 5 Of Listed Operations To Select Operation 50 for Warranty Labor Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) From The Service Orders Screen Filter Working Status — Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click Filter In Place Funnel Icon From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted From The Warranty Claim Reconciliation Screen Mark Reconciled — Use The Drop Down Menu In Claim Status Field And Select To Be Reconciled Click Apply Filter Button At Bottom Of Service Order Section Click Mark Reconciled From The Service Order Screen Select The SRO Processed As A Warranty And Click SX.e Inquiry Button From The Order Inquiry Screen Drill Into The Order By Clicking The Arrow From The CSD Search Field Search Apece For Vendor Invoice Center Vendor Invoice Center — Click Vendor Invoice Center Type apeiswc In Group And Select It Click Search",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S1",
+      "title": "S1. Tech Marks Service call as possible warranty - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S2",
+          "label": "Tech Filter Working status"
+        }
+      ],
+      "narr1": "OPM Change Working Status Monday Dot Com Tim",
+      "narr2": "Service Orders. Change Working Status. On General Use Pull Down In Working Status And. Click On Possible Warranty. Click The. Save (Disk).",
+      "narr3": "From The Service Orders Screen Change Working Status — On General Tab Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click The Save Icon (Disk)",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S2",
+      "title": "S2. Tech Filter Working status - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S3",
+          "label": "Warranty Specialist submits Warranty to Vendor"
+        }
+      ],
+      "narr1": "OPM Filter Working Status Monday Dot Com Tim",
+      "narr2": "Service Orders. Filter Working Status. Use Pull Down In Working Status And. Click On Possible Warranty. Click. Filter In Place.",
+      "narr3": "From The Service Orders Screen Filter Working Status — Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click Filter In Place Funnel Icon",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/73e0931c-23fa-4e88-8f2a-2b5f85cbae06?contextId=7759920f-dcd8-4077-a43d-0ab583055602",
+      "uap_label": "01_Filter Working Status",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S3",
+      "title": "S3. Warranty Specialist submits Warranty to Vendor - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D1",
+          "label": "Was the warranty submission accepted"
+        }
+      ],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "D1",
+      "title": "D1. Was the warranty submission accepted - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/D1.png",
+      "decision_question": "Was the Warranty Accepted by the Vendor?",
+      "choices": [
+        {
+          "to": "Y1",
+          "label": "Yes, Warranty submission was accepted"
+        },
+        {
+          "to": "N1",
+          "label": "No, Warranty submission was accepted"
+        }
+      ],
+      "narr1": "OPM Mark Accepted For New Monday Dot Com Tim",
+      "narr2": "Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted.",
+      "narr3": "From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "Y1",
+      "title": "Y1. Yes, Warranty submission was accepted- Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/Y1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S5",
+          "label": "Change working Status"
+        }
+      ],
+      "narr1": "OPM Mark Accepted For New Monday Dot Com Tim",
+      "narr2": "Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted.",
+      "narr3": "From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S5",
+      "title": "S5. Change working Status - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S6",
+          "label": "Change Operation"
+        }
+      ],
+      "narr1": "OPM Change Working Status Monday Dot Com Tim",
+      "narr2": "Service Orders. Change Working Status. On General Use Pull Down In Working Status And. Click On Possible Warranty. Click The. Save (Disk).",
+      "narr3": "From The Service Orders Screen Change Working Status — On General Tab Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click The Save Icon (Disk)",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/0bf0352c-4071-4ff4-a1d8-b2fb272b3726?contextId=7759920f-dcd8-4077-a43d-0ab583055602",
+      "uap_label": "03_Change Working Status",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S6",
+      "title": "S6. Change Operation - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S6.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S7",
+          "label": "Override Customer Billing"
+        }
+      ],
+      "narr1": "CC04 CHANGE OPERATIONS TS",
+      "narr2": "Service Orders. Change Operations. Click On SRO Transactions To Navigate To Service Order transactions. Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts. Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor. Click The. Save (Disk).",
+      "narr3": "From The Service Orders Screen Change Operations — Click On SRO Transactions Button To Navigate To Service Order transactions Screen Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor Click The Save Icon (Disk)",
+      "uap_url": "",
+      "uap_label": "04_Change Operations",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S7",
+      "title": "S7. Override Customer Billing - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S7.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S8",
+          "label": "ISM Invoicing process"
+        }
+      ],
+      "narr1": "OPM Customer Bill Override Monday Dot Com Tim (1)",
+      "narr2": "Service Orders Customer Bill Override. Click On SRO Operations To Navigate To Service Order Operations. Select Operation 40 For Parts Warranty. Click On Customer Override. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk). Click Line 5 Of Listed Operations To. Select Operation 50 for Warranty Labor. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk).",
+      "narr3": "From The Service Orders Screen Customer Bill Override — Click On SRO Operations Button To Navigate To Service Order Operations Screen Select Operation 40 For Parts Warranty Click On Customer Override Tab Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) Click Line 5 Of Listed Operations To Select Operation 50 for Warranty Labor Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk)",
+      "uap_url": "",
+      "uap_label": "05_Customer Bill Override",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S8",
+      "title": "S8. ISM Invoicing process - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S8.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S9",
+          "label": "Mark SRO as accepted"
+        }
+      ],
+      "narr1": "Invoicing In ISM TS",
+      "narr2": "Invoicing in ISM. Choose the SRO you are billing. Click billing. Click. Set oper stat to invoice. Click Order invoicing. Click Process. Click Ok. Exit out of order invoiving. Click SX.e inquiry to view your SRO in CSD in shipped stage.",
+      "narr3": "Invoicing in ISM — Choose the SRO you are billing Click billing Click Set oper stat to invoice Click Order invoicing Click Process Click Ok Exit out of order invoiving Click SX.e inquiry to view your SRO in CSD in shipped stage",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/b539bad4-8c0f-4c8b-a2b3-466457eb1fc4?contextId=7759920f-dcd8-4077-a43d-0ab583055602",
+      "uap_label": "06_ISM Invoice",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S9",
+      "title": "S9. Mark SRO as accepted - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S9.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S10",
+          "label": "Mark SRO as being reconciled"
+        }
+      ],
+      "narr1": "OPM Mark Accepted For New Monday Dot Com Tim",
+      "narr2": "Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted.",
+      "narr3": "From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/fe24f25b-4da2-47a0-8345-042945ac2cdc?contextId=7759920f-dcd8-4077-a43d-0ab583055602",
+      "uap_label": "07_Mark Accepted",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S10",
+      "title": "S10. Mark SRO as being reconciled - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S10.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S11",
+          "label": "Mark SRO as being reconciled"
+        }
+      ],
+      "narr1": "OPM Mark Reconciled For New Monday Dot Com Tim",
+      "narr2": "Warranty Claim Reconciliation. Mark Reconciled. Drop Down In Claim Status And. Select To Be Reconciled. Click. Apply. Filter At Bottom Of Service Order. Click. Mark Reconciled.",
+      "narr3": "From The Warranty Claim Reconciliation Screen Mark Reconciled — Use The Drop Down Menu In Claim Status Field And Select To Be Reconciled Click Apply Filter Button At Bottom Of Service Order Section Click Mark Reconciled",
+      "uap_url": "",
+      "uap_label": "08_Mark Reconciled",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S11",
+      "title": "S11. Mark SRO as being reconciled - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S11.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N1",
+          "label": "No, Warranty submission was accepted"
+        }
+      ],
+      "narr1": "OPM Mark Reconciled For New Monday Dot Com Tim",
+      "narr2": "Warranty Claim Reconciliation. Mark Reconciled. Drop Down In Claim Status And. Select To Be Reconciled. Click. Apply. Filter At Bottom Of Service Order. Click. Mark Reconciled.",
+      "narr3": "From The Warranty Claim Reconciliation Screen Mark Reconciled — Use The Drop Down Menu In Claim Status Field And Select To Be Reconciled Click Apply Filter Button At Bottom Of Service Order Section Click Mark Reconciled",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/845d13c7-e52b-4e7f-9dbf-29ee52613d3a?contextId=7759920f-dcd8-4077-a43d-0ab583055602",
+      "uap_label": "09_Vendor Invoice Center",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "N1",
+      "title": "N1. No, Warranty submission was accepted- Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/N1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S4",
+          "label": "SRO is treated as billable and processed as per SRO sop"
+        }
+      ],
+      "narr1": "OPM Mark Accepted For New Monday Dot Com Tim",
+      "narr2": "Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted.",
+      "narr3": "From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S4",
+      "title": "S4. SRO is treated as billable and processed as per SRO sop - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S99",
+          "label": "Exit to a Different SOP - Service Request Order"
+        }
+      ],
+      "narr1": "OPM Vendor Invoice Center For New Monday Dot Com Tim",
+      "narr2": "Service Order. Select The SRO Processed As A Warranty And. Click SX.e Inquiry Order Inquiry. Drill Into The Order By Clicking The Arrow CSD. Search. Search Apece For Vendor Invoice C. Enter Vendor Invoice C. Enter. Click Vendor Invoice C. Enter. Type apeiswc In Group And. Select It. Click. Search.",
+      "narr3": "From The Service Order Screen Select The SRO Processed As A Warranty And Click SX.e Inquiry Button From The Order Inquiry Screen Drill Into The Order By Clicking The Arrow From The CSD Search Field Search Apece For Vendor Invoice Center Vendor Invoice Center — Click Vendor Invoice Center Type apeiswc In Group And Select It Click Search",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/116036b4-ca1f-4c52-9ca5-544f66d3ee29?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "04_Quick Create SRO",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    },
+    {
+      "sop_id": "Warranty",
+      "frame_code": "S99",
+      "title": "S99.. Exit - You have come to the end of the path selected in the - Warranty Process",
+      "image": "/SOP/images/Palco/Service/Warranty/S99.png",
+      "decision_question": "",
+      "choices": [],
+      "narr1": "PM-selected",
+      "narr2": "Service Orders. Change Operations. Click On SRO Transactions To Navigate To Service Order transactions. Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts. Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor. Click The. Save (Disk) Invoicing in ISM. Choose the SRO you are billing. Click billing. Click. Set oper stat to invoice. Click Order invoicing. Click Process. Click Ok. Exit out of order invoiving. Click SX.e inquiry to view your SRO in CSD in shipped stage Service Orders. Change Working Status. On General Use Pull Down In Working Status And. Click On Possible Warranty. Click The. Save (Disk) Service Orders Customer Bill Override. Click On SRO Operations To Navigate To Service Order Operations. Select Operation 40 For Parts Warranty. Click On Customer Override. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk). Click Line 5 Of Listed Operations To. Select Operation 50 for Warranty Labor. Enter 4499 Into Customer Override And Hit The Key. Enter Submittal Authorization # Into Submittal Authorization Number. Click The. Save (Disk) Service Orders. Filter Working Status. Use Pull Down In Working Status And. Click On Possible Warranty. Click. Filter In Place Warranty Claim Reconciliation. Mark Accepted. Drop Down In Claim Status And. Select Submitted. Click. Apply. Filter At Bottom Of Service Order. Enter The Amount Paid Into The Total Paid Column. Click. Mark Accepted Warranty Claim Reconciliation. Mark Reconciled. Drop Down In Claim Status And. Select To Be Reconciled. Click. Apply. Filter At Bottom Of Service Order. Click. Mark Reconciled Service Order. Select The SRO Processed As A Warranty And. Click SX.e Inquiry Order Inquiry. Drill Into The Order By Clicking The Arrow CSD. Search. Search Apece For Vendor Invoice C. Enter Vendor Invoice C. Enter. Click Vendor Invoice C. Enter. Type apeiswc In Group And. Select It. Click. Search.",
+      "narr3": "From The Service Orders Screen Change Operations — Click On SRO Transactions Button To Navigate To Service Order transactions Screen Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor Click The Save Icon (Disk) Invoicing in ISM — Choose the SRO you are billing Click billing Click Set oper stat to invoice Click Order invoicing Click Process Click Ok Exit out of order invoiving Click SX.e inquiry to view your SRO in CSD in shipped stage From The Service Orders Screen Change Working Status — On General Tab Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click The Save Icon (Disk) From The Service Orders Screen Customer Bill Override — Click On SRO Operations Button To Navigate To Service Order Operations Screen Select Operation 40 For Parts Warranty Click On Customer Override Tab Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) Click Line 5 Of Listed Operations To Select Operation 50 for Warranty Labor Enter 4499 Into Customer Override Field And Hit The Tab Key Enter Submittal Authorization # Into Submittal Authorization Number Field Click The Save Icon (Disk) From The Service Orders Screen Filter Working Status — Use Pull Down Menu In Working Status Field And Click On Possible Warranty Click Filter In Place Funnel Icon From The Warranty Claim Reconciliation Screen Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted Click Apply Filter Button At Bottom Of Service Order Section Enter The Amount Paid Into The Total Paid Column Click Mark Accepted From The Warranty Claim Reconciliation Screen Mark Reconciled — Use The Drop Down Menu In Claim Status Field And Select To Be Reconciled Click Apply Filter Button At Bottom Of Service Order Section Click Mark Reconciled From The Service Order Screen Select The SRO Processed As A Warranty And Click SX.e Inquiry Button From The Order Inquiry Screen Drill Into The Order By Clicking The Arrow From The CSD Search Field Search Apece For Vendor Invoice Center Vendor Invoice Center — Click Vendor Invoice Center Type apeiswc In Group And Select It Click Search",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "Warranty"
+      }
+    }
+  ]
+}
