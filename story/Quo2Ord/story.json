@@ -1,0 +1,685 @@
+{
+  "sop_id": "Quo2Ord",
+  "start_code": "S000",
+  "frames": [
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S000",
+      "title": "S000. Opening Slide to the Quote to Sales Order Slide deck",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S000.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S001",
+          "label": "S001"
+        }
+      ],
+      "narr1": "this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow",
+      "narr2": "this deck of slides or pictures is",
+      "narr3": "this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S001",
+      "title": "S001. About Scott Electric and Welcome to Training",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S001.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S002",
+          "label": "S002"
+        }
+      ],
+      "narr1": "Scott Electric is a leading independent wholesale electrical distributor",
+      "narr2": "Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners.",
+      "narr3": "Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners. The company provides a broad range of electrical products, lighting, tools, and related services to support both day-to-day operations and long-term projects.\n\nWelcome to the Scott Electric Training Site\u000bWelcome to the Scott Electric Training Site. This platform is designed to help you build the knowledge and skills needed to support our customers safely, accurately, and efficiently. Here you will find guided learning, reference materials, and role-based courses aligned with how we work every day — in sales, operations, service, administration, and support.\u000bThank you for investing your time in training. Your commitment to learning and improvement is an important part of keeping Scott Electric strong, responsive, and customer-focused.",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S002",
+      "title": "S002. Sales to Cash Work Flow At SE Electrical Distribution",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S002.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S003",
+          "label": "S003"
+        }
+      ],
+      "narr1": "This site is a typical Quote to Cash representation in what is called a workflow",
+      "narr2": "This site is a typical Quote to Cash representation in what is called a workflow",
+      "narr3": "This site is a typical Quote to Cash representation in what is called a workflow This outlines the various steps performed by various swim lanes if you will or functional groups and provides a overall picture of how we end up serving our customers and continuing to keep our creed of customer comes first",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S003",
+      "title": "S003. Pictorial representation of Quote to Cash - At SE Electrical Distribution",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S003.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "M1",
+          "label": "M1"
+        }
+      ],
+      "narr1": "The  Quote to Cash at Scott Electric",
+      "narr2": "This slide is aptly named The Pictorial Representation of Quote to Cash at Scott Electric",
+      "narr3": "This slide is aptly named The Pictorial Representation of Quote to Cash at Scott Electric the distribution business \nWhile this light is the precursor to the focused area of Quote to cache the picture shows how the various phases within that task is directly or indirectly affecting other components within the system for example an inventory is consumed the inventory has to be replenished and that is done by the procure to pay cycle Similarly because a sales occurred there has to be accounting for the sale and also at the end of the day collection of the payment against the invoice so hence that goes into the financial side of the impact now because inventory is being both consumed replenished and in some cases being procured and directly shipped to the customer that has a direct impact on how the inventory is managed within the system",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "M1",
+      "title": "M1. Quote to Sales Order SOP - At SE Electrical Distribution",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/M1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S1",
+          "label": "S1"
+        }
+      ],
+      "narr1": "This slide represent",
+      "narr2": "This slide represents the master slide for this SO or standard o",
+      "narr3": "This slide represents the master slide for this SO or standard operating procedure and as you know the workflow leads to multiple Sops which in turn may have sub Sops or Opms under them and the reason for that is some tasks or some functions are very complex and hence have to be broken into smaller parts and those parts are broken into the basic building block which is the Operations Procedure Manual OPM It should also be noted that there is a yellow block with a redefined process symbol when it has a yellow block with a predefined process that is 2 parallel vertical lines on the outer edges of the box it represents a sub SOP as I mentioned earlier this is a classic example for such a process or a such ace SOP having multiple or one at least sub SOP thank you",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S1",
+      "title": "S1. Initiate Quote - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S2",
+          "label": "S2"
+        }
+      ],
+      "narr1": "This process actuall",
+      "narr2": "This process actually starts outside the info system i",
+      "narr3": "This process actually starts outside the info system in the real world where a customer either sends in an RFQ or requests for quote or calls in in some cases even sends an email with an excel requesting a quote All these actions basically lead to the creation or initiation of a court That step is called Initiate Quote. In this step the operator enters the customer name or selects it from the dropdown also selects the fact that this is a quote and not a stock order or any other kind of order Then they enter all other pertinent information needed to create or initiate at which time when the when the operator its next a quote number is generated",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/6785e58f-4eac-4acb-9921-e49d52f33db9?contextId=a1856482-743b-42ae-9935-0b1dd402a198",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S2",
+      "title": "S2. Enter Quote lines - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S3",
+          "label": "S3"
+        }
+      ],
+      "narr1": "Having created or op",
+      "narr2": "Having created or opened a quote the next most importan",
+      "narr3": "Having created or opened a quote the next most important thing is The next most important thing is to enter the lines that the customer needs added to the quote so it requires there are multiple ways of entering the line items but let's assume that no matter what at the end of the day one has to select a product and once they've entered the product they need to select the quantity needed at which time they need to see if it is available and there is part of that screen also allows the sales order entry person to basically look for availability of that inventory within the company but in a different warehouse then the standard warehouse for that customer",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/f97aa974-919d-4d99-9636-744790f472cc?contextId=a1856482-743b-42ae-9935-0b1dd402a198",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S3",
+      "title": "S3. Taxes and Totals - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S4",
+          "label": "S4"
+        }
+      ],
+      "narr1": "Once all the lines w",
+      "narr2": "Once all the lines were entered the next most",
+      "narr3": "Once all the lines were entered the next most important thing is to verify that the totals matched what was expected also to make sure that the tax for all the lines are being calculated at the rate levels because depending upon the destination or the source depending also upon which bounty within which state the taxes change there are other implications too Taxes change based on product and the customer having a exemption certificate because they're working on a particular kind of project which gives them tax relief So this is a very critical step",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/400caab5-7e35-448a-be7c-909185738de7?contextId=75e632cb-d762-4392-8959-2fbb9f6b8135",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S4",
+      "title": "S4. Apply Add on and Charges- SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S41",
+          "label": "S41"
+        }
+      ],
+      "narr1": "As no two orders are",
+      "narr2": "As no two orders are the",
+      "narr3": "As no two orders are the same and the situation of the delivery may have various implications for example the customer may need the product shipped overnight via UPS or Fedex or something else Those are typically charges that are build back to the customer and this is this place where you apply add ONS",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S41",
+      "title": "S4a. Send Quote and await response - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S41.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D1",
+          "label": "D1"
+        }
+      ],
+      "narr1": "Having created the",
+      "narr2": "Having created the quote",
+      "narr3": "Having created the quote entered the lines entered the taxes and any other additional charges it is now time to do one quick check to make sure that everything is as discussed with the customer and meets the customer's requirements Then it's now time to ship this port or send the Quote to the customer",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "D1",
+      "title": "D1. Status of the Quote - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/D1.png",
+      "decision_question": "Was the quoteAccepted",
+      "choices": [
+        {
+          "to": "Y1",
+          "label": "Customer Accepted the Quote"
+        },
+        {
+          "to": "N1",
+          "label": "Quote was not Accepted"
+        }
+      ],
+      "narr1": "Having received a re",
+      "narr2": "Having received a response from the customer now it has to be determined whether",
+      "narr3": "Having received a response from the customer now it has to be determined whether the customer accepted our quote or has rejected it or has suggested some changes no matter what there's basically a decision point and hence this step is demarcated with the number T one indicating that there is a decision that needs to be taken and the decision is was the quote accepted or was it not accepted I don't want to say rejected because they may not accept the quote in totality but they may want some changes or may indicate some changes that we need to make in order to get that business of course Scott Electric has to take a decision too if those changes are something that Scott Electric is willing to provide or it in the greater good the decision is taken that it is better to lose the business than except those terms that the customer is expecting Either way there's only two outcomes that can happen from here one is yes it was accepted and no it was not accepted",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "Y1",
+      "title": "Y1. Yes the Customer Accepted the Quote - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/Y1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D2",
+          "label": "D2"
+        }
+      ],
+      "narr1": "yes the customer has accepted the quote",
+      "narr2": "A Yes decision was taken",
+      "narr3": "As a practice it should be mentioned here that all the flows are designed to first negotiate the yes links as far as possible and then come back to each decision point and take the null link so with that in mind the next step is of course Y1 yes the customer has accepted the quote so there are additional processes that must happen now that we know that the Quote has been accepted",
+      "uap_url": "",
+      "uap_label": "02_Enter a Quote Order",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "D2",
+      "title": "D2. Was special Pricing given - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/D2.png",
+      "decision_question": "Was special pricing Used",
+      "choices": [
+        {
+          "to": "Y2",
+          "label": "Special Pricing was utilized"
+        },
+        {
+          "to": "N2",
+          "label": "No special pricing was availed"
+        }
+      ],
+      "narr1": "Once the Quote is t",
+      "narr2": "Once the Quote is then verified based on if there's any other additional te",
+      "narr3": "Once the Quote is then verified based on if there's any other additional terms or any other requests that the customer has made for example they may accept the quote in entirety as far as the product the value everything else but may choose that parts of it has to be shipped to another project within their organization so these are kind of small nuances that are verified but more importantly in order to win this business it is quite probable that some pricing changes were made to be competitive and to garner the customer's business So the next this leads to the next decision point  D-2 were any special pricing provided for this project And the two possible options are yes or Y two the there was special pricing created to garner this business or the other option end to in which case the prices quoted were the standard price for that customer class and that customer so that decision has to be taken",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "Y2",
+      "title": "Y2. Yes, Special Pricing was utilized - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/Y2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S5",
+          "label": "S5"
+        }
+      ],
+      "narr1": "Since it was determi",
+      "narr2": "Since it was determined th",
+      "narr3": "Since it was determined that a special price arrangement was made for this particular quote the quote has to be converted to a pricing record so that there will be history of the special pricing given and also that helps us analyze as a business how well our pricing promotions etcetera are effective in gardening",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S5",
+      "title": "S5. Copy Quote to Price Record - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N1",
+          "label": "N1"
+        }
+      ],
+      "narr1": "This business was wo",
+      "narr2": "This business was won by giv",
+      "narr3": "This business was won by giving the customer a special price on the lines with the order hence the quote needs to copied to a price record. This helps ensure the price is mainted through the life of the Quote fro quote to cash. It also provides the pricing department with valuable information for analysis on price effectiveness etc",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/07409a70-1b76-4598-9d53-d16c900a8b9b?contextId=cbb9e819-56b3-478a-a190-b9539eef5fdb",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "N1",
+      "title": "N1. Quote was not Accepted - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/N1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D3",
+          "label": "D3"
+        }
+      ],
+      "narr1": "Quote was not Accepted",
+      "narr2": "The customer has indicated that they are not accepting this quote and would usually provide some inf",
+      "narr3": "The customer has indicated that they are not accepting this quote and would usually provide some information as to Why",
+      "uap_url": "",
+      "uap_label": "06_Enter a Non-Stock Product on an Order",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "D3",
+      "title": "D3. Is there an opportunity to Requote ?- SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/D3.png",
+      "decision_question": "Is there an opportunity to requote?",
+      "choices": [
+        {
+          "to": "Y3",
+          "label": "Opportunity to Requote"
+        },
+        {
+          "to": "N3",
+          "label": "No Opportunity to Requote"
+        }
+      ],
+      "narr1": "Is there an opportunity to Requote ?",
+      "narr2": "Is every good and successful salesperson knows that the sale only starts when there is a rejection o",
+      "narr3": "Is every good and successful salesperson knows that the sale only starts when there is a rejection otherwise it's just a demand right so the fact that the quote was not accepted does not mean that's the end of it A good salesperson who has a good relationship with the customer typically will look for ways to carve out some portion or the whole business and in so doing comes up with a need to recoat the to the customer Well sometimes life is hard and one cannot always win everything so that's why it's called life right And hence if there is no opportunity for a Quote because it also comes to light and a good customer will know a good salesperson will know when a customer has already taken action to go with someone else and at that point there is the process of saying no we there is no opportunity to reQuote So as I said there are two possible decisions one is there an opportunity to reQuote or the other is there no opportunity to reQuote and this is the last business",
+      "uap_url": "",
+      "uap_label": "02_Review Taxes, Totals, Payments for Stock Customer Sales Order",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "Y3",
+      "title": "Y3. Yes There is an Opportunity to Requote - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/Y3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S9",
+          "label": "S9"
+        }
+      ],
+      "narr1": "Yes There is an Opportunity to Requote",
+      "narr2": "There is an opportunity to re quote our business and this stays with our methodology of following th",
+      "narr3": "There is an opportunity to re quote our business and this stays with our methodology of following the SS first So the next step of course will be what do we need to get a good chance at garnering that business",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S9",
+      "title": "S9. Copy Quote to new Revision - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S9.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S10",
+          "label": "S10"
+        }
+      ],
+      "narr1": "Copy Quote to new Revision",
+      "narr2": "Keeping good records is a very good habit and is a habit all successful salesperson and successful c",
+      "narr3": "Keeping good records is a very good habit and is a habit all successful salesperson and successful companies follow diligently hence the quote that was lost has was not accepted is then Is then changed to a next revision level and whatever changes are the salesperson either in discussion with the customer or based upon the intel gathered makes those changes to this next revision hence there is a history of what was originally quoted what was the second quote or revision that was done to try and garner the customer's business that is in step S9",
+      "uap_url": "",
+      "uap_label": "12_Convert a Quote to a Pricing Record",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S10",
+      "title": "S10. Maintain the new Revision - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S10.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S11",
+          "label": "S11"
+        }
+      ],
+      "narr1": "Maintain the new Revision",
+      "narr2": "The process to update a revision is called maintaining the quote and this step has the serial numbe",
+      "narr3": "The process to update a revision is called maintaining the quote and this step has the serial number S-10 and customer service person or the salesperson makes changes to the quote based upon various inputs in the calculated guess garner the business most seasoned salesperson don't guess they have ways to gather intel as to what are the pain points for that customer and use that to ensure that they get the business",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S11",
+      "title": "S11. Copy quote to New Revision - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S11.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S12",
+          "label": "S12"
+        }
+      ],
+      "narr1": "Copy quote to New Revision",
+      "narr2": "As the title suggests here the port that was maintained previously is copied to a new revision hence",
+      "narr3": "As the title suggests here the port that was maintained previously is copied to a new revision hence keeping track of any changes that happened before it is shipped to the customer The next step of course S-10 S12 is the actual meaning of the quote new revised quote to the customer",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S12",
+      "title": "S12. Submit Quote - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S12.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S121",
+          "label": "S121"
+        }
+      ],
+      "narr1": "Submit Quote",
+      "narr2": "I in the previous incidents of sending the Quote to the customer Here a revision is sent to the cust",
+      "narr3": "I in the previous incidents of sending the Quote to the customer Here a revision is sent to the customer and so that they can take a look at it and take an informed decision and it is our hope and desire that we meet their requirements  \nThis also concludes all the yes branches in this SOP so now we have to start going back to the decisions where we took the yes but have not processed the number and in that regard I believe the next one will take us back to Decision D2",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S121",
+      "title": "S12a. Send Quote to customer and await Response- SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S121.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N2",
+          "label": "N2"
+        }
+      ],
+      "narr1": "S12a. Send Quote to customer and await Response",
+      "narr2": "Having copied the modified quote to a new revision the quote is ready to be shipped to the customer",
+      "narr3": "Having copied the modified quote to a new revision the quote is ready to be shipped to the customer",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "N2",
+      "title": "N2. No special pricing was availed - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/N2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S6",
+          "label": "S6"
+        }
+      ],
+      "narr1": "No special pricing was availed",
+      "narr2": "While we won the customer's business it appears for this particular quote no special pricing was ava",
+      "narr3": "While we won the customer's business it appears for this particular quote no special pricing was availed hence the customer was happy with our pricing our terms and if it's an old long standing customer they know that their product will show up on time as promised hence the decision here was M2 no special pricing applied",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S6",
+      "title": "S6. Convert Quote to Sales Order - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S6.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N3",
+          "label": "N3"
+        }
+      ],
+      "narr1": "Convert Quote to Sales Order",
+      "narr2": "If you recall in an earlier path we had come through deep glue onto Y2 where we copied the quote to",
+      "narr3": "If you recall in an earlier path we had come through deep glue onto Y2 where we copied the quote to a special pricing record now we are coming to the same D2 but are following the end 2 path or the no special pricing path and have arrived at the final step for this SOP which is conversion of the quote do a sales order which as you as mentioned earlier and as notice by you is in a different color than every other box or special or redefined process and as mentioned earlier this is a sub process or a whole new SOP in this case it's a whole new SOP Thank you",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "N3",
+      "title": "N3. No Opportunity to Requote - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/N3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S7",
+          "label": "S7"
+        }
+      ],
+      "narr1": "No Opportunity to Requote",
+      "narr2": "That's got electric We don't like to lose business but we also know that just getting a sales order",
+      "narr3": "That's got electric We don't like to lose business but we also know that just getting a sales order at any price may actually impact all other sales other customers because at the end of the day the world is connected and people get information from various sources So in this particular instance a decision was taken that no further recoding was going to be done and hence N3 no record",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S7",
+      "title": "S7. Cancel Quote despite every effort to win business - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S7.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S8",
+          "label": "S8"
+        }
+      ],
+      "narr1": "Cancel Quote despite every effort to win business",
+      "narr2": "It is time to concede that with all the extra effort all the burning of the midnight oil that partic",
+      "narr3": "It is time to concede that with all the extra effort all the burning of the midnight oil that particular customer and that particular opportunity was not going to come to us hence we have to market as a as a lost business and cancel the audit the next two steps basically are needed to annotate the reason for the loss of business and also to mark that quote as canceled we cannot delete a quote but we can cancel it",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S8",
+      "title": "S8. Ensure to Record the reason for the lost business - SE Quote to Sales Order SOP",
+      "image": "/SOP/images/SE/Distro/Quo2Ord/S8.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S999",
+          "label": "S999"
+        }
+      ],
+      "narr1": "Ensure to Record the reason for the lost business",
+      "narr2": "As hard as it might be to concede defeat it is very important to document the reason why we did not",
+      "narr3": "As hard as it might be to concede defeat it is very important to document the reason why we did not get this business Wasn't due to price wasn't due to availability of stock was it due to other specifications that we could not match 100% for example there are many shades of wall plates We might have the generic ivory and the customer may be looking for a specific brand specific color which we don't carry in inventory we would be glad to have it shipped to them directly but that may not have met their time requirements hence in cases like this is very important to note why that line or the lines were rejected by the customer and if many such votes are lost because of product availability etc Product stock information can be adjusted and those products can be kept in our standing inventory",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    },
+    {
+      "sop_id": "Quo2Ord",
+      "frame_code": "S999",
+      "title": "S999. You have successfully completed this SOP",
+      "image": "/SOP/images/SE/Sales/Quo2Ord/S999.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "Exit",
+          "label": "Exit"
+        }
+      ],
+      "narr1": "You have successfully completed this SOP",
+      "narr2": "Congratulations you have now traversed all the possible paths for this SOP of port to sales order Wh",
+      "narr3": "Congratulations you have now traversed all the possible paths for this SOP of port to sales order While it is good that you've traversed all the paths what you need to do is to practice and become efficient and be able to translate your current work to the new system Have a nice day",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Quo2Ord"
+      }
+    }
+  ]
+}
