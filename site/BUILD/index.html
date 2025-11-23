@@ -1,46 +1,296 @@
-<!doctype html><meta charset="utf-8">
-<title>EdxBuild — SOP Menu</title>
+<!doctype html>
+<meta charset="utf-8">
+<title>Scott Electric – EdxBuild SOP Training Menu</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
-  body{margin:0;font:16px/1.5 system-ui,Segoe UI,Arial;background:#f7f7fb;color:#111}
-  .wrap{max-width:980px;margin:40px auto;padding:0 16px}
-  h1{font-size:24px;margin:0 0 16px}
-  .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
-  .card{background:#fff;border:1px solid #e5e7eb;border-radius:14px;box-shadow:0 6px 24px rgba(0,0,0,.06);padding:16px}
-  .card h2{margin:0 0 8px;font-size:18px}
-  .muted{color:#6b7280}
-  a.btn{display:inline-block;margin-top:10px;padding:8px 12px;border-radius:10px;border:1px solid #d1d5db;text-decoration:none;color:#111;background:#fff}
-  a.btn.primary{background:#0b5fff;border-color:#0b5fff;color:#fff}
+  body{
+    margin:0;
+    font:16px/1.5 system-ui,Segoe UI,Arial;
+    background:#f7f7fb;
+    color:#111;
+  }
+  .wrap{
+    max-width:980px;
+    margin:40px auto;
+    padding:0 16px 40px 16px;
+  }
+  h1{
+    font-size:24px;
+    margin:0 0 16px;
+  }
+  h2{
+    font-size:20px;
+    margin:24px 0 8px;
+  }
+  h3{
+    font-size:18px;
+    margin:16px 0 8px;
+  }
+  .muted{
+    color:#6b7280;
+  }
+
+  /* Cards and grids (existing look) */
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:16px;
+  }
+  .card{
+    background:#fff;
+    border:1px solid #e5e7eb;
+    border-radius:14px;
+    box-shadow:0 6px 24px rgba(0,0,0,.06);
+    padding:16px;
+  }
+  .card h2,
+  .card h3{
+    margin:0 0 8px;
+  }
+
+  a.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 12px;
+    border-radius:6px;
+    border:1px solid #d1d5db;
+    text-decoration:none;
+    color:#111;
+    background:#fff;
+    font-size:14px;
+  }
+  a.btn.primary{
+    background:#0b5fff;
+    border-color:#0b5fff;
+    color:#fff;
+  }
+  a.btn.primary:hover{
+    background:#0847b8;
+    border-color:#0847b8;
+  }
+
+  /* New layout helpers */
+  .hero{
+    background:#fff;
+    border-radius:14px;
+    box-shadow:0 6px 24px rgba(0,0,0,.06);
+    padding:16px 18px 18px 18px;
+    margin-bottom:20px;
+  }
+  .hero-title{
+    font-size:22px;
+    margin:0 0 8px;
+  }
+  .section{
+    margin-top:20px;
+  }
+  .section p{
+    margin:0 0 8px;
+  }
+
+  .entity-label{
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    color:#6b7280;
+    margin-bottom:4px;
+  }
+  .module-list{
+    margin:4px 0 0 0;
+    padding-left:18px;
+  }
+  .module-list li{
+    margin:2px 0;
+  }
+
+  small{
+    font-size:12px;
+    color:#6b7280;
+  }
+
+  hr{
+    border:none;
+    border-top:1px solid #e5e7eb;
+    margin:24px 0;
+  }
 </style>
+
 <div class="wrap">
-  <h1>EdxBuild — SOP Menu</h1>
-  <p class="muted">Choose a training flow:</p>
-  <div class="grid">
-    <div class="card">
-      <h2>TechMobile</h2>
-      <p class="muted">Tech Mobile SOP interactive player.</p>
-      <!-- RELATIVE link works in Codespaces and on GitHub Pages -->
-      <a class="btn primary" href="techmobile_player.html">Open</a>
+
+  <!-- PAGE TITLE -->
+  <h1>Scott Electric – Training Site (EdxBuild / EduXL 2025)</h1>
+
+  <!-- HERO / WELCOME -->
+  <section class="hero" id="welcome">
+    <h2 class="hero-title">Welcome to the Scott Electric Training Site</h2>
+    <p>
+      This site hosts interactive training modules that support Scott Electric’s
+      standard operating procedures (SOPs) for Electrical Distribution and
+      specialty divisions such as Palco Power Systems.
+    </p>
+    <p>
+      Use these modules to practice key processes in a safe environment,
+      build confidence with our ERP tools, and reduce surprises when working
+      in the live system.
+    </p>
+    <a href="#training-entities" class="btn primary">Enter Training Modules</a>
+  </section>
+
+  <!-- ABOUT SCOTT ELECTRIC -->
+  <section class="section" id="about-se">
+    <h2>About Scott Electric</h2>
+    <p>
+      Scott Electric is a leading independent wholesale electrical distributor,
+      serving electrical, mechanical, and general contractors, industrial customers,
+      government agencies, and retail partners. The company provides a broad range
+      of electrical products, lighting, tools, and related services to support both
+      day-to-day operations and long-term projects.
+    </p>
+    <p>
+      The transformation of our information systems at Scott Electric has been made
+      possible by the dedicated efforts of the ERP implementation team, a group of
+      volunteer Champions, and the stewardship of our Executive Sponsor. The ongoing
+      support and encouragement of the Management Team has been — and continues to be —
+      a key source of inspiration for this work, driving continuous growth and
+      improvement in how we serve our customers.
+    </p>
+  </section>
+
+  <!-- ABOUT THIS TRAINING SITE -->
+  <section class="section" id="about-site">
+    <h2>About this Training Site</h2>
+    <p>
+      The modules on this site use real-world examples to walk you through
+      standard operating procedures. Most modules are interactive SOP players
+      that mirror the screens and steps in our ERP system or related tools.
+    </p>
+    <p>
+      Practice these processes in the training environment to:
+    </p>
+    <ul>
+      <li>Become comfortable with key screens, fields, and decision points.</li>
+      <li>Reduce errors before working on live orders, inventory, or customers.</li>
+      <li>Build confidence when you are new to the company, the role, or the system.</li>
+    </ul>
+    <p>
+      The training environment is the best place to experiment, ask questions,
+      and learn from mistakes — before they impact real customer or business
+      situations.
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- ENTITY-BASED EXAMPLES -->
+  <section class="section" id="training-entities">
+    <h2>Training Modules – Entity Examples</h2>
+    <p class="muted">
+      In the future design, users will first choose an Entity (for example,
+      Palco Power Systems or Electrical Distribution), then a SubEntity and
+      Function, and finally a specific SOP module. The cards below show
+      how this will look for two example Entities.
+    </p>
+
+    <div class="grid">
+
+      <!-- PALCO ENTITY EXAMPLE -->
+      <div class="card" id="entity-palco">
+        <div class="entity-label">Entity: Palco Power Systems</div>
+        <h3>Palco – TechMobile & Service SOPs</h3>
+        <p class="muted">
+          Example module set for Palco’s TechMobile and related service
+          processes.
+        </p>
+
+        <h4>SubEntity: TechMobile / Service</h4>
+        <ul class="module-list">
+          <li>
+            <strong>TechMobile</strong><br>
+            <small>Tech Mobile SOP interactive player.</small><br>
+            <a class="btn primary" href="techmobile_player.html">Open</a>
+          </li>
+          <li>
+            <strong>ServReqOrd (Service Repair Order)</strong><br>
+            <small>Service Repair Order SOP interactive player.</small><br>
+            <a class="btn primary" href="servreqord_player.html">Open</a>
+          </li>
+          <li>
+            <strong>Warranty (Warranty Based Service)</strong><br>
+            <small>Warranty Based Service SOP interactive player.</small><br>
+            <a class="btn primary" href="warranty_player.html">Open</a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- DISTRO ENTITY EXAMPLE -->
+      <div class="card" id="entity-distro">
+        <div class="entity-label">Entity: Electrical Distribution</div>
+        <h3>Distro – Quote to Sales Order</h3>
+        <p class="muted">
+          Example Sales SOP for the Electrical Distribution (Distro) entity.
+        </p>
+
+        <h4>SubEntity: Distro (Core Branch Operations)</h4>
+        <h4>Function: Sales (SLS)</h4>
+        <ul class="module-list">
+          <li>
+            <strong>Quote to Sale Order (Entering a Quote etc)</strong><br>
+            <small>Quote to Sales Order SOP interactive player.</small><br>
+            <a class="btn primary" href="Quo2Ord_player.html">Open</a>
+          </li>
+        </ul>
+      </div>
+
     </div>
-        <div class="card">
-      <h2>ServReqOrd (Service Repair Order)</h2>
-      <p class="muted">Service Repair Order SOP interactive player.</p>
-      <a class="btn primary" href="servreqord_player.html">Open</a>
+
+    <!-- Back to the main landing section -->
+    <p style="margin-top:16px;">
+      <a class="btn" href="#welcome">Return to main landing section</a>
+    </p>
+  </section>
+
+  <hr>
+
+  <!-- QUICK ACCESS – ORIGINAL MENU PRESERVED -->
+  <section class="section" id="quick-access">
+    <h2>Quick Access – All Modules (Current Menu)</h2>
+    <p class="muted">
+      This section preserves the current EdxBuild SOP menu so you can still
+      jump directly into any module while the new structure is being built out.
+    </p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>TechMobile</h3>
+        <p class="muted">Tech Mobile SOP interactive player.</p>
+        <a class="btn primary" href="techmobile_player.html">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>ServReqOrd (Service Repair Order)</h3>
+        <p class="muted">Service Repair Order SOP interactive player.</p>
+        <a class="btn primary" href="servreqord_player.html">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>Warranty (Warranty Based Service)</h3>
+        <p class="muted">Warranty Based Service.</p>
+        <a class="btn primary" href="warranty_player.html">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>Quote to Sale Order ( Entering a Quote etc )</h3>
+        <p class="muted">Quote to Sales Order.</p>
+        <a class="btn primary" href="Quo2Ord_player.html">Open</a>
+      </div>
+
+      <div class="card">
+        <h3>StartUp</h3>
+        <p class="muted">Startup (coming soon).</p>
+        <a class="btn" href="#">Open (soon)</a>
+      </div>
     </div>
-        <div class="card">
-      <h2>Warranty (Warranty Based Service )</h2>
-      <p class="muted">Warranty Based Service.</p>
-      <a class="btn primary" href="warranty_player.html">Open</a>
-    </div>
-        <div class="card">
-      <h2>Quote to Sale Order ( Entering a Quote etc )</h2>
-      <p class="muted">Quote to Sales Order.</p>
-      <a class="btn primary" href="Quo2Ord_player.html">Open</a>
-    </div>
-    <div class="card">
-      <h2>StartUp</h2>
-      <p class="muted">Startup (coming soon).</p>
-      <a class="btn" href="#">Open (soon)</a>
-    </div>
-  </div>
+  </section>
+
 </div>
