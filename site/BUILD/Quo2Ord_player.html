@@ -158,7 +158,8 @@
     </button>
 
     <button
-      onclick="restart()"
+      onclick="restart()
+"
       title="Start this module again from the first step">
       Restart
     </button>
@@ -327,18 +328,18 @@ function render(code){
   const uapUrl=(f.uap_url||'').trim();
 
   const hearMeBtn   = n1
-    ? `<button aria-label="Hear me (Narration 1)" onclick="speak(\`${escapeJS(n1)}\`)">Hear me</button>
-       <button aria-label="Stop audio" onclick="stopTTS()">Stop</button>`
+    ? `<button aria-label="Hear me (Narration 1)" title="Hear the narration for this step" onclick="speak(\`${escapeJS(n1)}\`)">Hear me</button>
+       <button aria-label="Stop audio" title="Stop the narration audio" onclick="stopTTS()">Stop</button>`
     : '';
   const readMeBtn   = n1
-    ? `<button aria-label="Read me (Narration 1)" onclick="openRead('read1')">Read me</button>`
+    ? `<button aria-label="Read me (Narration 1)" title="Show the narration text for this step" onclick="openRead('read1')">Read me</button>`
     : '';
   const readMoreBtn = n2
-    ? `<button aria-label="Read more (Narration 2)" onclick="openRead('read2')">Read more</button>`
+    ? `<button aria-label="Read more (Narration 2)" title="Show additional details for this step" onclick="openRead('read2')">Read more</button>`
     : '';
   const hearMoreBtn = n3
-    ? `<button aria-label="Hear more (Narration 3)" onclick="speak(\`${escapeJS(n3)}\`)">Hear more</button>
-       <button aria-label="Stop audio" onclick="stopTTS()">Stop</button>`
+    ? `<button aria-label="Hear more (Narration 3)" title="Hear additional narration for this step" onclick="speak(\`${escapeJS(n3)}\`)">Hear more</button>
+       <button aria-label="Stop audio" title="Stop the narration audio" onclick="stopTTS()">Stop</button>`
     : '';
   const uapBtn      = uapUrl
     ? `<a class="btn" href="${uapUrl}" target="_blank" rel="noopener">To learn the steps, click here</a>`
