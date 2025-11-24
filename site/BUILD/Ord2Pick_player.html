@@ -1,35 +1,5 @@
-#!/usr/bin/env python3
-"""
-build_player.py
-
-Generate a self-contained SOP HTML player from a story.json file.
-
-New-look player:
-- Top bar: Back, Restart, story path, Load
-- Bottom bar: Back, Restart, Entity Menu, Home
-- Narration controls with hover tooltips
-- Optional breadcrumbs and details block (dev vs prod)
-
-We avoid str.format() (which conflicts with CSS/JS braces) and instead
-use simple token replacement:
-
-  __TITLE__
-  __STORY_PATH__
-  __IMAGE_WIDTH__
-  __SHOW_BREADCRUMB__
-  __SHOW_DETAILS__
-  __EXIT_HREF__
-  __ENTITY_NAME__
-  __ENTITY_HREF__
-  __HOME_HREF__
-"""
-
-import argparse
-import json
-import os
-
-TEMPLATE = r"""<!doctype html><meta charset="utf-8" />
-<title>__TITLE__</title>
+<!doctype html><meta charset="utf-8" />
+<title>Order to Pick – SOP Player</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
   :root{
@@ -132,7 +102,7 @@ TEMPLATE = r"""<!doctype html><meta charset="utf-8" />
     justify-content:center;
   }
   .imgbox img{
-    width:__IMAGE_WIDTH__;
+    width:65%;
     max-width:100%;
     height:auto;
     border-radius:12px;
@@ -199,7 +169,7 @@ TEMPLATE = r"""<!doctype html><meta charset="utf-8" />
     <input
       id="story"
       type="text"
-      value="__STORY_PATH__"
+      value="/EdxBuild/story/Ord2Pick/story.json"
       aria-label="Story JSON path" />
 
     <button class="primary" onclick="load()">Load</button>
@@ -233,7 +203,7 @@ TEMPLATE = r"""<!doctype html><meta charset="utf-8" />
 
       <button
         onclick="goEntityMenu()"
-        title="Return to the __ENTITY_NAME__ training menu">
+        title="Return to the Electrical Distribution (Distro) training menu">
         Entity Menu
       </button>
 
@@ -248,11 +218,11 @@ TEMPLATE = r"""<!doctype html><meta charset="utf-8" />
 
 <script>
 const CONFIG = {
-  showBreadcrumb: __SHOW_BREADCRUMB__,
-  showDetails: __SHOW_DETAILS__,
-  exitHref: __EXIT_HREF__,
-  entityHref: __ENTITY_HREF__,
-  homeHref: __HOME_HREF__
+  showBreadcrumb: true,
+  showDetails: false,
+  exitHref: null,
+  entityHref: "index.html#entity-distro",
+  homeHref: "index.html#welcome"
 };
 
 // Project-aware absolute path helper:
@@ -303,7 +273,7 @@ function goHome(){
 
 async function load(){
   stopTTS();
-  let path=document.getElementById('story').value.trim() || "__STORY_PATH__";
+  let path=document.getElementById('story').value.trim() || "/EdxBuild/story/Ord2Pick/story.json";
   const res=await fetch(path);
   if(!res.ok){ alert('Failed '+path+' ('+res.status+')'); return; }
   data=await res.json();
@@ -456,53 +426,3 @@ document.addEventListener('keydown',(e)=>{
 });
 load();
 </script>
-"""
-
-def main() -> None:
-  ap = argparse.ArgumentParser(description="Build SOP HTML player from story.json")
-  ap.add_argument("--story", required=True, help="Path to story.json (as used in the browser)")
-  ap.add_argument("--out", required=True, help="Output HTML file path")
-  ap.add_argument("--title", required=True, help="HTML <title> text")
-  ap.add_argument("--image-width", default="65%", help="Flowchart image width (e.g. 65% or 100%)")
-  ap.add_argument("--mode", choices=["prod", "dev"], default="prod",
-                  help="prod = hide Details, dev = show Details section")
-  ap.add_argument("--no-breadcrumb", action="store_true",
-                  help="Disable breadcrumb trail at top of player")
-  ap.add_argument("--exit", default="", help="Optional Exit URL (hidden if empty)")
-  ap.add_argument("--entity-name", default="this",
-                  help="Entity name for tooltip (e.g. 'Electrical Distribution (Distro)')")
-  ap.add_argument("--entity-href", default="",
-                  help="URL for Entity Menu button (e.g. 'index.html#entity-distro')")
-  ap.add_argument("--home-href", default="",
-                  help="URL for Home button (e.g. 'index.html#welcome')")
-
-  args = ap.parse_args()
-
-  # This is the path the browser will fetch, not your filesystem path.
-  story_path = args.story
-
-  subs = {
-      "TITLE": args.title,
-      "STORY_PATH": story_path,
-      "IMAGE_WIDTH": args.image_width,
-      "SHOW_BREADCRUMB": "false" if args.no_breadcrumb else "true",
-      "SHOW_DETAILS": "false" if args.mode == "prod" else "true",
-      "EXIT_HREF": json.dumps(args.exit or None),
-      "ENTITY_NAME": args.entity_name,
-      "ENTITY_HREF": json.dumps(args.entity_href or None),
-      "HOME_HREF": json.dumps(args.home_href or None),
-  }
-
-  html = TEMPLATE
-  for key, value in subs.items():
-    html = html.replace(f"__{key}__", value)
-
-  out_dir = os.path.dirname(args.out)
-  if out_dir:
-    os.makedirs(out_dir, exist_ok=True)
-  with open(args.out, "w", encoding="utf-8") as f:
-    f.write(html)
-  print("Wrote", args.out)
-
-if __name__ == "__main__":
-  main()
