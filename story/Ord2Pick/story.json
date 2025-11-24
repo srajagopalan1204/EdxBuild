@@ -1,0 +1,757 @@
+{
+  "sop_id": "Ord2Pick",
+  "start_code": "S000",
+  "frames": [
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S000",
+      "title": "S000. Opening Slide for Sales Order to Pick Slide deck",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S000.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S001",
+          "label": "S001"
+        }
+      ],
+      "narr1": "this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow",
+      "narr2": "this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow",
+      "narr3": "this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S001",
+      "title": "S001. About Scott Electric and Welcome to Training",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S001.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S002",
+          "label": "S002"
+        }
+      ],
+      "narr1": "Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners.",
+      "narr2": "Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners.",
+      "narr3": "Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners. The company provides a broad range of electrical products, lighting, tools, and related services to support both day-to-day operations and long-term projects.\n\nWelcome to the Scott Electric Training Site\u000bWelcome to the Scott Electric Training Site. This platform is designed to help you build the knowledge and skills needed to support our customers safely, accurately, and efficiently. Here you will find guided learning, reference materials, and role-based courses aligned with how we work every day — in sales, operations, service, administration, and support.\u000bThank you for investing your time in training. Your commitment to learning and improvement is an important part of keeping Scott Electric strong, responsive, and customer-focused.",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S002",
+      "title": "S002. Quote to Cash Work Flow At SE Electrical Distribution",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S002.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S003",
+          "label": "S003"
+        }
+      ],
+      "narr1": "This site is a typical Quote to cache representation in what is called a workflow",
+      "narr2": "This site is a typical Quote to cache representation in what is called a workflow",
+      "narr3": "This site is a typical Quote to cache representation in what is called a workflow This outlines the various steps performed by various swim lanes if you will or functional groups and provides a overall picture of how we end up serving our customers and continuing to keep our creed of customer comes first",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S003",
+      "title": "S003. Pictorial representation of Quote to Cash - At SE Electrical Distribution",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S003.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "M1",
+          "label": "M1"
+        }
+      ],
+      "narr1": "This is the master slide for the Order to Pick process within the Quote to Cash Work Flow. It should be noted that these steps are performed by the Sales Personnel. The input to this starts when the customer indicates that they are ready accept a previously given quote or they send us a Purchase Order (PO) or they call into our sales force who always eager to assist them, the next step is S1. Where the sales person initiates / creates a new sales order by going to the menu, selecting sales , entry and sales order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "M1",
+      "title": "M1. Sales Order to Pick SOP - At SE Electrical Distribution",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/M1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S1",
+          "label": "S1"
+        }
+      ],
+      "narr1": "The first step in the process of initiating a sales order this then leads to the next step which is an SOP in its own right \"Enter Sales Order SOP\"",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S1",
+      "title": "S1. Initiate Sales order - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S2",
+          "label": "S2"
+        }
+      ],
+      "narr1": "This is a SOP in itself as there are many ways to enter lines in a sales order starting with easy line entry, Shopping list entry etc",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S2",
+      "title": "S2. Enter Order Lines - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D1",
+          "label": "D1"
+        }
+      ],
+      "narr1": "Then decision needs to be taken if this order or customer has any Add on charges etc that need to be processed at this time. The quest that is asked is Are their no Add on's a yes answer indicated that there are no add on and No answer indicates that there are add ons",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "D1",
+      "title": "D1. No \"Add-on’s\" - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/D1.png",
+      "decision_question": "Are there no Add on to add to this order?",
+      "choices": [
+        {
+          "to": "Y1",
+          "label": "There are no add on for this order"
+        },
+        {
+          "to": "N1",
+          "label": "N1"
+        }
+      ],
+      "narr1": "The user has Selected Yes to indicate that there are no Add ons to be processed for this order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "Y1",
+      "title": "Y1. Yes - No Need for \"Add-on’s\" - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/Y1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S3",
+          "label": "Yes \"no COD Tendering\" - Sales Order to Pick SOP"
+        }
+      ],
+      "narr1": "Since all other information has been entered prior to this step it is time to check the totals and review the  Taxes",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S3",
+      "title": "S3. Review Taxes and Totals - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D2",
+          "label": "D2"
+        }
+      ],
+      "narr1": "A decision has to be made whether this order is to billed on Account or if there is situation that it would be tendered or on Cash on Delivery basis. Hence the question No COD or Tendering needs to be asked and answered. A yes would indicate that this is not a tendered or COD sale. A no on the other hand would indicate that this order has to be processed as a tendered or COD Sale.",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "D2",
+      "title": "D2. No COD tendering ? - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/D2.png",
+      "decision_question": "This is an \"On Account Customer\" SO there is NO COD or Tendering",
+      "choices": [
+        {
+          "to": "Y2",
+          "label": "Yes, it is a Blanket or Fulfillment Order - Sales Order to Pick SOP"
+        },
+        {
+          "to": "N2",
+          "label": "N2"
+        }
+      ],
+      "narr1": "Yes “no COD Tendering”",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "Y2",
+      "title": "Y2. Yes \"no COD Tendering\" - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/Y2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S4",
+          "label": "Yes, Sales Order is on Hold - Sales Order to Pick SOP"
+        }
+      ],
+      "narr1": "Finish Sales Order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S4",
+      "title": "S4. Finish Sales Order - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D3",
+          "label": "D3"
+        }
+      ],
+      "narr1": "Decision if this is a blanket or Fulfillment order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "D3",
+      "title": "D3. Is it a blanket or Fulfillment Order ? - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/D3.png",
+      "decision_question": "Is this a blanket or Fulfillment Order?",
+      "choices": [
+        {
+          "to": "Y3",
+          "label": "Yes,  Credit Restored or COD or CC was accepted"
+        },
+        {
+          "to": "N3",
+          "label": "N3"
+        }
+      ],
+      "narr1": "Yes this is a fulfillment order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "Y3",
+      "title": "Y3. Yes, it is a Blanket or Fulfillment Order - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/Y3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S5",
+          "label": "S5"
+        }
+      ],
+      "narr1": "Create Blanket or Fulfillment order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S5",
+      "title": "S5. Create Blanket or Fulfillment Order - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D4",
+          "label": "D4"
+        }
+      ],
+      "narr1": "Is the sale order on hold",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "D4",
+      "title": "D4. Sales order on hold ? - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/D4.png",
+      "decision_question": "Is this Sales Order on Hold ?",
+      "choices": [
+        {
+          "to": "Y4",
+          "label": "Y4"
+        },
+        {
+          "to": "N4",
+          "label": "N4"
+        }
+      ],
+      "narr1": "Yes sales order is on hold",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "Y4",
+      "title": "Y4. Sales Order is on Hold - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/Y4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S6",
+          "label": "S6"
+        }
+      ],
+      "narr1": "Notify credit department to talk to customer and take action",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S6",
+      "title": "S6. Notification sent to Credit - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S6.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D5",
+          "label": "D5"
+        }
+      ],
+      "narr1": "Was credit restored ?",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "D5",
+      "title": "D5. Was Credit Restored or COD or CC accepted? - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/D5.png",
+      "decision_question": "Was the Customer's Credit restored or did they accept one of the alternate options presented",
+      "choices": [
+        {
+          "to": "Y5",
+          "label": "Y5"
+        },
+        {
+          "to": "N5",
+          "label": "N5"
+        }
+      ],
+      "narr1": "Yes credit was  restored or COD or Cc terms were accepted by Customer for this order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "Y5",
+      "title": "Y5. Yes, Credit Restored or COD or CC was accepted - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/Y5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S7",
+          "label": "S7"
+        }
+      ],
+      "narr1": "Print customer Acknowledgement and Pick ticket",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S7",
+      "title": "S7. Print Customer Acknowledgement and Pick Ticket - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S7.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S8",
+          "label": "S8"
+        }
+      ],
+      "narr1": "Proceed to pick to Invoice SOP",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S8",
+      "title": "S8. Proceed to the Pick to Invoice SOP - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S8.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N5",
+          "label": "N5"
+        }
+      ],
+      "narr1": "No customer did not take any options presented",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "N5",
+      "title": "N5. No Customer did not take any of the options presented- Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/N5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S9",
+          "label": "S9"
+        }
+      ],
+      "narr1": "Cancel order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S9",
+      "title": "S9. Cancel order inform Sales and update Reason code - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S9.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N4",
+          "label": "N4"
+        }
+      ],
+      "narr1": "No sales order is not on hold",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "N4",
+      "title": "N4. No, Sales order is not on hold - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/N4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N3",
+          "label": "N3"
+        }
+      ],
+      "narr1": "No this is not a blanket or fulfillment order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "N3",
+      "title": "N3. No, Not a Blanket or Fulfillment Order- Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/N3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N2",
+          "label": "N2"
+        }
+      ],
+      "narr1": "This is a COD or tendering order",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "N2",
+      "title": "N2. No, This is a COD or Tendering Order - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/N2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S10",
+          "label": "S10"
+        }
+      ],
+      "narr1": "Collect payment",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S10",
+      "title": "S10. Collect Payment via CC or other - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S10.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N1",
+          "label": "N1"
+        }
+      ],
+      "narr1": "No there are Add on's that must entered now",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "N1",
+      "title": "N1. No, There are \"Add on\" to add - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/N1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S11",
+          "label": "S11"
+        }
+      ],
+      "narr1": "Add \"Add ons\"",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S11",
+      "title": "S11. Add Add-on’s to the Sales order - Sales Order to Pick SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S11.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S999",
+          "label": "S999"
+        }
+      ],
+      "narr1": "You have successfully completed the module Order to pick SOP",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    },
+    {
+      "sop_id": "Ord2Pick",
+      "frame_code": "S999",
+      "title": "S999. You have successfully completed this SOP",
+      "image": "/SOP/images/SE/Sales/Ord2Pick/S999.png",
+      "decision_question": "",
+      "choices": [],
+      "narr1": "",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "SE",
+        "function": "Sales",
+        "subentity": "Ord2Pick"
+      }
+    }
+  ]
+}
