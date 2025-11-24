@@ -6,7 +6,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S000",
       "title": "S000. Opening Slide for Sales Order to Pick Slide deck",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S000.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S000.png",
       "decision_question": "",
       "choices": [
         {
@@ -29,7 +29,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S001",
       "title": "S001. About Scott Electric and Welcome to Training",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S001.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S001.png",
       "decision_question": "",
       "choices": [
         {
@@ -52,7 +52,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S002",
       "title": "S002. Quote to Cash Work Flow At SE Electrical Distribution",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S002.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S002.png",
       "decision_question": "",
       "choices": [
         {
@@ -75,7 +75,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S003",
       "title": "S003. Pictorial representation of Quote to Cash - At SE Electrical Distribution",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S003.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S003.png",
       "decision_question": "",
       "choices": [
         {
@@ -98,7 +98,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "M1",
       "title": "M1. Sales Order to Pick SOP - At SE Electrical Distribution",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/M1.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/M1.png",
       "decision_question": "",
       "choices": [
         {
@@ -121,7 +121,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S1",
       "title": "S1. Initiate Sales order - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S1.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S1.png",
       "decision_question": "",
       "choices": [
         {
@@ -144,7 +144,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S2",
       "title": "S2. Enter Order Lines - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S2.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S2.png",
       "decision_question": "",
       "choices": [
         {
@@ -167,7 +167,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "D1",
       "title": "D1. No \"Add-on’s\" - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/D1.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/D1.png",
       "decision_question": "Are there no Add on to add to this order?",
       "choices": [
         {
@@ -194,7 +194,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "Y1",
       "title": "Y1. Yes - No Need for \"Add-on’s\" - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/Y1.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/Y1.png",
       "decision_question": "",
       "choices": [
         {
@@ -217,7 +217,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S3",
       "title": "S3. Review Taxes and Totals - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S3.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S3.png",
       "decision_question": "",
       "choices": [
         {
@@ -240,7 +240,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "D2",
       "title": "D2. No COD tendering ? - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/D2.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/D2.png",
       "decision_question": "This is an \"On Account Customer\" SO there is NO COD or Tendering",
       "choices": [
         {
@@ -267,7 +267,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "Y2",
       "title": "Y2. Yes \"no COD Tendering\" - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/Y2.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/Y2.png",
       "decision_question": "",
       "choices": [
         {
@@ -290,7 +290,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S4",
       "title": "S4. Finish Sales Order - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S4.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S4.png",
       "decision_question": "",
       "choices": [
         {
@@ -313,7 +313,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "D3",
       "title": "D3. Is it a blanket or Fulfillment Order ? - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/D3.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/D3.png",
       "decision_question": "Is this a blanket or Fulfillment Order?",
       "choices": [
         {
@@ -340,7 +340,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "Y3",
       "title": "Y3. Yes, it is a Blanket or Fulfillment Order - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/Y3.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/Y3.png",
       "decision_question": "",
       "choices": [
         {
@@ -363,7 +363,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S5",
       "title": "S5. Create Blanket or Fulfillment Order - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S5.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S5.png",
       "decision_question": "",
       "choices": [
         {
@@ -386,7 +386,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "D4",
       "title": "D4. Sales order on hold ? - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/D4.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/D4.png",
       "decision_question": "Is this Sales Order on Hold ?",
       "choices": [
         {
@@ -413,7 +413,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "Y4",
       "title": "Y4. Sales Order is on Hold - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/Y4.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/Y4.png",
       "decision_question": "",
       "choices": [
         {
@@ -436,7 +436,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S6",
       "title": "S6. Notification sent to Credit - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S6.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S6.png",
       "decision_question": "",
       "choices": [
         {
@@ -459,7 +459,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "D5",
       "title": "D5. Was Credit Restored or COD or CC accepted? - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/D5.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/D5.png",
       "decision_question": "Was the Customer's Credit restored or did they accept one of the alternate options presented",
       "choices": [
         {
@@ -486,7 +486,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "Y5",
       "title": "Y5. Yes, Credit Restored or COD or CC was accepted - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/Y5.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/Y5.png",
       "decision_question": "",
       "choices": [
         {
@@ -509,7 +509,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S7",
       "title": "S7. Print Customer Acknowledgement and Pick Ticket - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S7.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S7.png",
       "decision_question": "",
       "choices": [
         {
@@ -532,7 +532,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S8",
       "title": "S8. Proceed to the Pick to Invoice SOP - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S8.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S8.png",
       "decision_question": "",
       "choices": [
         {
@@ -555,7 +555,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "N5",
       "title": "N5. No Customer did not take any of the options presented- Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/N5.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/N5.png",
       "decision_question": "",
       "choices": [
         {
@@ -578,7 +578,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S9",
       "title": "S9. Cancel order inform Sales and update Reason code - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S9.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S9.png",
       "decision_question": "",
       "choices": [
         {
@@ -601,7 +601,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "N4",
       "title": "N4. No, Sales order is not on hold - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/N4.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/N4.png",
       "decision_question": "",
       "choices": [
         {
@@ -624,7 +624,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "N3",
       "title": "N3. No, Not a Blanket or Fulfillment Order- Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/N3.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/N3.png",
       "decision_question": "",
       "choices": [
         {
@@ -647,7 +647,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "N2",
       "title": "N2. No, This is a COD or Tendering Order - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/N2.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/N2.png",
       "decision_question": "",
       "choices": [
         {
@@ -670,7 +670,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S10",
       "title": "S10. Collect Payment via CC or other - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S10.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S10.png",
       "decision_question": "",
       "choices": [
         {
@@ -693,7 +693,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "N1",
       "title": "N1. No, There are \"Add on\" to add - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/N1.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/N1.png",
       "decision_question": "",
       "choices": [
         {
@@ -716,7 +716,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S11",
       "title": "S11. Add Add-on’s to the Sales order - Sales Order to Pick SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S11.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S11.png",
       "decision_question": "",
       "choices": [
         {
@@ -739,7 +739,7 @@
       "sop_id": "Ord2Pick",
       "frame_code": "S999",
       "title": "S999. You have successfully completed this SOP",
-      "image": "/SOP/images/SE/Sales/Ord2Pick/S999.png",
+      "image": "/SOP/images/SE/Distro/Ord2Pick/S999.png",
       "decision_question": "",
       "choices": [],
       "narr1": "",
