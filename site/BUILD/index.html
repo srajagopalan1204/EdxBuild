@@ -170,6 +170,39 @@
       color: var(--text-muted);
     }
 
+    /* New: intro block to mirror “old index” introduction section */
+    .intro {
+      margin-top: 18px;
+      margin-bottom: 10px;
+      padding: 16px 18px 18px;
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .intro h2 {
+      margin: 0 0 6px;
+      font-size: 1.15rem;
+    }
+
+    .intro p {
+      margin: 4px 0 8px;
+      font-size: 0.94rem;
+      color: var(--text-main);
+    }
+
+    .intro ul {
+      margin: 6px 0 4px 18px;
+      padding: 0;
+      color: var(--text-main);
+      font-size: 0.92rem;
+    }
+
+    .intro li {
+      margin-bottom: 4px;
+    }
+
     @media (max-width: 640px) {
       .page {
         padding-inline: 12px;
@@ -196,6 +229,28 @@
         specific SOP module. The cards below show how this will look for example Entities.
       </p>
     </header>
+
+    <!-- Re-introduced “old index” style introduction section -->
+    <section class="intro" id="intro">
+      <h2>About this training site</h2>
+      <p>
+        This EdxBuild training site is a working prototype for SOP-based training at Scott Electric
+        and Palco Power Systems. Each SOP is delivered as an interactive “player” that walks you
+        through the key steps of the process with screenshots and narration.
+      </p>
+      <p>
+        Over time, this index will be expanded so that you can:
+      </p>
+      <ul>
+        <li>Select an <strong>Entity</strong> (Palco, Electrical Distribution, Specialty, etc.)</li>
+        <li>Choose the relevant <strong>Function</strong> (Sales, Operations, Service, Purchasing…)</li>
+        <li>Open the specific <strong>SOP module</strong> that matches your role and task</li>
+      </ul>
+      <p>
+        The cards below show example Entities and Functions. Some modules are live today, and
+        others are placeholders marked “Coming soon”.
+      </p>
+    </section>
 
     <!-- Entity cards -->
     <section id="entities">
@@ -229,16 +284,19 @@
             <li>
               <strong>TechMobile – Mobile Application for Technicians</strong><br />
               <small>Tech Mobile SOP interactive player.</small><br />
+              <!-- Uses working lowercase filename -->
               <a class="btn primary" href="techmobile_player.html">Open</a>
             </li>
             <li>
               <strong>ServReqOrder – Service Repair Order (SRO)</strong><br />
               <small>Service Repair Order SOP (SRO) interactive player.</small><br />
+              <!-- Uses working lowercase filename -->
               <a class="btn primary" href="servreqord_player.html">Open</a>
             </li>
             <li>
               <strong>Warranty – Warranty Service Processing</strong><br />
               <small>Warranty Based Service SOP interactive player.</small><br />
+              <!-- Adjust this href to match the exact filename in /site/BUILD if needed -->
               <a class="btn primary" href="warranty_player.html">Open</a>
             </li>
           </ul>
