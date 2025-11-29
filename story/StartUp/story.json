@@ -1,0 +1,607 @@
+{
+  "sop_id": "StartUp",
+  "start_code": "S000",
+  "frames": [
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S000",
+      "title": "S000. Opening Slide for PPS - Service - Generator Startup Deck",
+      "image": "/SOP/images/Palco/Service/StartUp/S000.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S001",
+          "label": "About Palco Power Systems and Scott Electric and a Welcome to Training"
+        }
+      ],
+      "narr1": "PM-selected",
+      "narr2": "About Palco Power Systems and Scott Electric and a Welcome to Training Add Lines Add Startup Notes Assigned Tech Performs. Set Sold by Palco Is Original Order Known No Gen. Set Not sold by Palco. C:\\Users\\scottuser\\Documents\\SonetLumier\\Input\\SE_SLS_Enter_line_Opt2_112025_1211.pptx Opening Slide for PPS Order Enquiry Using Serial Number Order Number is known Original Sale Order Not Known. For each method write a words on what this leans best for and a disclaimer that each user can. Choose their own way Palco Power Systems Perform Order Enquiry Pictorial representation of Quote to Cash similar to Service to. Pick ticket Register Unit Schedule startup Shipping Feed back Verify Payment Status Yes Gen. Set Sold by Palco You have successfully completed this SOP.",
+      "narr3": "About Palco Power Systems and Scott Electric and a Welcome to Training Add Lines Add Startup Notes Assigned Tech Performs Start Create Chargeable SRO Create New Unit Create Startup Incident Customer Calls For Start Up Generator Startup Genset Sold by Palco Is Original Order Known No Gen Set Not sold by Palco — C:\\Users\\scottuser\\Documents\\SonetLumier\\Input\\SE_SLS_Enter_line_Opt2_112025_1211.pptx Opening Slide for PPS Order Enquiry Using Serial Number Order Number is known Original Sale Order Not Known — For each method write a words on what this leans best for and a disclaimer that each user can choose their own way Palco Power Systems Perform Order Enquiry Pictorial representation of Quote to Cash similar to Service to Cash Print Pick ticket Register Unit Schedule startup Shipping Feed back Verify Payment Status Yes Genset Sold by Palco You have successfully completed this SOP",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S001",
+      "title": "S001. About Palco Power Systems and Scott Electric and a Welcome to Training",
+      "image": "/SOP/images/Palco/Service/StartUp/S001.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S002",
+          "label": "Palco Power Systems"
+        }
+      ],
+      "narr1": "About Palco Power Systems And Scott Electric And A Welcome To Training",
+      "narr2": "About Palco Power Systems and Scott Electric and a Welcome to Training.",
+      "narr3": "About Palco Power Systems and Scott Electric and a Welcome to Training",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S002",
+      "title": "S002. Palco Power Systems - Service to Cash Work Flow",
+      "image": "/SOP/images/Palco/Service/StartUp/S002.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S003",
+          "label": "Pictorial representation of Quote to Cash similar to Service to Cash"
+        }
+      ],
+      "narr1": "Palco Power Systems",
+      "narr2": "Palco Power Systems.",
+      "narr3": "Palco Power Systems",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S003",
+      "title": "S003. Pictorial representation of Quote to Cash similar to Service to Cash - At PPS Service",
+      "image": "/SOP/images/Palco/Service/StartUp/S003.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "M1",
+          "label": "Generator Startup"
+        }
+      ],
+      "narr1": "Pictorial Representation Of Quote To Cash Similar To Service To Cash",
+      "narr2": "Pictorial representation of Quote to Cash similar to Service to Cash.",
+      "narr3": "Pictorial representation of Quote to Cash similar to Service to Cash",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "M1",
+      "title": "M1. Generator Startup - At PPS Service",
+      "image": "/SOP/images/Palco/Service/StartUp/M1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S1",
+          "label": "Customer Calls For Start Up"
+        }
+      ],
+      "narr1": "Generator Startup",
+      "narr2": "Generator Startup.",
+      "narr3": "Generator Startup",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S1",
+      "title": "S1. Customer Calls For Start Up- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D1",
+          "label": "Genset Sold by Palco"
+        }
+      ],
+      "narr1": "Customer Calls For Start Up",
+      "narr2": "Customer Calls For Start Up.",
+      "narr3": "Customer Calls For Start Up",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "D1",
+      "title": "D1. Genset Sold by Palco - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/D1.png",
+      "decision_question": "Was the Generator sold through Palco?",
+      "choices": [
+        {
+          "to": "Y1",
+          "label": "Yes Genset Sold by Palco"
+        },
+        {
+          "to": "S5",
+          "label": "No, Genset was not sold by Palco"
+        }
+      ],
+      "narr1": "Genset Sold By Palco",
+      "narr2": "Gen. Set Sold by Palco.",
+      "narr3": "Genset Sold by Palco",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "Y1",
+      "title": "Y1. Yes Genset Sold by Palco - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/Y1.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "D2",
+          "label": "Is Original Order Known"
+        }
+      ],
+      "narr1": "Yes Genset Sold By Palco",
+      "narr2": "Yes Gen. Set Sold by Palco.",
+      "narr3": "Yes Genset Sold by Palco",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "D2",
+      "title": "D2. Is Original Order Known- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/D2.png",
+      "decision_question": "In the Original Order number known",
+      "choices": [
+        {
+          "to": "Y2",
+          "label": "Order Number is known"
+        },
+        {
+          "to": "N2",
+          "label": "No the Original Sales order is not Known"
+        }
+      ],
+      "narr1": "Is Original Order Known",
+      "narr2": "Is Original Order Known.",
+      "narr3": "Is Original Order Known",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "Y2",
+      "title": "Y2. Order Number is known- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/Y2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S2",
+          "label": "Perform Order Enquiry"
+        }
+      ],
+      "narr1": "Order Number Is Known",
+      "narr2": "Order Number is known.",
+      "narr3": "Order Number is known",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S2",
+      "title": "S2. Perform Order Enquiry - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S3",
+          "label": "Verify Payment Status"
+        }
+      ],
+      "narr1": "Perform Order Enquiry",
+      "narr2": "Perform Order Enquiry.",
+      "narr3": "Perform Order Enquiry",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/34c69ec2-473e-408c-b4ac-ca2d8f3da53d?contextId=677cdca2-0d11-473d-8841-348a363b3d1e",
+      "uap_label": "01_Order Inquiry",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S3",
+      "title": "S3. Verify Payment Status - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S3.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S4",
+          "label": "Create Startup Incident"
+        }
+      ],
+      "narr1": "Verify Payment Status",
+      "narr2": "Verify Payment Status.",
+      "narr3": "Verify Payment Status",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/400caab5-7e35-448a-be7c-909185738de7?contextId=75e632cb-d762-4392-8959-2fbb9f6b8135",
+      "uap_label": "02_Review Taxes, Totals, Payments",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S4",
+      "title": "S4. Create Startup Incident - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S4.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S8",
+          "label": "Add Startup Notes"
+        }
+      ],
+      "narr1": "Create Incident",
+      "narr2": "Create Startup Incident.",
+      "narr3": "Create Startup Incident",
+      "uap_url": "",
+      "uap_label": "04_Create a Start Up Incident (not Published)",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S8",
+      "title": "S8. Add Startup Notes- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S8.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S9",
+          "label": "Add Lines"
+        }
+      ],
+      "narr1": "Add Notes",
+      "narr2": "Add Startup Notes.",
+      "narr3": "Add Startup Notes",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/df93e4ab-0e8b-4df6-abe8-267fdd49903f?contextId=677cdca2-0d11-473d-8841-348a363b3d1e",
+      "uap_label": "05_Add Start Up Notes",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S9",
+      "title": "S9. Add Lines- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S9.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S10",
+          "label": "Schedule startup"
+        }
+      ],
+      "narr1": "Add Lines",
+      "narr2": "Add Lines.",
+      "narr3": "Add Lines",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/82ed7343-6770-4287-a84b-48f2dc253e44?contextId=677cdca2-0d11-473d-8841-348a363b3d1e",
+      "uap_label": "06_Add Line",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S10",
+      "title": "S10. Schedule startup - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S10.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S11",
+          "label": "Print Pick ticket"
+        }
+      ],
+      "narr1": "Schedule Startup",
+      "narr2": "Schedule startup.",
+      "narr3": "Schedule startup",
+      "uap_url": "",
+      "uap_label": "11_Schedule Service (not Published)",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S11",
+      "title": "S11. Print Pick ticket- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S11.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S12",
+          "label": "Shipping Feed back"
+        }
+      ],
+      "narr1": "Print Pick Ticket",
+      "narr2": "Print. Pick ticket.",
+      "narr3": "Print Pick ticket",
+      "uap_url": "",
+      "uap_label": "02_Print Pick Ticket (not published)",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S12",
+      "title": "S12. Shipping Feed back - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S12.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S13",
+          "label": "Assigned Tech Performs Start"
+        }
+      ],
+      "narr1": "Shipping Feed Back",
+      "narr2": "Shipping Feed back.",
+      "narr3": "Shipping Feed back",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/e046d76e-0ee2-4771-ae37-f9758c1bce84?contextId=677cdca2-0d11-473d-8841-348a363b3d1e",
+      "uap_label": "03_Shipping Feedback for Start Up",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S13",
+      "title": "S13. Assigned Tech Performs Start-up- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S13.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S14",
+          "label": "Register Unit"
+        }
+      ],
+      "narr1": "Assigned Tech Performs Start",
+      "narr2": "Assigned Tech Performs Start.",
+      "narr3": "Assigned Tech Performs Start",
+      "uap_url": "",
+      "uap_label": "07_Schedule (not Published)",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S14",
+      "title": "S14. Register Unit- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S14.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S5",
+          "label": "Order Enquiry Using Serial Number"
+        }
+      ],
+      "narr1": "Register Unit",
+      "narr2": "Register Unit.",
+      "narr3": "Register Unit",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/44897267-c9a9-4ab1-854a-14b2054b8547?contextId=677cdca2-0d11-473d-8841-348a363b3d1e",
+      "uap_label": "08_Register Unit",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S5",
+      "title": "S5. Order Enquiry Using Serial Number- Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S5.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S6",
+          "label": "Create New Unit"
+        }
+      ],
+      "narr1": "Order Enquiry Using Serial Number",
+      "narr2": "Order Enquiry Using Serial Number.",
+      "narr3": "Order Enquiry Using Serial Number",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/b2be844f-cc50-4661-a4c1-8b36f22cc2dd?contextId=677cdca2-0d11-473d-8841-348a363b3d1e",
+      "uap_label": "09_Order Inquiry Using a Serial Number",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S6",
+      "title": "S6. Create New Unit - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S6.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S7",
+          "label": "Create Chargeable SRO"
+        }
+      ],
+      "narr1": "Create New Unit",
+      "narr2": "Create New Unit.",
+      "narr3": "Create New Unit",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/f3b2d09a-1e39-41e8-a89e-7b3ba81ab293?contextId=2e9fbecd-89f5-4dca-b67e-80f665d0944c",
+      "uap_label": "01_Create a Customer Unit",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S7",
+      "title": "S7. Create Chargeable SRO - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S7.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N2",
+          "label": "Original Sale Order Not Known"
+        }
+      ],
+      "narr1": "Create Chargeable SRO",
+      "narr2": "Create Chargeable SRO.",
+      "narr3": "Create Chargeable SRO",
+      "uap_url": "https://scottelectricusa.uap.infor.com/#/content/116036b4-ca1f-4c52-9ca5-544f66d3ee29?contextId=3a4b3dad-96fe-4694-a768-791383f32e32",
+      "uap_label": "04_Quick Create SRO",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "N2",
+      "title": "N1. Did we sell the Generator - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/N2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "N2",
+          "label": "Original Sale Order Not Known"
+        }
+      ],
+      "narr1": "We did not sell the Generator Known – Startup SOP",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "N2",
+      "title": "N2. Original Sale Order Not Known - Startup SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/N2.png",
+      "decision_question": "",
+      "choices": [
+        {
+          "to": "S3",
+          "label": "No Sales order is not known"
+        }
+      ],
+      "narr1": "Original Sale Order Not Known – Startup SOP",
+      "narr2": "",
+      "narr3": "",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    },
+    {
+      "sop_id": "StartUp",
+      "frame_code": "S999",
+      "title": "S999. You have successfully completed this SOP",
+      "image": "/SOP/images/Palco/Service/StartUp/S999.png",
+      "decision_question": "",
+      "choices": [],
+      "narr1": "You Have Successfully Completed This SOP",
+      "narr2": "You have successfully completed this SOP.",
+      "narr3": "You have successfully completed this SOP",
+      "uap_url": "",
+      "uap_label": "",
+      "meta": {
+        "entity": "Palco",
+        "function": "Service",
+        "subentity": "StartUp"
+      }
+    }
+  ]
+}
