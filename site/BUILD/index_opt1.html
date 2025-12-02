@@ -1,0 +1,510 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Scott Electric Training – SOP Modules</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #f4f5fb;
+      --card: #ffffff;
+      --border: #e2e4ef;
+      --text: #111827;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-soft: rgba(37, 99, 235, 0.09);
+      --radius-lg: 18px;
+      --radius-xl: 22px;
+      --shadow-soft: 0 14px 40px rgba(15, 23, 42, 0.08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: radial-gradient(circle at top, #e5edff 0, #f4f5fb 42%, #f9fafb 100%);
+      color: var(--text);
+    }
+
+    .page {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 32px 16px 56px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 24px;
+      align-items: center;
+    }
+
+    .pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 4px 12px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: #1d4ed8;
+      font-size: 0.78rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      margin-bottom: 10px;
+    }
+
+    .pill span {
+      width: 7px;
+      height: 7px;
+      border-radius: 999px;
+      background: #22c55e;
+    }
+
+    h1 {
+      margin: 0 0 6px;
+      font-size: 2rem;
+      letter-spacing: 0.02em;
+    }
+
+    .lead {
+      margin: 4px 0 14px;
+      color: var(--muted);
+      font-size: 0.98rem;
+      max-width: 540px;
+    }
+
+    .hero-points {
+      margin: 0;
+      padding-left: 18px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    .hero-image {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--border);
+      background: #000;
+    }
+
+    .hero-image img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .section-title {
+      margin: 32px 0 6px;
+      font-size: 1.3rem;
+    }
+
+    .section-sub {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 0.96rem;
+      max-width: 640px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: var(--card);
+      border-radius: var(--radius-xl);
+      padding: 18px 18px 20px;
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow-soft);
+    }
+
+    .card h2 {
+      margin: 0 0 4px;
+      font-size: 1.08rem;
+    }
+
+    .card h3 {
+      margin: 0 0 8px;
+      font-size: 0.86rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #4f46e5;
+    }
+
+    .card p {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+
+    .pill-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .small-pill {
+      display: inline-flex;
+      align-items: center;
+      padding: 4px 10px;
+      border-radius: 999px;
+      border: 1px solid rgba(148, 163, 184, 0.6);
+      font-size: 0.8rem;
+      color: #374151;
+      background: #f9fafb;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 7px 16px;
+      border-radius: 999px;
+      font-size: 0.86rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: #ffffff;
+      background: var(--accent);
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+    }
+
+    .btn:hover { background: #1d4ed8; }
+
+    .btn-outline {
+      margin-left: 6px;
+      background: #ffffff;
+      color: #1d4ed8;
+      border: 1px solid rgba(129, 140, 248, 0.6);
+      box-shadow: none;
+    }
+
+    .quick-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 4px;
+    }
+
+    .quick-link {
+      font-size: 0.86rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #4338ca;
+      text-decoration: none;
+    }
+
+    /* Sales to Cash strip */
+    .flow-strip {
+      margin-top: 24px;
+      border-radius: var(--radius-xl);
+      border: 1px dashed #c4c7d9;
+      padding: 12px 14px 14px;
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 10px;
+      background: #f9fafb;
+    }
+
+    .flow-strip img {
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+    }
+
+    .flow-strip p {
+      margin: 3px 0 8px;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    .flow-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 4px;
+      font-size: 0.8rem;
+    }
+
+    .flow-tag {
+      padding: 3px 9px;
+      border-radius: 999px;
+      background: #ecfeff;
+      border: 1px solid #a5f3fc;
+      color: #0f766e;
+    }
+
+    /* Expandable full index */
+    .full-index {
+      margin-top: 32px;
+    }
+
+    details {
+      border-radius: var(--radius-xl);
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.96);
+      box-shadow: var(--shadow-soft);
+      padding: 14px 16px 8px;
+    }
+
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      font-size: 0.96rem;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+    }
+
+    summary::-webkit-details-marker { display: none; }
+
+    summary span.chevron {
+      display: inline-block;
+      transform: rotate(0deg);
+      transition: transform 0.2s ease;
+    }
+
+    details[open] summary span.chevron {
+      transform: rotate(90deg);
+    }
+
+    .index-grid {
+      margin-top: 14px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 14px;
+    }
+
+    .index-card {
+      border-radius: 16px;
+      border: 1px solid #e5e7eb;
+      padding: 10px 12px 12px;
+      background: #f9fafb;
+    }
+
+    .index-card h4 {
+      margin: 0 0 4px;
+      font-size: 0.92rem;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: #4b5563;
+    }
+
+    .index-card h5 {
+      margin: 0 0 6px;
+      font-size: 0.96rem;
+    }
+
+    .index-card ul {
+      margin: 0;
+      padding-left: 16px;
+      font-size: 0.88rem;
+    }
+
+    .index-card li { margin-bottom: 6px; }
+
+    .index-card a {
+      color: #1d4ed8;
+      text-decoration: none;
+    }
+
+    .index-card a:hover { text-decoration: underline; }
+
+    @media (max-width: 768px) {
+      header, .flow-strip {
+        grid-template-columns: minmax(0, 1fr);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <!-- HERO -->
+    <header>
+      <div>
+        <div class="pill"><span></span> Scott Electric / Palco – Training</div>
+        <h1>Standard Operating Procedure Training</h1>
+        <p class="lead">
+          Start with a big-picture overview, then select your Entity and Function.
+          Each module is a short, focused walkthrough with screenshots and narration.
+        </p>
+        <ul class="hero-points">
+          <li>Step 1 – See how Scott Electric works at a high level.</li>
+          <li>Step 2 – Choose your area: Palco Power Systems, Electrical Distribution, or Specialty.</li>
+          <li>Step 3 – Open the SOP module that matches your role and task.</li>
+        </ul>
+      </div>
+
+      <div class="hero-image">
+        <!-- Use your welcome slide as the hero visual -->
+        <img src="S001.png" alt="About Scott Electric and Welcome to Training" />
+      </div>
+    </header>
+
+    <!-- ENTITIES AT A GLANCE -->
+    <h2 class="section-title">Choose where you work</h2>
+    <p class="section-sub">
+      Pick the area that best matches your day-to-day work. You can always come back
+      to this page to open another module.
+    </p>
+
+    <div class="grid">
+      <!-- Palco -->
+      <article class="card" id="palco">
+        <h3>ENTITY</h3>
+        <h2>Palco Power Systems</h2>
+        <p>
+          Generator projects, parts, and service. Includes TechMobile, Service Repair Orders,
+          Warranty and Startup SOPs.
+        </p>
+        <div class="pill-row">
+          <span class="small-pill">Service</span>
+          <span class="small-pill">Core Business</span>
+        </div>
+        <div class="quick-row">
+          <a class="quick-link" href="techmobile_player.html">TechMobile</a>
+          <a class="quick-link" href="servreqord_player.html">Service Repair Order (SRO)</a>
+          <a class="quick-link" href="warranty_player.html">Warranty Service</a>
+          <a class="quick-link" href="StartUp_player.html">Generator Startup</a>
+        </div>
+        <a class="btn" href="#full-index">View full module list</a>
+      </article>
+
+      <!-- Distro -->
+      <article class="card" id="distro">
+        <h3>ENTITY</h3>
+        <h2>Electrical Distribution</h2>
+        <p>
+          Branch sales and operations – Quote to Cash. From entering quotes through picking,
+          shipping, and invoicing.
+        </p>
+        <div class="pill-row">
+          <span class="small-pill">Sales</span>
+          <span class="small-pill">Operations</span>
+          <span class="small-pill">Purchasing</span>
+        </div>
+        <div class="quick-row">
+          <a class="quick-link" href="Quo2Ord_player.html">Quote to Order</a>
+          <a class="quick-link" href="Ord2Pick_player.html">Order to Pick</a>
+          <a class="quick-link" href="Pick2Inv_player.html">Pick to Invoice</a>
+          <a class="quick-link" href="ShipFB_player.html">Shipping Feedback</a>
+        </div>
+        <a class="btn" href="#full-index">View full module list</a>
+      </article>
+
+      <!-- Specialty -->
+      <article class="card" id="specialty">
+        <h3>ENTITY</h3>
+        <h2>Specialty – Signs, Engraving &amp; Lighting</h2>
+        <p>
+          Signs &amp; engraving, instant print, and lighting gallery processes that
+          support our specialty business.
+        </p>
+        <div class="pill-row">
+          <span class="small-pill">Signs &amp; Engraving</span>
+          <span class="small-pill">Lighting Gallery</span>
+        </div>
+        <p style="margin-top:10px; font-size:0.9rem;">
+          These SOP modules are under construction. You may see “Coming soon” on some links.
+        </p>
+        <a class="btn" href="#full-index">View full module list</a>
+      </article>
+    </div>
+
+    <!-- SALES TO CASH OVERVIEW STRIP -->
+    <section class="flow-strip" aria-label="Sales to Cash overview">
+      <div>
+        <h2 style="margin:0 0 4px; font-size:1.05rem;">Big picture – Sales to Cash at Scott Electric</h2>
+        <p>
+          Use this visual overview to understand where each SOP fits. It shows a customer request
+          turning into a quote or order, product delivery, invoicing, and payment.
+        </p>
+        <div class="flow-tags">
+          <span class="flow-tag">S001 – Welcome</span>
+          <span class="flow-tag">S002 – Sales to Cash overview</span>
+          <span class="flow-tag">SLS / OPS / PUR / Buncher</span>
+        </div>
+      </div>
+      <div>
+        <!-- Your Sales to Cash swimlane graphic -->
+        <img src="S002.png" alt="Sales to Cash work flow at Scott Electric Distribution" />
+      </div>
+    </section>
+
+    <!-- FULL INDEX (COLLAPSED BY DEFAULT) -->
+    <section class="full-index" id="full-index">
+      <details>
+        <summary>
+          <span class="chevron">▶</span>
+          Full module index (Palco, Electrical Distribution, Specialty)
+        </summary>
+
+        <div class="index-grid" style="margin-top:14px;">
+          <!-- Palco Service / Core Business -->
+          <div class="index-card">
+            <h4>Palco Power Systems</h4>
+            <h5>Service &amp; Core Business</h5>
+            <ul>
+              <li><a href="techmobile_player.html">TechMobile – Mobile Application for Technicians</a></li>
+              <li><a href="servreqord_player.html">ServReqOrd – Service Repair Order (SRO)</a></li>
+              <li><a href="warranty_player.html">Warranty – Warranty Service Processing</a></li>
+              <li><a href="StartUp_player.html">StartUp – Generator Startup Service</a></li>
+              <li>IndSales – Industrial Generator Sales (Coming soon)</li>
+              <li>PartSales – Parts Sales (Coming soon)</li>
+            </ul>
+          </div>
+
+          <!-- Distro Sales -->
+          <div class="index-card">
+            <h4>Electrical Distribution</h4>
+            <h5>Sales (SLS)</h5>
+            <ul>
+              <li><a href="Quo2Ord_player.html">Quote to Sales Order – Entering a quote and converting to order</a></li>
+              <li><a href="Ord2Pick_player.html">Order to Pick – Confirmed order to pick ticket</a></li>
+            </ul>
+          </div>
+
+          <!-- Distro Operations -->
+          <div class="index-card">
+            <h4>Electrical Distribution</h4>
+            <h5>Operations (OPS)</h5>
+            <ul>
+              <li><a href="Pick2Inv_player.html">Pick2Inv – Picking to Invoicing</a></li>
+              <li><a href="ShipFB_player.html">ShipFB – Shipping Feedback</a></li>
+            </ul>
+          </div>
+
+          <!-- Distro Purchasing / Buncher -->
+          <div class="index-card">
+            <h4>Electrical Distribution</h4>
+            <h5>Purchasing &amp; Buncher</h5>
+            <ul>
+              <li>Rrar – Replenishment Recommendation Report (Coming soon)</li>
+              <li>POCreate – Create a Purchase Order (Coming soon)</li>
+              <li>CDL – Consolidated Billing Blanket Order Create (Coming soon)</li>
+            </ul>
+          </div>
+
+          <!-- Specialty -->
+          <div class="index-card">
+            <h4>Specialty</h4>
+            <h5>Signs, Engraving &amp; Lighting</h5>
+            <ul>
+              <li>VaCreate – Value Add Create (Coming soon)</li>
+              <li>InstantPrint – Instant Print (Coming soon)</li>
+              <li>LightingGallery – Lighting Gallery (Coming soon)</li>
+            </ul>
+          </div>
+        </div>
+      </details>
+    </section>
+
+  </div>
+</body>
+</html>

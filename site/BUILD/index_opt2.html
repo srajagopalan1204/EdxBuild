@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>SOP Modules by Entity – Scott Electric Training</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --bg: #f3f4ff;
+      --card: #ffffff;
+      --border: #e5e7eb;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --radius-lg: 18px;
+      --radius-xl: 22px;
+      --shadow-soft: 0 12px 34px rgba(15, 23, 42, 0.08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: linear-gradient(180deg, #e5edff 0, #f9fafb 26%, #ffffff 100%);
+      color: #111827;
+    }
+    .page {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 28px 16px 48px;
+    }
+    header {
+      display: grid;
+      grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+      gap: 18px;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 6px;
+      font-size: 1.9rem;
+    }
+    .lead {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 520px;
+    }
+    .hero-img {
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--border);
+    }
+    .hero-img img {
+      width: 100%;
+      display: block;
+    }
+    .tabs {
+      margin-top: 18px;
+      border-radius: var(--radius-xl);
+      padding: 10px;
+      background: rgba(255, 255, 255, 0.9);
+      box-shadow: var(--shadow-soft);
+      border: 1px solid var(--border);
+    }
+    .tablist {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 10px;
+      padding: 0;
+      list-style: none;
+    }
+    .tablist button {
+      border-radius: 999px;
+      border: 1px solid transparent;
+      padding: 7px 14px;
+      font-size: 0.86rem;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      color: #374151;
+    }
+    .tablist button[aria-selected="true"] {
+      background: var(--accent);
+      color: #ffffff;
+      border-color: var(--accent);
+      box-shadow: 0 8px 20px rgba(37, 99, 235, 0.35);
+    }
+    .tablist button[aria-selected="false"] {
+      background: #f3f4ff;
+      border-color: #e5e7eb;
+    }
+    .tab-panels {
+      margin-top: 8px;
+    }
+    .panel {
+      display: none;
+      padding: 10px 4px 4px;
+    }
+    .panel[data-active="true"] { display: block; }
+    .panel h2 {
+      margin: 0 0 4px;
+      font-size: 1.1rem;
+    }
+    .panel p {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .function-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 14px;
+      margin-top: 10px;
+    }
+    .func-card {
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      background: var(--card);
+      padding: 10px 12px 12px;
+    }
+    .func-card h3 {
+      margin: 0 0 4px;
+      font-size: 0.96rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: #4f46e5;
+    }
+    .func-card p {
+      margin: 0 0 6px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .func-card ul {
+      margin: 0;
+      padding-left: 16px;
+      font-size: 0.88rem;
+    }
+    .func-card li { margin-bottom: 5px; }
+    .func-card a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    .func-card a:hover { text-decoration: underline; }
+    .coming {
+      color: #9ca3af;
+      font-style: italic;
+    }
+    @media (max-width: 768px) {
+      header { grid-template-columns: minmax(0, 1fr); }
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <div>
+        <h1>SOP Modules by Entity</h1>
+        <p class="lead">
+          Select an entity to see only the SOPs that apply to that part of the business.
+          Under each entity, modules are grouped by function such as Sales, Operations, Service,
+          and Specialty.
+        </p>
+      </div>
+      <div class="hero-img">
+        <img src="S001.png" alt="About Scott Electric and Welcome to Training" />
+      </div>
+    </header>
+
+    <section class="tabs" aria-label="Entities">
+      <ul class="tablist" role="tablist">
+        <li><button role="tab" id="tab-palco" aria-controls="panel-palco" aria-selected="true">Palco Power Systems</button></li>
+        <li><button role="tab" id="tab-distro" aria-controls="panel-distro" aria-selected="false">Electrical Distribution</button></li>
+        <li><button role="tab" id="tab-specialty" aria-controls="panel-specialty" aria-selected="false">Specialty</button></li>
+      </ul>
+
+      <div class="tab-panels">
+        <!-- Palco -->
+        <section id="panel-palco" class="panel" role="tabpanel" aria-labelledby="tab-palco" data-active="true">
+          <h2>Palco Power Systems</h2>
+          <p>
+            Generator projects, parts, and service for industrial customers. Use these modules if you work
+            with Palco quotes, orders, and service visits.
+          </p>
+
+          <div class="function-grid">
+            <article class="func-card">
+              <h3>Service</h3>
+              <p>Field technicians, service coordinators, and warranty staff.</p>
+              <ul>
+                <li><a href="techmobile_player.html">TechMobile – Mobile Application for Technicians</a></li>
+                <li><a href="servreqord_player.html">ServReqOrd – Service Repair Order (SRO)</a></li>
+                <li><a href="warranty_player.html">Warranty – Warranty Service Processing</a></li>
+                <li><a href="StartUp_player.html">StartUp – Generator Startup Service</a></li>
+              </ul>
+            </article>
+
+            <article class="func-card">
+              <h3>Core Business</h3>
+              <p>Sales and parts processes that support generator projects.</p>
+              <ul>
+                <li class="coming">IndSales – Industrial Generator Sales (Coming soon)</li>
+                <li class="coming">PartSales – Parts Sales (Coming soon)</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <!-- Distro -->
+        <section id="panel-distro" class="panel" role="tabpanel" aria-labelledby="tab-distro" data-active="false">
+          <h2>Electrical Distribution – Branch Operations</h2>
+          <p>
+            Use these modules if you work in branch inside sales, counter sales, warehouse operations,
+            or purchasing for Electrical Distribution.
+          </p>
+
+          <div class="function-grid">
+            <article class="func-card">
+              <h3>Sales (SLS)</h3>
+              <p>Creating quotes and orders for customers.</p>
+              <ul>
+                <li><a href="Quo2Ord_player.html">Quote to Sales Order – Entering a quote and converting to order</a></li>
+                <li><a href="Ord2Pick_player.html">Order to Pick – Confirmed order to pick ticket</a></li>
+              </ul>
+            </article>
+
+            <article class="func-card">
+              <h3>Operations (OPS)</h3>
+              <p>Picking, shipping, and invoicing stock and direct orders.</p>
+              <ul>
+                <li><a href="Pick2Inv_player.html">Pick2Inv – Picking to Invoicing</a></li>
+                <li><a href="ShipFB_player.html">ShipFB – Shipping Feedback</a></li>
+              </ul>
+            </article>
+
+            <article class="func-card">
+              <h3>Purchasing</h3>
+              <p>Replenishment and purchase order creation processes.</p>
+              <ul>
+                <li class="coming">Rrar – Replenishment Recommendation Report (Coming soon)</li>
+                <li class="coming">POCreate – Create a Purchase Order (Coming soon)</li>
+              </ul>
+            </article>
+
+            <article class="func-card">
+              <h3>Buncher</h3>
+              <p>Consolidated billing / blanket order processing.</p>
+              <ul>
+                <li class="coming">CDL – Consolidated Billing Blanket Order Create (Coming soon)</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <!-- Specialty -->
+        <section id="panel-specialty" class="panel" role="tabpanel" aria-labelledby="tab-specialty" data-active="false">
+          <h2>Specialty – Signs, Engraving &amp; Lighting</h2>
+          <p>
+            SOPs for Signs &amp; Engraving, Instant Print, and Lighting Gallery. These modules are in early
+            development and will be expanded over time.
+          </p>
+
+          <div class="function-grid">
+            <article class="func-card">
+              <h3>Signs &amp; Engraving</h3>
+              <p>Custom sign and engraving orders.</p>
+              <ul>
+                <li class="coming">VaCreate – Value Add Create (Coming soon)</li>
+                <li class="coming">InstantPrint – Instant Print (Coming soon)</li>
+              </ul>
+            </article>
+
+            <article class="func-card">
+              <h3>Lighting Gallery</h3>
+              <p>Showroom and gallery processes.</p>
+              <ul>
+                <li class="coming">LightingGallery – Lighting Gallery (Coming soon)</li>
+              </ul>
+            </article>
+          </div>
+        </section>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    // Simple tab behaviour
+    const tabs = document.querySelectorAll('[role="tab"]');
+    const panels = document.querySelectorAll('.panel');
+
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.getAttribute('aria-controls');
+
+        tabs.forEach(t => t.setAttribute('aria-selected', t === tab ? 'true' : 'false'));
+        panels.forEach(p => p.dataset.active = (p.id === target) ? 'true' : 'false');
+      });
+    });
+  </script>
+</body>
+</html>
