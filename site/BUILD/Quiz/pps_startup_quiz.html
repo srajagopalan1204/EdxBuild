@@ -1,0 +1,533 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PPS Generator Startup SOP – Knowledge Check</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      line-height: 1.5;
+      background: #f7f7fb;
+    }
+    h1, h2 {
+      color: #111827;
+    }
+    .meta {
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      background: #e5e7eb;
+      border-radius: 6px;
+    }
+    .question {
+      margin-bottom: 1.75rem;
+      padding: 1rem 1.25rem;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+    .q-text {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+    label {
+      display: block;
+      margin: 0.15rem 0;
+    }
+    button {
+      margin-top: 0.4rem;
+      margin-right: 0.4rem;
+      padding: 0.3rem 0.75rem;
+      border-radius: 4px;
+      border: 1px solid #4b5563;
+      background: #111827;
+      color: #ffffff;
+      cursor: pointer;
+      font-size: 0.9rem;
+    }
+    button.secondary {
+      background: #ffffff;
+      color: #111827;
+    }
+    button:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+    .feedback {
+      margin-top: 0.4rem;
+      font-size: 0.85rem;
+      color: #065f46;
+    }
+    .feedback.error {
+      color: #b91c1c;
+    }
+    #scoreSummary {
+      font-weight: 600;
+      margin-top: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .footer-actions {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid #d1d5db;
+    }
+    input[type="text"] {
+      padding: 0.25rem 0.4rem;
+      margin-right: 0.5rem;
+      border-radius: 4px;
+      border: 1px solid #9ca3af;
+    }
+  </style>
+</head>
+<body>
+  <h1>PPS Generator Startup SOP – Knowledge Check</h1>
+
+  <div class="meta">
+    <p>
+      Please complete this quiz after you have gone through the
+      <strong>PPS – Service – Generator Startup</strong> SOP module.
+      You may answer each question up to <strong>two times</strong>. Your attempts and timestamps
+      will be captured in a CSV log you can download at the end.
+    </p>
+  </div>
+
+  <section>
+    <h2>Learner Information</h2>
+    <p>
+      <label>
+        Your Name:
+        <input type="text" id="learnerName" placeholder="Type your name">
+      </label>
+      <label>
+        Location / Branch:
+        <input type="text" id="location" placeholder="e.g. Palco / Greensburg">
+      </label>
+    </p>
+  </section>
+
+  <section id="quiz">
+    <h2>Quiz Questions</h2>
+
+    <!-- Q1 -->
+    <div class="question" data-qid="q1">
+      <p class="q-text">
+        <strong>Q1.</strong> What is the main purpose of the
+        <em>PPS – Generator Startup</em> SOP?
+      </p>
+      <label><input type="radio" name="q1" value="0">
+        A. Document how Palco receives and shelves generator inventory in the warehouse.</label>
+      <label><input type="radio" name="q1" value="1">
+        B. Guide PPS Service through handling generator startup from the customer’s request through scheduling, performing the startup, and registering the unit.</label>
+      <label><input type="radio" name="q1" value="2">
+        C. Explain how to size and select generators for new sales opportunities.</label>
+      <label><input type="radio" name="q1" value="3">
+        D. Describe how to process warranty credits for generator parts only.</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q1')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q1')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q1"></div>
+    </div>
+
+    <!-- Q2 -->
+    <div class="question" data-qid="q2">
+      <p class="q-text">
+        <strong>Q2.</strong> True or False: For generator startup and related service work,
+        the technician usually performs the work at the customer’s site, and very rarely at Palco’s facility.
+      </p>
+      <label><input type="radio" name="q2" value="0"> A. True</label>
+      <label><input type="radio" name="q2" value="1"> B. False</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q2')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q2')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q2"></div>
+    </div>
+
+    <!-- Q3 -->
+    <div class="question" data-qid="q3">
+      <p class="q-text">
+        <strong>Q3.</strong> According to the Generator Startup process map (S1),
+        which event starts this SOP?
+      </p>
+      <label><input type="radio" name="q3" value="0"> A. The technician arrives at the site.</label>
+      <label><input type="radio" name="q3" value="1"> B. The customer calls (or is scheduled) for a startup.</label>
+      <label><input type="radio" name="q3" value="2"> C. Parts are loaded onto the service truck.</label>
+      <label><input type="radio" name="q3" value="3"> D. A warranty claim is submitted.</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q3')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q3')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q3"></div>
+    </div>
+
+    <!-- Q4 -->
+    <div class="question" data-qid="q4">
+      <p class="q-text">
+        <strong>Q4.</strong> At decision point D1 in the Generator Startup process,
+        what key question is being asked?
+      </p>
+      <label><input type="radio" name="q4" value="0"> A. Is the unit still under manufacturer warranty?</label>
+      <label><input type="radio" name="q4" value="1"> B. Did we sell the generator?</label>
+      <label><input type="radio" name="q4" value="2"> C. Is the generator currently at the Palco shop?</label>
+      <label><input type="radio" name="q4" value="3"> D. Has the customer paid in full?</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q4')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q4')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q4"></div>
+    </div>
+
+    <!-- Q5 -->
+    <div class="question" data-qid="q5">
+      <p class="q-text">
+        <strong>Q5.</strong> At decision point D2, what question is the Service team trying to answer?
+      </p>
+      <label><input type="radio" name="q5" value="0"> A. Is this a residential or commercial unit?</label>
+      <label><input type="radio" name="q5" value="1"> B. Is the site ready for startup?</label>
+      <label><input type="radio" name="q5" value="2"> C. Do you know the original order number?</label>
+      <label><input type="radio" name="q5" value="3"> D. Is a PMA in place?</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q5')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q5')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q5"></div>
+    </div>
+
+    <!-- Q6 -->
+    <div class="question" data-qid="q6">
+      <p class="q-text">
+        <strong>Q6.</strong> If the original order number <em>is</em> known (Yes at D2),
+        which step do you perform next in the SOP?
+      </p>
+      <label><input type="radio" name="q6" value="0"> A. Create a new unit in the system (S6).</label>
+      <label><input type="radio" name="q6" value="1"> B. Perform an order inquiry using the original order number (S2).</label>
+      <label><input type="radio" name="q6" value="2"> C. Perform an order inquiry using the serial number (S5).</label>
+      <label><input type="radio" name="q6" value="3"> D. Register the unit with the manufacturer (S14).</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q6')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q6')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q6"></div>
+    </div>
+
+    <!-- Q7 -->
+    <div class="question" data-qid="q7">
+      <p class="q-text">
+        <strong>Q7.</strong> If the original order number is <em>not</em> known (No at D2),
+        what combination of actions does the SOP use to identify or create the unit?
+      </p>
+      <label><input type="radio" name="q7" value="0"> A. Skip the startup and close the request.</label>
+      <label><input type="radio" name="q7" value="1"> B. Use the serial number to perform order inquiry (S5) and, if needed, create a new unit (S6).</label>
+      <label><input type="radio" name="q7" value="2"> C. Immediately schedule a technician without any documentation.</label>
+      <label><input type="radio" name="q7" value="3"> D. Send the customer back to Sales with no follow-up.</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q7')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q7')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q7"></div>
+    </div>
+
+    <!-- Q8 -->
+    <div class="question" data-qid="q8">
+      <p class="q-text">
+        <strong>Q8.</strong> What is the purpose of step S3:
+        <em>Check with AR to Verify Payment in Full</em>?
+      </p>
+      <label><input type="radio" name="q8" value="0"> A. Confirm that shipping feedback has been entered.</label>
+      <label><input type="radio" name="q8" value="1"> B. Confirm that all parts are in stock for the startup.</label>
+      <label><input type="radio" name="q8" value="2"> C. Confirm that the customer has paid in full, or that acceptable terms are in place, before proceeding.</label>
+      <label><input type="radio" name="q8" value="3"> D. Confirm that the generator has already been registered with the manufacturer.</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q8')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q8')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q8"></div>
+    </div>
+
+    <!-- Q9 -->
+    <div class="question" data-qid="q9">
+      <p class="q-text">
+        <strong>Q9.</strong> Which step in the Generator Startup SOP describes the
+        technician actually performing the startup in the field?
+      </p>
+      <label><input type="radio" name="q9" value="0"> A. S10 – Schedule</label>
+      <label><input type="radio" name="q9" value="1"> B. S11 – Print Pick Ticket</label>
+      <label><input type="radio" name="q9" value="2"> C. S12 – Shipping Feedback Ship</label>
+      <label><input type="radio" name="q9" value="3"> D. S13 – Tech Performs Start-Up</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q9')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q9')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q9"></div>
+    </div>
+
+    <!-- Q10 -->
+    <div class="question" data-qid="q10">
+      <p class="q-text">
+        <strong>Q10.</strong> Which step ensures the generator is properly recorded with the
+        manufacturer after startup, and why is this important?
+      </p>
+      <label><input type="radio" name="q10" value="0"> A. S4 – Create Start-Up Incident; to track phone calls only.</label>
+      <label><input type="radio" name="q10" value="1"> B. S7 – Service Order Process at Charge; to set billing terms.</label>
+      <label><input type="radio" name="q10" value="2"> C. S14 – Register a Unit; to ensure warranty and service history are tied to the correct unit.</label>
+      <label><input type="radio" name="q10" value="3"> D. S2 – Order Inquiry; to check prior quotes.</label>
+      <div>
+        <button type="button" onclick="submitQuestion('q10')">Submit Answer</button>
+        <button type="button" class="secondary" onclick="redoQuestion('q10')">Redo Question</button>
+      </div>
+      <div class="feedback" id="feedback-q10"></div>
+    </div>
+  </section>
+
+  <section class="footer-actions">
+    <p id="scoreSummary">Score will appear here after you submit at least one question.</p>
+    <button type="button" onclick="calculateScore()">Calculate Score</button>
+    <button type="button" onclick="downloadCsv()">Download Attempt Log (CSV)</button>
+  </section>
+
+  <script>
+    // Global tracking
+    const quizStart = new Date().toISOString();
+    const questionIds = ["q1","q2","q3","q4","q5","q6","q7","q8","q9","q10"];
+    const maxAttempts = 2;
+
+    // Correct answers: index corresponds to value attribute on each radio button
+    const correctAnswers = {
+      q1: 1, // B
+      q2: 0, // True
+      q3: 1, // Customer calls for startup
+      q4: 1, // Did we sell the generator?
+      q5: 2, // Do you know the original order number?
+      q6: 1, // S2 Order Inquiry
+      q7: 1, // Serial # inquiry + create unit
+      q8: 2, // Verify payment in full / acceptable terms
+      q9: 3, // S13 Tech Performs Start-Up
+      q10: 2 // S14 Register a Unit
+    };
+
+    // Structure: { qid: { attempts: [ {...}, ... ], currentAttempt: {...}|null } }
+    const responseLog = {};
+
+    // Attach change listeners to all radios to capture start time / answer index
+    document.querySelectorAll('input[type="radio"]').forEach(input => {
+      input.addEventListener('change', handleOptionChange);
+    });
+
+    function handleOptionChange(event) {
+      const qid = event.target.name;
+      const answerIndex = parseInt(event.target.value, 10);
+      const now = new Date().toISOString();
+
+      if (!responseLog[qid]) {
+        responseLog[qid] = { attempts: [], currentAttempt: null };
+      }
+      const qEntry = responseLog[qid];
+
+      // If both attempts already used and no current attempt, do not allow changes
+      if (!qEntry.currentAttempt && qEntry.attempts.length >= maxAttempts) {
+        event.target.checked = false;
+        const fb = document.getElementById(`feedback-${qid}`);
+        if (fb) {
+          fb.classList.add("error");
+          fb.textContent = "You have already used both attempts for this question.";
+        }
+        return;
+      }
+
+      if (!qEntry.currentAttempt) {
+        // Start a new attempt
+        qEntry.currentAttempt = {
+          attemptNumber: qEntry.attempts.length + 1,
+          startedAt: now,
+          finishedAt: null,
+          answerIndex: answerIndex,
+          isCorrect: null
+        };
+      } else {
+        // Update the chosen answer within the same attempt
+        qEntry.currentAttempt.answerIndex = answerIndex;
+      }
+    }
+
+    function submitQuestion(qid) {
+      const now = new Date().toISOString();
+      if (!responseLog[qid]) {
+        responseLog[qid] = { attempts: [], currentAttempt: null };
+      }
+      const qEntry = responseLog[qid];
+      const fb = document.getElementById(`feedback-${qid}`);
+
+      // Ensure there is a selection
+      const selected = document.querySelector(`input[name="${qid}"]:checked`);
+      if (!selected) {
+        if (fb) {
+          fb.classList.add("error");
+          fb.textContent = "Please select an answer before submitting.";
+        }
+        return;
+      }
+
+      // If no current attempt, create one from the selected answer
+      if (!qEntry.currentAttempt) {
+        if (qEntry.attempts.length >= maxAttempts) {
+          if (fb) {
+            fb.classList.add("error");
+            fb.textContent = "You have already used both attempts for this question.";
+          }
+          return;
+        }
+        qEntry.currentAttempt = {
+          attemptNumber: qEntry.attempts.length + 1,
+          startedAt: now,
+          finishedAt: null,
+          answerIndex: parseInt(selected.value, 10),
+          isCorrect: null
+        };
+      }
+
+      const attempt = qEntry.currentAttempt;
+
+      if (attempt.finishedAt) {
+        if (fb) {
+          fb.classList.add("error");
+          fb.textContent = "This attempt has already been submitted.";
+        }
+        return;
+      }
+
+      attempt.finishedAt = now;
+      attempt.isCorrect = (attempt.answerIndex === correctAnswers[qid]);
+      qEntry.attempts.push(attempt);
+      qEntry.currentAttempt = null;
+
+      // Feedback
+      if (fb) {
+        fb.classList.remove("error");
+        const attemptLabel = attempt.attemptNumber === 1 ? "First attempt" : "Second attempt";
+        fb.textContent = `${attemptLabel}: ${attempt.isCorrect ? "Correct" : "Incorrect"} (started ${attempt.startedAt}, finished ${attempt.finishedAt}).`;
+        if (qEntry.attempts.length >= maxAttempts) {
+          fb.textContent += " You have used both attempts for this question.";
+        }
+      }
+
+      // Optionally recalc score each submit
+      calculateScore();
+    }
+
+    function redoQuestion(qid) {
+      const qEntry = responseLog[qid];
+      const fb = document.getElementById(`feedback-${qid}`);
+
+      if (!qEntry || qEntry.attempts.length === 0) {
+        if (fb) {
+          fb.classList.add("error");
+          fb.textContent = "You must submit the question once before redoing it.";
+        }
+        return;
+      }
+
+      if (qEntry.attempts.length >= maxAttempts) {
+        if (fb) {
+          fb.classList.add("error");
+          fb.textContent = "You have already used your redo for this question.";
+        }
+        return;
+      }
+
+      // Clear selection
+      document.querySelectorAll(`input[name="${qid}"]`).forEach(input => {
+        input.checked = false;
+      });
+
+      qEntry.currentAttempt = null;
+
+      if (fb) {
+        fb.classList.remove("error");
+        fb.textContent = "You may redo this question now. Make a new selection and click Submit Answer.";
+      }
+    }
+
+    function calculateScore() {
+      let correctCount = 0;
+      let totalCount = questionIds.length;
+
+      questionIds.forEach(qid => {
+        const qEntry = responseLog[qid];
+        if (!qEntry || qEntry.attempts.length === 0) {
+          return;
+        }
+        const lastAttempt = qEntry.attempts[qEntry.attempts.length - 1];
+        if (lastAttempt.isCorrect) {
+          correctCount += 1;
+        }
+      });
+
+      const scoreEl = document.getElementById("scoreSummary");
+      if (scoreEl) {
+        scoreEl.textContent = `Current score (based on your latest attempt for each question): ${correctCount} / ${totalCount}`;
+      }
+    }
+
+    function downloadCsv() {
+      const learnerName = (document.getElementById("learnerName").value || "").replace(/"/g, '""');
+      const location = (document.getElementById("location").value || "").replace(/"/g, '""');
+      const now = new Date().toISOString();
+
+      const lines = [];
+      lines.push('Quiz Name,"PPS Generator Startup SOP – Knowledge Check"');
+      lines.push(`Learner Name,"${learnerName}"`);
+      lines.push(`Location,"${location}"`);
+      lines.push(`Quiz Start,"${quizStart}"`);
+      lines.push(`Log Generated At,"${now}"`);
+      lines.push("");
+      lines.push("Question ID,Question Text,Attempt #,Started At,Finished At,Answer Index,Answer Text,Correct?");
+
+      questionIds.forEach(qid => {
+        const qEntry = responseLog[qid];
+        if (!qEntry || !qEntry.attempts || qEntry.attempts.length === 0) {
+          return;
+        }
+
+        const qContainer = document.querySelector(`.question[data-qid="${qid}"]`);
+        let qText = "";
+        if (qContainer) {
+          const qTextEl = qContainer.querySelector(".q-text");
+          if (qTextEl) {
+            qText = qTextEl.innerText.trim().replace(/"/g, '""');
+          }
+        }
+
+        qEntry.attempts.forEach(att => {
+          let answerText = "";
+          const radio = document.querySelector(`input[name="${qid}"][value="${att.answerIndex}"]`);
+          if (radio && radio.parentElement) {
+            answerText = radio.parentElement.textContent.trim().replace(/"/g, '""');
+          }
+          const correctLabel = att.isCorrect ? "Yes" : "No";
+          lines.push(
+            `"${qid}","${qText}",${att.attemptNumber},` +
+            `"${att.startedAt || ""}","${att.finishedAt || ""}",` +
+            `${att.answerIndex},"${answerText}",${correctLabel}`
+          );
+        });
+      });
+
+      const csvContent = lines.join("\n");
+      const blob = new Blob([csvContent], { type: "text/csv;charset=utf-8;" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "PPS_Generator_Startup_Quiz_Attempts.csv";
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    }
+  </script>
+</body>
+</html>

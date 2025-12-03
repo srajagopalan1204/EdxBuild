@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Sales Order to Pick SOP – FAQ</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 1.5rem;
+      line-height: 1.6;
+      background: #f7f7fb;
+    }
+    h1, h2 {
+      color: #111827;
+    }
+    .intro {
+      margin-bottom: 1rem;
+      padding: 0.75rem 1rem;
+      background: #e5e7eb;
+      border-radius: 6px;
+      font-size: 0.95rem;
+    }
+    details {
+      margin-bottom: 0.75rem;
+      background: #ffffff;
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    }
+    summary {
+      cursor: pointer;
+      font-weight: 600;
+      color: #111827;
+    }
+    summary::-webkit-details-marker {
+      margin-right: 0.5rem;
+    }
+    p {
+      margin: 0.4rem 0;
+    }
+    ul {
+      margin: 0.4rem 0 0.4rem 1.2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sales Order to Pick SOP – Frequently Asked Questions</h1>
+
+  <div class="intro">
+    <p>
+      This FAQ supports the <strong>Sales Order to Pick</strong> SOP.
+      It is intended to be read together with the SOP slides, process map, and system demonstrations.
+    </p>
+  </div>
+
+  <section aria-label="FAQ list">
+    <h2>Questions &amp; Answers</h2>
+
+    <details open>
+      <summary>1. What is the purpose of the “Sales Order to Pick” SOP?</summary>
+      <p>
+        The Sales Order to Pick SOP describes how to work with stock customer sales orders
+        so they are complete, accurate, and ready to move to the picking and invoicing stages.
+      </p>
+      <p>
+        It covers initiating or maintaining the order, adding items, reviewing taxes and totals,
+        handling special order types such as blanket orders, and preparing the order so that the
+        customer acknowledgement and pick ticket can be printed and handed off to the
+        <em>Pick to Invoice</em> SOP.
+      </p>
+    </details>
+
+    <details>
+      <summary>2. When should I use this SOP?</summary>
+      <p>Use the Sales Order to Pick SOP when you are:</p>
+      <ul>
+        <li>Creating or maintaining a <strong>stock customer sales order</strong>,</li>
+        <li>Adding or changing line items for that order,</li>
+        <li>Reviewing taxes, totals, addons, and discounts, and</li>
+        <li>Preparing the order so that pick tickets can be printed and the order can move to the <strong>Pick to Invoice</strong> process.</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>3. How do I navigate to the Sales Order Entry screen in the training system?</summary>
+      <p>
+        In the documented procedure, you use the following path in Infor CloudSuite Distribution
+        (training environment):
+      </p>
+      <p><strong>Menu → Sales → Entry → Order</strong></p>
+      <p>
+        This navigation is used both when you are adding items to a stock customer sales order
+        and when you are creating a blanket order.
+      </p>
+    </details>
+
+    <details>
+      <summary>4. How do I open an existing stock customer sales order to add or review lines?</summary>
+      <p>From the <strong>Order</strong> entry screen:</p>
+      <ol>
+        <li>Click <strong>Order Number</strong>.</li>
+        <li>Enter the order number (for example, <code>8567-00</code>).</li>
+        <li>Select the correct order from the list.</li>
+        <li>Click <strong>Next</strong> to move into the order and work with the lines.</li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>5. What are the main steps for adding items to a stock customer sales order?</summary>
+      <p>The documented steps for adding items are:</p>
+      <ol>
+        <li>Navigate to <strong>Menu → Sales → Entry → Order</strong>.</li>
+        <li>Use <strong>Order Number</strong> to open the existing order.</li>
+        <li>Enter the <strong>Product Number</strong>.</li>
+        <li>Select the correct product from the list.</li>
+        <li>Enter the <strong>Quantity</strong>.</li>
+        <li>Click <strong>Add</strong> to add the line to the order.</li>
+        <li>Repeat for additional products.</li>
+        <li>When you are done, click <strong>Finish</strong>.</li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>6. When should I review “Taxes &amp; Totals,” and what should I look at?</summary>
+      <p>
+        You review <strong>Taxes &amp; Totals</strong> after you have entered and confirmed the order lines
+        and before you submit and finish the order.
+      </p>
+      <p>On the Taxes &amp; Totals screen, you should:</p>
+      <ul>
+        <li>Click <strong>Taxes &amp; Totals</strong> to open that view,</li>
+        <li>Use <strong>Addons</strong> to review or confirm additional charges (such as freight or fees), and</li>
+        <li>Use <strong>Discounts</strong> to review or confirm discounts.</li>
+      </ul>
+      <p>
+        This step helps confirm that taxes, surcharges, and discounts look correct before
+        the order proceeds.
+      </p>
+    </details>
+
+    <details>
+      <summary>7. What should I do if taxes, addons, or discounts do not look correct?</summary>
+      <p>If any tax amount, addon, or discount appears incorrect:</p>
+      <ul>
+        <li>Stop before submitting or finishing the order.</li>
+        <li>Review the data you entered (customer, ship-to, order type, item lines, pricing, and terms).</li>
+        <li>
+          Follow your location’s local procedures – this may include contacting a supervisor,
+          Credit, or support to correct the issue – before continuing.
+        </li>
+      </ul>
+      <p>This prevents incorrect charges from reaching the customer or causing rework later.</p>
+    </details>
+
+    <details>
+      <summary>8. When do I create a Blanket Order instead of a standard stock order, and how is it set up?</summary>
+      <p>
+        A <strong>Blanket Order</strong> is used when you and the customer expect multiple releases or scheduled
+        draws against a single agreement (for example, repeated shipments over time).
+        Follow your local business rules for when to use this option.
+      </p>
+      <p>The documented steps for creating a blanket order include:</p>
+      <ol>
+        <li>Navigate to <strong>Menu → Sales → Entry → Order</strong>.</li>
+        <li>Select the <strong>Customer</strong>.</li>
+        <li>In the header, click <strong>Order Type</strong> and choose <strong>Blanket Order</strong>.</li>
+        <li>Click <strong>Next</strong>.</li>
+        <li><strong>Uncheck</strong> <em>Print Line Price</em>.</li>
+        <li><strong>Check</strong> <em>Lump Sum Bill</em>.</li>
+        <li>Click <strong>Submit</strong>.</li>
+      </ol>
+    </details>
+
+    <details>
+      <summary>9. What happens if the sales order is placed on credit hold?</summary>
+      <p>
+        In the overall process flow, a credit hold is a decision point. If the order is placed on credit hold:
+      </p>
+      <ul>
+        <li>A notification is sent to <strong>Credit</strong> for review.</li>
+        <li>
+          If credit is restored or COD / credit-card payment is accepted, the order can move forward to
+          printing the customer acknowledgement and pick ticket.
+        </li>
+        <li>
+          If credit is <strong>not</strong> restored, Sales is informed to <strong>cancel the order and update
+          the reason</strong>, under manager guidance.
+        </li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>10. When should I collect credit card or COD payment in this process?</summary>
+      <p>
+        In the process map, collection of credit card or other payment is shown after you
+        have confirmed the order details and Taxes &amp; Totals.
+      </p>
+      <p>In practice, you should:</p>
+      <ul>
+        <li>Review the order lines and <strong>Taxes &amp; Totals</strong> first,</li>
+        <li>Then collect the <strong>COD / credit-card payment</strong> or confirm the terms,</li>
+        <li>Then finish the order so it can proceed to pick and invoice.</li>
+      </ul>
+      <p>Always follow your branch’s local procedures for payment handling.</p>
+    </details>
+
+    <details>
+      <summary>11. How do I print the customer acknowledgement and pick ticket?</summary>
+      <p>
+        After the order is complete and any credit or tendering issues are resolved,
+        the process flow shows <strong>“Print Customer Acknowledgement and Pick Ticket”</strong>.
+      </p>
+      <p>In the system, you will typically:</p>
+      <ul>
+        <li>Use the appropriate <strong>Print</strong> or <strong>Report</strong> function from the order header or actions menu,</li>
+        <li>Select the required outputs (Customer Acknowledgement, Pick Ticket), and</li>
+        <li>Confirm the correct printer / location for your branch.</li>
+      </ul>
+      <p>Follow your branch-specific instructions for where each document should print and who receives it.</p>
+    </details>
+
+    <details>
+      <summary>12. What is the final step in this SOP and how does it link to the next SOP?</summary>
+      <p>
+        The final step in this SOP is typically summarized as
+        <strong>“Proceed to the Pick to Invoice SOP”</strong>.
+      </p>
+      <p>
+        Once the customer acknowledgement and pick ticket have been printed,
+        responsibility moves from Sales Order Entry to the
+        <strong>Pick to Invoice</strong> SOP, which covers warehouse picking, shipment confirmation,
+        and invoicing activities.
+      </p>
+    </details>
+  </section>
+</body>
+</html>
