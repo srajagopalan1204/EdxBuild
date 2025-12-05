@@ -1,0 +1,23 @@
+SOP: SRO
+Inputs matched: 17
+  - A17 Convert Estimate To SRO..xlsx
+  - AA3_ADDING TRANSACTIONS TO AN SRO_TS.xlsx
+  - AA4_SCHEDULE NEW_TS.xlsx
+  - ADDING LINES OPM.xlsx
+  - ADDING OPERATIONS OPM.xlsx
+  - C03_AA15_Create_SRO_Estimate_06172025_1307_TD.xlsx
+  - CLOSE SRO_TS.xlsx
+  - Call Backs Revised.xlsx
+  - Create Incident ISM (6).xlsx
+  - Incident to SRO.xlsx
+  - Invoicing in ISM_TS.xlsx
+  - OPM Add Non Stock Items To Service Order.xlsx
+  - PPS_SOP_AA_Create Incident CSD_KC_01_10_25.xlsx
+  - PRINT PO OPM.xlsx
+  - Posting A Transaction_TS.xlsx
+  - Quick Create SRO.xlsx
+  - RECEIVE NON STOCK PO.xlsx
+
+Rows output: 18
+Columns: ['OPM_Step', 'Source_File', 'Source_Title', 'Step_narr_in', 'Step_narr_m_in', 'Step_narr_out', 'Step_narr_out_simple', 'Step_narr_m_out', 'Step_narr_m_out_simple']
+Issues: none detected

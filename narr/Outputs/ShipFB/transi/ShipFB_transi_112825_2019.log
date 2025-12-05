@@ -1,0 +1,17 @@
+2025-11-28 20:19:37,380 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/ShipFB/transi/ShipFB_transi_112825_2019.log
+2025-11-28 20:19:37,380 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/ShipFB/Raw/ShipFB_Raw_112825_1435.csv narr=/workspaces/EdxBuild/narr/Outputs/ShipFB/ShipFB_narr_latest.csv
+2025-11-28 20:19:37,400 [INFO] [poss_merge] suggest P7 @ 1.000 for Code=S001 (S001. About Scott Electric and Welcome to Training)
+2025-11-28 20:19:37,405 [INFO] [poss_merge] suggest P8 @ 1.000 for Code=S002 (S002. Quote to Cash Work Flow At SE Electrical Distribution)
+2025-11-28 20:19:37,409 [INFO] [poss_merge] suggest P9 @ 0.987 for Code=S003 (S003. Pictorial representation of Quote to Cash - At SE Electrical Distribution)
+2025-11-28 20:19:37,409 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-11-28 20:19:37,420 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-11-28 20:19:37,420 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-11-28 20:19:37,423 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-11-28 20:19:37,424 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-11-28 20:19:37,432 [INFO] [poss_merge] suggest P16 @ 0.746 for Code=S6 (S6. Enter or select Serial number or lot number - At SE Electrical Distribution)
+2025-11-28 20:19:37,437 [INFO] [poss_merge] suggest P18 @ 0.729 for Code=S8 (S8. Complete the Shipping feed back details - At SE Electrical Distribution)
+2025-11-28 20:19:37,445 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-11-28 20:19:37,445 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-28 20:19:37,448 [INFO] [poss_merge] suggest P20 @ 1.000 for Code=S999 (S999. You have successfully completed this SOP)
+2025-11-28 20:19:37,453 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/ShipFB/transi/ShipFB_poss_merge_112825_2019.csv
+2025-11-28 20:19:37,454 [INFO] Done.

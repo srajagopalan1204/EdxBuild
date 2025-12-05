@@ -1,0 +1,8 @@
+2025-10-26 13:25:18,084 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/Warranty/transi/Warranty_transi_102625_1325.log
+2025-10-26 13:25:18,084 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/Warranty/raw/Warranty_Raw_102525_1749.csv narr=/workspaces/EdxBuild/narr/Outputs/Warranty/Warranty_narr_latest.csv
+2025-10-26 13:25:18,247 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-10-26 13:25:18,250 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-10-26 13:25:18,251 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-10-26 13:25:18,259 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-10-26 13:25:18,265 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/Warranty/transi/Warranty_poss_merge_102625_1325.csv
+2025-10-26 13:25:18,265 [INFO] Done.

@@ -1,0 +1,28 @@
+2025-11-23 22:58:54,902 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/Ord2Pick/transi/Ord2Pick_transi_112325_2258.log
+2025-11-23 22:58:54,902 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/Ord2Pick/raw/Ord2Pick_Raw_111525_2109.csv narr=/workspaces/EdxBuild/narr/Outputs/Ord2Pick/Ord2Pick_narr_latest.csv
+2025-11-23 22:58:54,903 [ERROR] FAILED: [Errno 2] No such file or directory: '/workspaces/EdxBuild/narr/Inputs/Ord2Pick/raw/Ord2Pick_Raw_111525_2109.csv'
+Traceback (most recent call last):
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 223, in main
+    poss_merge(logger, args.sop, Path(args.raw), Path(args.narr), outdir, args.thresh)
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 52, in poss_merge
+    raw = read_csv(raw_path).copy()
+          ^^^^^^^^^^^^^^^^^^
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 30, in read_csv
+    return pd.read_csv(path, encoding="utf-8-sig", engine="python")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/workspaces/EdxBuild/narr/Inputs/Ord2Pick/raw/Ord2Pick_Raw_111525_2109.csv'

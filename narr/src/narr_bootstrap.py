@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+"""
+narr_bootstrap.py
+One-time scaffold for the Son_E_Lum narration pipeline under a repo.
+Usage:
+  python narr_bootstrap.py --root son_e_lum/narr
+Creates a minimal, namespaced tree without touching existing folders.
+"""
+import argparse, os, sys
+from pathlib import Path
+
+TEMPLATE_JSON5 = """{\n  // Narration config (per SOP)\n  "sop": "<SOP>",\n  "standard": {\n    "sheet": "OPM",\n    "columns": ["Step", "Detail"]\n  },\n  "overrides": [\n    // {\n    //   "file": "Change Status to Closed.xlsx",\n    //   "issue": "missing 'Detail' column",\n    //   "manual_map": {"Action": "Step", "Notes": "Detail"}\n    // }\n  ],\n  "extraction": {\n    "step_builder": "concat_lines",\n    "line_join": " ",\n    "drop_values": ["Subitems"]\n  },\n  "summarize": {\n    "reading_grade": 8,\n    "style": "imperative_short",\n    "max_sentence_len": 24\n  }\n}\n"""
+
+README = """# Narration Pipeline (son_e_lum/narr)\n\nThis area holds inputs from Monday Excel (per SOP), outputs, configs, and logs for the narration step.\n\n## Folders\n- Inputs/<SOP>/ : source Excel files\n- Outputs/<SOP>/ : narration CSV/XLSX with timestamps and _latest\n- Config/ : per-SOP JSON5 rules (conformance + overrides)\n- src/ : builders/utilities\n- docs/ : how-to + changelog\n- logs/<SOP>/ : QA reports and run logs\n\n## One-time run\n```\npython narr_bootstrap.py --root son_e_lum/narr\n```\nThen add at least one SOP folder under Inputs/ and Outputs/ (e.g., Tech).\n"""
+
+NAR_BUILD_STUB = """#!/usr/bin/env python3\n\"\"\"\nnar_build.py (stub)\nValidate→extract→merge→summarize narration from Monday Excel per SOP.\nReplace with full implementation or wire to your existing tooling.\n\"\"\"\nimport argparse\n\nif __name__ == \"__main__\":\n    ap = argparse.ArgumentParser()\n    ap.add_argument(\"--sop\", required=True)\n    ap.add_argument(\"--inputs\", required=True)\n    ap.add_argument(\"--config\", required=True)\n    ap.add_argument(\"--outdir\", required=True)\n    ap.add_argument(\"--logs\", required=True)\n    ap.add_argument(\"--keep-latest\", action=\"store_true\")\n    args = ap.parse_args()\n    print(\"[STUB] nar_build.py called with:\", vars(args))\n    print(\"Implement validate→extract→merge→summarize here.\")\n"""
+
+def main():\n    ap = argparse.ArgumentParser()\n    ap.add_argument(\"--root\", required=True, help=\"relative path like son_e_lum/narr\")\n    args = ap.parse_args()\n    root = Path(args.root)\n\n    # Create core folders\n    for sub in [\"Inputs\", \"Outputs\", \"Config\", \"src\", \"docs\", \"logs\"]:\n        (root / sub).mkdir(parents=True, exist_ok=True)\n\n    # Place starter files\n    (root / \"docs\" / \"README_Narration.md\").write_text(README, encoding=\"utf-8\")\n    # Provide a schema placeholder and a sample SOP config\n    (root / \"Config\" / \"_schema_nar.json5\").write_text(\"{}\\n\", encoding=\"utf-8\")\n    (root / \"Config\" / \"Tech_Nar.json5\").write_text(TEMPLATE_JSON5.replace(\"<SOP>\", \"Tech\"), encoding=\"utf-8\")\n\n    # Stubs\n    (root / \"src\" / \"nar_build.py\").write_text(NAR_BUILD_STUB, encoding=\"utf-8\")\n    (root / \"src\" / \"nar_utils.py\").write_text(\"# utils go here\\n\", encoding=\"utf-8\")\n    (root / \"src\" / \"nar_summarize.py\").write_text(\"# summarization helpers go here\\n\", encoding=\"utf-8\")\n\n    print(f\"[OK] Created narration scaffold at: {root}\")\n    print(\"You can now: git add, commit, and push these files.\")\n\nif __name__ == \"__main__\":\n    main()\n

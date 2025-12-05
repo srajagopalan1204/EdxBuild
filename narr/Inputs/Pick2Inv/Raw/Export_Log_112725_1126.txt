@@ -1,0 +1,30 @@
+﻿[2025-11-27 11:26:23] Starting export for: C:\Users\scottuser\Documents\SonetLumier\Input\SE_OPS_Pick2_Invoice_Ver_112125_1818.pptx
+[2025-11-27 11:26:23] OutDir=C:\Users\scottuser\Documents\SonetLumier\images\Pick2Inv  OutMapDir=C:\Users\scottuser\Documents\SonetLumier\Slide_Map  SOP=Pick2Inv  Prefixes=SDYNM
+[2025-11-27 11:26:27] Exported slide 1 -> S000.png
+[2025-11-27 11:26:27] Exported slide 2 -> S001.png
+[2025-11-27 11:26:27] Exported slide 3 -> S002.png
+[2025-11-27 11:26:28] Exported slide 4 -> S003.png
+[2025-11-27 11:26:28] Exported slide 5 -> M1.png
+[2025-11-27 11:26:28] Exported slide 6 -> S1.png
+[2025-11-27 11:26:29] Exported slide 7 -> S2.png
+[2025-11-27 11:26:29] Exported slide 8 -> S3.png
+[2025-11-27 11:26:29] Exported slide 9 -> D1.png
+[2025-11-27 11:26:30] Exported slide 10 -> Y1.png
+[2025-11-27 11:26:31] Exported slide 11 -> S4.png
+[2025-11-27 11:26:31] Exported slide 12 -> D2.png
+[2025-11-27 11:26:31] Exported slide 13 -> Y2.png
+[2025-11-27 11:26:32] Exported slide 14 -> S5.png
+[2025-11-27 11:26:32] Exported slide 15 -> S6.png
+[2025-11-27 11:26:33] Exported slide 16 -> D3.png
+[2025-11-27 11:26:33] Exported slide 17 -> Y3.png
+[2025-11-27 11:26:34] Exported slide 18 -> S7.png
+[2025-11-27 11:26:34] Exported slide 19 -> S8.png
+[2025-11-27 11:26:34] Exported slide 20 -> N3.png
+[2025-11-27 11:26:35] Exported slide 21 -> S9.png
+[2025-11-27 11:26:35] Exported slide 22 -> N2.png
+[2025-11-27 11:26:36] Exported slide 23 -> S10.png
+[2025-11-27 11:26:36] Exported slide 24 -> N1.png
+[2025-11-27 11:26:36] Exported slide 25 -> S11.png
+[2025-11-27 11:26:36] Exported slide 26 -> S999.png
+[2025-11-27 11:26:36] Wrote CSV: C:\Users\scottuser\Documents\SonetLumier\Slide_Map\Pick2Inv_Raw_112725_1126.csv
+[2025-11-27 11:26:37] Done.

@@ -1,0 +1,7 @@
+env/
+logs/
+.build/
+*.zip
+site/.xxx
+tree_after_narupload.txt
+__pycache__/

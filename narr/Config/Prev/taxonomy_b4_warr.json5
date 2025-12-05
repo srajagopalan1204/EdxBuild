@@ -1,0 +1,11 @@
+{
+  // Canonical defaults (used if nothing overrides them)
+  "defaults": { "Entity": "Palco", "Function": "Service", "SubEntity": "" },
+
+  // Per-SOP overrides (add more SOPs here as you go)
+  "TechMobile": { "Entity": "Palco", "Function": "Service", "SubEntity": "" },
+  "SRO": { "Entity": "Palco", "Function": "Service", "SubEntity": "SRO" }
+
+  // Example to add later:
+  // ,"ServReqOrd": { "Entity": "Palco", "Function": "Service", "SubEntity": "" }
+}

@@ -1,0 +1,35 @@
+2025-11-28 20:16:29,633 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/ShipFB/transi/ShipFB_transi_112825_2016.log
+2025-11-28 20:16:29,633 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/ShipFB/Raw/ShipFB_Raw_112825_1435.csv narr=/workspaces/EdxBuild/narr/Outputs/ShipFB/ShipFB_narr_latest.csv
+2025-11-28 20:16:29,636 [ERROR] FAILED: 'utf-8' codec can't decode byte 0x80 in position 5052: invalid start byte
+Traceback (most recent call last):
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 223, in main
+    poss_merge(logger, args.sop, Path(args.raw), Path(args.narr), outdir, args.thresh)
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 53, in poss_merge
+    narr = read_csv(narr_path).copy()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 30, in read_csv
+    return pd.read_csv(path, encoding="utf-8-sig", engine="python")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 626, in _read
+    return parser.read(nrows)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1923, in read
+    ) = self._engine.read(  # type: ignore[attr-defined]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/python_parser.py", line 252, in read
+    content = self._get_lines(rows)
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/python_parser.py", line 1140, in _get_lines
+    next_row = self._next_iter_line(row_num=self.pos + rows + 1)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/python_parser.py", line 805, in _next_iter_line
+    line = next(self.data)
+           ^^^^^^^^^^^^^^^
+  File "<frozen codecs>", line 322, in decode
+  File "/usr/local/python/3.12.1/lib/python3.12/encodings/utf_8_sig.py", line 69, in _buffer_decode
+    return codecs.utf_8_decode(input, errors, final)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x80 in position 5052: invalid start byte

@@ -1,0 +1,17 @@
+2025-11-29 15:26:48,021 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/StartUp/transi/StartUp_transi_112925_1526.log
+2025-11-29 15:26:48,021 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/StartUp/Raw/StartUp_Raw_112925_0815.csv narr=/workspaces/EdxBuild/narr/Outputs/StartUp/StartUp_narr_latest.csv
+2025-11-29 15:26:48,036 [INFO] [poss_merge] suggest P1 @ 0.935 for Code=S001 (S001. About Palco Power Systems and Scott Electric and a Welcome to Training)
+2025-11-29 15:26:48,043 [INFO] [poss_merge] suggest P19 @ 0.838 for Code=S003 (S003. Pictorial representation of Quote to Cash similar to Service to Cash - At PPS Service)
+2025-11-29 15:26:48,043 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-11-29 15:26:48,045 [INFO] [poss_merge] suggest P8 @ 0.734 for Code=S1 (S1. Customer Calls For Start Up- Startup SOP)
+2025-11-29 15:26:48,046 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-11-29 15:26:48,046 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-11-29 15:26:48,046 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-11-29 15:26:48,046 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-11-29 15:26:48,062 [INFO] [poss_merge] suggest P14 @ 0.769 for Code=S5 (S5. Order Enquiry Using Serial Number- Startup SOP)
+2025-11-29 15:26:48,065 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-29 15:26:48,065 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-29 15:26:48,065 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-29 15:26:48,068 [INFO] [poss_merge] suggest P26 @ 0.894 for Code=S999 (S999. You have successfully completed this SOP)
+2025-11-29 15:26:48,072 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/StartUp/transi/StartUp_poss_merge_112925_1526.csv
+2025-11-29 15:26:48,072 [INFO] Done.

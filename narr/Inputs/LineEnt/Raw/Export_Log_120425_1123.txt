@@ -1,0 +1,52 @@
+﻿[2025-12-04 11:23:37] Starting export for: C:\Users\scottuser\Documents\SonetLumier\Input\SE_SLS_Enter_line_Opt2_251203_1402.pptx
+[2025-12-04 11:23:37] OutDir=C:\Users\scottuser\Documents\SonetLumier\images\LineEnt  OutMapDir=C:\\Users\\scottuser\\Documents\\SonetLumier\\Slide_Map  SOP=LineEnt  Prefixes=SDYNM
+[2025-12-04 11:23:41] Exported slide 1 -> S000.png
+[2025-12-04 11:23:41] Exported slide 2 -> S001.png
+[2025-12-04 11:23:42] Exported slide 3 -> S002.png
+[2025-12-04 11:23:42] Exported slide 4 -> S003.png
+[2025-12-04 11:23:42] Exported slide 5 -> M1.png
+[2025-12-04 11:23:43] Exported slide 6 -> D1.png
+[2025-12-04 11:23:44] Exported slide 7 -> Y1.png
+[2025-12-04 11:23:45] Exported slide 8 -> S1.png
+[2025-12-04 11:23:46] Exported slide 9 -> S2.png
+[2025-12-04 11:23:46] Exported slide 10 -> S3.png
+[2025-12-04 11:23:47] Exported slide 11 -> S4.png
+[2025-12-04 11:23:48] Exported slide 12 -> D2.png
+[2025-12-04 11:23:49] Exported slide 13 -> Y2.png
+[2025-12-04 11:23:50] Exported slide 14 -> S5.png
+[2025-12-04 11:23:51] Exported slide 15 -> S6.png
+[2025-12-04 11:23:52] Exported slide 16 -> S7.png
+[2025-12-04 11:23:52] Exported slide 17 -> S8.png
+[2025-12-04 11:23:53] Exported slide 18 -> S9.png
+[2025-12-04 11:23:54] Exported slide 19 -> D3.png
+[2025-12-04 11:23:55] Exported slide 20 -> Y3.png
+[2025-12-04 11:23:56] Exported slide 21 -> S10.png
+[2025-12-04 11:23:57] Exported slide 22 -> S11.png
+[2025-12-04 11:23:58] Exported slide 23 -> S12.png
+[2025-12-04 11:23:59] Exported slide 24 -> S13.png
+[2025-12-04 11:24:00] Exported slide 25 -> D4.png
+[2025-12-04 11:24:00] Exported slide 26 -> Y4.png
+[2025-12-04 11:24:01] Exported slide 27 -> S14.png
+[2025-12-04 11:24:02] Exported slide 28 -> N1.png
+[2025-12-04 11:24:03] Exported slide 29 -> N2.png
+[2025-12-04 11:24:03] Exported slide 30 -> N3.png
+[2025-12-04 11:24:04] Exported slide 31 -> S15.png
+[2025-12-04 11:24:05] Exported slide 32 -> S16.png
+[2025-12-04 11:24:06] Exported slide 33 -> D5.png
+[2025-12-04 11:24:07] Exported slide 34 -> Y5.png
+[2025-12-04 11:24:07] Exported slide 35 -> S17.png
+[2025-12-04 11:24:08] Exported slide 36 -> S18.png
+[2025-12-04 11:24:09] Exported slide 37 -> D6.png
+[2025-12-04 11:24:10] Exported slide 38 -> Y6.png
+[2025-12-04 11:24:11] Exported slide 39 -> S19.png
+[2025-12-04 11:24:11] Exported slide 40 -> S21.png
+[2025-12-04 11:24:12] Exported slide 41 -> S22.png
+[2025-12-04 11:24:13] Exported slide 42 -> N4.png
+[2025-12-04 11:24:14] Exported slide 43 -> N6.png
+[2025-12-04 11:24:14] Exported slide 44 -> S21.png
+[2025-12-04 11:24:15] Exported slide 45 -> S22.png
+[2025-12-04 11:24:16] Exported slide 46 -> N5.png
+[2025-12-04 11:24:17] Exported slide 47 -> S20.png
+[2025-12-04 11:24:17] Exported slide 48 -> S999.png
+[2025-12-04 11:24:17] Wrote CSV: C:\\Users\\scottuser\\Documents\\SonetLumier\\Slide_Map\LineEnt_Raw_120425_1123.csv
+[2025-12-04 11:24:17] Done.

@@ -1,0 +1,166 @@
+// Warranty narration aggregate (JSON5) — Tech_Nar-style schema.
+// Auto-generated. You may comment anywhere, but do not edit the guarded default config below.
+{
+  "sop": "Warranty",
+  "standard": {},
+  "overrides": {},
+  "file_titles": {
+    "CC04_CHANGE_OPERATIONS_TS.csv": "CC04 CHANGE OPERATIONS TS",
+    "Invoicing in ISM_TS.xlsx": "Invoicing In ISM TS",
+    "OPM Change Working Status Monday Dot Com_Tim.xlsx": "OPM Change Working Status Monday Dot Com Tim",
+    "OPM Customer Bill Override Monday Dot Com_Tim (1).xlsx": "OPM Customer Bill Override Monday Dot Com Tim (1)",
+    "OPM Filter Working Status Monday Dot Com_Tim.xlsx": "OPM Filter Working Status Monday Dot Com Tim",
+    "OPM Mark Accepted For New Monday Dot Com_Tim.xlsx": "OPM Mark Accepted For New Monday Dot Com Tim",
+    "OPM Mark Reconciled For New Monday Dot Com_Tim.xlsx": "OPM Mark Reconciled For New Monday Dot Com Tim",
+    "OPM Vendor Invoice Center For New Monday Dot Com_Tim.xlsx": "OPM Vendor Invoice Center For New Monday Dot Com Tim"
+  },
+  "sequence_order": [
+    "CC04_CHANGE_OPERATIONS_TS.csv",
+    "Invoicing in ISM_TS.xlsx",
+    "OPM Change Working Status Monday Dot Com_Tim.xlsx",
+    "OPM Customer Bill Override Monday Dot Com_Tim (1).xlsx",
+    "OPM Filter Working Status Monday Dot Com_Tim.xlsx",
+    "OPM Mark Accepted For New Monday Dot Com_Tim.xlsx",
+    "OPM Mark Reconciled For New Monday Dot Com_Tim.xlsx",
+    "OPM Vendor Invoice Center For New Monday Dot Com_Tim.xlsx"
+  ],
+  "extraction": {
+    "method": "file_level_join",
+    "join_style": "bullets",
+    "sep": " — ",
+    "text_columns_requested": [
+      "Task Description",
+      "What"
+    ],
+    "sources": [
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/CC04_CHANGE_OPERATIONS_TS.csv",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 5
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/Invoicing in ISM_TS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 8
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/OPM Change Working Status Monday Dot Com_Tim.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 3
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/OPM Customer Bill Override Monday Dot Com_Tim (1).xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 11
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/OPM Filter Working Status Monday Dot Com_Tim.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 3
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/OPM Mark Accepted For New Monday Dot Com_Tim.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 5
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/OPM Mark Reconciled For New Monday Dot Com_Tim.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 4
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Warranty/OPM Vendor Invoice Center For New Monday Dot Com_Tim.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 9
+      }
+    ],
+    "files": [
+      {
+        "file": "CC04_CHANGE_OPERATIONS_TS.csv",
+        "joined_text": "- From The Service Orders Screen\n- Change Operations — Click On SRO Transactions Button To Navigate To Service Order transactions Screen\n- Change Operation 10 or Trouble Service Parts to Operaction 40 for Warranty Parts\n- Change Operation 20 or Trouble Service Labor to Operaction 50 for Warranty Labor\n- Click The Save Icon (Disk)"
+      },
+      {
+        "file": "Invoicing in ISM_TS.xlsx",
+        "joined_text": "- Invoicing in ISM — Choose the SRO you are billing\n- Click billing\n- Click Set oper stat to invoice\n- Click Order invoicing\n- Click Process\n- Click Ok\n- Exit out of order invoiving\n- Click SX.e inquiry to view your SRO in CSD in shipped stage"
+      },
+      {
+        "file": "OPM Change Working Status Monday Dot Com_Tim.xlsx",
+        "joined_text": "- From The Service Orders Screen\n- Change Working Status — On General Tab Use Pull Down Menu In Working Status Field And Click On Possible Warranty\n- Click The Save Icon (Disk)"
+      },
+      {
+        "file": "OPM Customer Bill Override Monday Dot Com_Tim (1).xlsx",
+        "joined_text": "- From The Service Orders Screen\n- Customer Bill Override — Click On SRO Operations Button To Navigate To Service Order Operations Screen\n- Select Operation 40 For Parts Warranty\n- Click On Customer Override Tab\n- Enter 4499 Into Customer Override Field And Hit The Tab Key\n- Enter Submittal Authorization # Into Submittal Authorization Number Field\n- Click The Save Icon (Disk)\n- Click Line 5 Of Listed Operations To Select Operation 50 for Warranty Labor\n- Enter 4499 Into Customer Override Field And Hit The Tab Key\n- Enter Submittal Authorization # Into Submittal Authorization Number Field\n- Click The Save Icon (Disk)"
+      },
+      {
+        "file": "OPM Filter Working Status Monday Dot Com_Tim.xlsx",
+        "joined_text": "- From The Service Orders Screen\n- Filter Working Status — Use Pull Down Menu In Working Status Field And Click On Possible Warranty\n- Click Filter In Place Funnel Icon"
+      },
+      {
+        "file": "OPM Mark Accepted For New Monday Dot Com_Tim.xlsx",
+        "joined_text": "- From The Warranty Claim Reconciliation Screen\n- Mark Accepted — Use The Drop Down Menu In Claim Status Field And Select Submitted\n- Click Apply Filter Button At Bottom Of Service Order Section\n- Enter The Amount Paid Into The Total Paid Column\n- Click Mark Accepted"
+      },
+      {
+        "file": "OPM Mark Reconciled For New Monday Dot Com_Tim.xlsx",
+        "joined_text": "- From The Warranty Claim Reconciliation Screen\n- Mark Reconciled — Use The Drop Down Menu In Claim Status Field And Select To Be Reconciled\n- Click Apply Filter Button At Bottom Of Service Order Section\n- Click Mark Reconciled"
+      },
+      {
+        "file": "OPM Vendor Invoice Center For New Monday Dot Com_Tim.xlsx",
+        "joined_text": "- From The Service Order Screen\n- Select The SRO Processed As A Warranty And Click SX.e Inquiry Button\n- From The Order Inquiry Screen\n- Drill Into The Order By Clicking The Arrow\n- From The CSD Search Field\n- Search Apece For Vendor Invoice Center\n- Vendor Invoice Center — Click Vendor Invoice Center\n- Type apeiswc In Group And Select It\n- Click Search"
+      }
+    ]
+  }
+,
+
+// ===== BEGIN DEFAULT NARR CONFIG (do not edit) =====
+  summarize: {
+  reading_grade: 8,
+  style: "short_simple",
+  max_sentence_len: 24,
+  bullets: false,
+  simple_grade: 5,
+  simple_max_len: 14,
+  simple_bullets: false
+},
+  output: {
+  timezone: "America/New_York",
+  timestamp_fmt: "DDMMYY_HHMM",
+  keep_latest: true
+},
+  logging: {
+  nonconformance_policy: "log_and_continue",
+  qa_filename_suffix: "_QA.txt"
+}
+// ===== END DEFAULT NARR CONFIG =====
+}

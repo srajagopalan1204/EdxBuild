@@ -1,0 +1,35 @@
+2025-12-04 17:55:16,562 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/LineEnt/transi/LineEnt_transi_120425_1755.log
+2025-12-04 17:55:16,563 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/LineEnt/Raw/LineEnt_Raw_120425_1123.csv narr=/workspaces/EdxBuild/narr/Outputs/LineEnt/LineEnt_narr_latest.csv
+2025-12-04 17:55:16,734 [INFO] [poss_merge] suggest P13 @ 0.927 for Code=S000 (S000. Opening Slide for Sales Order Line Entry Deck)
+2025-12-04 17:55:16,739 [INFO] [poss_merge] suggest P14 @ 0.926 for Code=S001 (S001. About Scott Electric and Welcome to Training)
+2025-12-04 17:55:16,746 [INFO] [poss_merge] suggest P15 @ 0.937 for Code=S002 (S002. Quote to Cash Work Flow At SE Electrical Distribution)
+2025-12-04 17:55:16,755 [INFO] [poss_merge] suggest P16 @ 0.939 for Code=S003 (S003. Pictorial representation of Quote to Cash - At SE Electrical Distribution)
+2025-12-04 17:55:16,756 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-12-04 17:55:16,756 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-12-04 17:55:16,756 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-12-04 17:55:16,761 [INFO] [poss_merge] suggest P7 @ 0.748 for Code=S1 (S1. Easy Line entry Selected- At SE Electrical Distribution)
+2025-12-04 17:55:16,786 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-12-04 17:55:16,787 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-12-04 17:55:16,793 [INFO] [poss_merge] suggest P7 @ 0.723 for Code=S5 (S5. Shopping List Entry - At SE Electrical Distribution)
+2025-12-04 17:55:16,819 [INFO] [poss_merge] skip fuzzy for Code='D3' per rule
+2025-12-04 17:55:16,820 [INFO] [poss_merge] skip fuzzy for Code='Y3' per rule
+2025-12-04 17:55:16,825 [INFO] [poss_merge] suggest P7 @ 0.752 for Code=S10 (S10. Quick line entry - At SE Electrical Distribution)
+2025-12-04 17:55:16,850 [INFO] [poss_merge] suggest P21 @ 0.794 for Code=S13 (S13. Enter Price Optional as system would offer best price for the customer- At SE Electrical Distribution)
+2025-12-04 17:55:16,850 [INFO] [poss_merge] skip fuzzy for Code='D4' per rule
+2025-12-04 17:55:16,850 [INFO] [poss_merge] skip fuzzy for Code='Y4' per rule
+2025-12-04 17:55:16,857 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-12-04 17:55:16,857 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-12-04 17:55:16,857 [INFO] [poss_merge] skip fuzzy for Code='N3' per rule
+2025-12-04 17:55:16,867 [INFO] [poss_merge] suggest P7 @ 0.729 for Code=S15 (S15. Advanced line entry selected - At SE Electrical Distribution)
+2025-12-04 17:55:16,877 [INFO] [poss_merge] skip fuzzy for Code='D5' per rule
+2025-12-04 17:55:16,878 [INFO] [poss_merge] skip fuzzy for Code='Y5' per rule
+2025-12-04 17:55:16,890 [INFO] [poss_merge] skip fuzzy for Code='D6' per rule
+2025-12-04 17:55:16,890 [INFO] [poss_merge] skip fuzzy for Code='Y6' per rule
+2025-12-04 17:55:16,909 [INFO] [poss_merge] suggest P7 @ 0.768 for Code=S22 (S22. Add lines to sales order - At SE Electrical Distribution)
+2025-12-04 17:55:16,909 [INFO] [poss_merge] skip fuzzy for Code='N4' per rule
+2025-12-04 17:55:16,909 [INFO] [poss_merge] skip fuzzy for Code='N6' per rule
+2025-12-04 17:55:16,922 [INFO] [poss_merge] suggest P7 @ 0.768 for Code=S22 (S22. Add lines to sales order - At SE Electrical Distribution)
+2025-12-04 17:55:16,923 [INFO] [poss_merge] skip fuzzy for Code='N5' per rule
+2025-12-04 17:55:16,935 [INFO] [poss_merge] suggest P39 @ 0.920 for Code=S999 (S999. You have successfully completed this SOP)
+2025-12-04 17:55:16,942 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/LineEnt/transi/LineEnt_poss_merge_120425_1755.csv
+2025-12-04 17:55:16,942 [INFO] Done.

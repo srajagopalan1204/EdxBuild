@@ -1,0 +1,436 @@
+// StartUp narration aggregate (JSON5) — Tech_Nar-style schema.
+// Auto-generated. You may comment anywhere, but do not edit the guarded default config below.
+{
+  "sop": "StartUp",
+  "standard": {},
+  "overrides": {},
+  "file_titles": {
+    "StartUp_About_Palco_Power_Systems_and_Scott_Electric_and_a_Welcome_to_Training.xlsx": "Startup About Palco Power Systems And Scott Electric And A Welcome To Training",
+    "StartUp_Add_Lines.xlsx": "Startup Add Lines",
+    "StartUp_Add_Startup_Notes.xlsx": "Startup Add Startup Notes",
+    "StartUp_Assigned_Tech_Performs_Start.xlsx": "Startup Assigned Tech Performs Start",
+    "StartUp_Create_Chargeable_SRO.xlsx": "Startup Create Chargeable SRO",
+    "StartUp_Create_New_Unit.xlsx": "Startup Create New Unit",
+    "StartUp_Create_Startup_Incident.xlsx": "Startup Create Startup Incident",
+    "StartUp_Customer_Calls_For_Start_Up.xlsx": "Startup Customer Calls For Start Up",
+    "StartUp_Generator_Startup.xlsx": "Startup Generator Startup",
+    "StartUp_Genset_Sold_by_Palco.xlsx": "Startup Genset Sold By Palco",
+    "StartUp_Is_Original_Order_Known.xlsx": "Startup Is Original Order Known",
+    "StartUp_No_Gen_Set_Not_sold_by_Palco.xlsx": "Startup No Gen Set Not Sold By Palco",
+    "StartUp_Opening_Slide_for_PPS.xlsx": "Startup Opening Slide For PPS",
+    "StartUp_Order_Enquiry_Using_Serial_Number.xlsx": "Startup Order Enquiry Using Serial Number",
+    "StartUp_Order_Number_is_known.xlsx": "Startup Order Number Is Known",
+    "StartUp_Original_Sale_Order_Not_Known.xlsx": "Startup Original Sale Order Not Known",
+    "StartUp_Palco_Power_Systems.xlsx": "Startup Palco Power Systems",
+    "StartUp_Perform_Order_Enquiry.xlsx": "Startup Perform Order Enquiry",
+    "StartUp_Pictorial_representation_of_Quote_to_Cash_similar_to_Service_to_Cash.xlsx": "Startup Pictorial Representation Of Quote To Cash Similar To Service To Cash",
+    "StartUp_Print_Pick_ticket.xlsx": "Startup Print Pick Ticket",
+    "StartUp_Register_Unit.xlsx": "Startup Register Unit",
+    "StartUp_Schedule_startup.xlsx": "Startup Schedule Startup",
+    "StartUp_Shipping_Feed_back.xlsx": "Startup Shipping Feed Back",
+    "StartUp_Verify_Payment_Status.xlsx": "Startup Verify Payment Status",
+    "StartUp_Yes_Genset_Sold_by_Palco.xlsx": "Startup Yes Genset Sold By Palco",
+    "StartUp_You_have_successfully_completed_this_SOP.xlsx": "Startup You Have Successfully Completed This SOP"
+  },
+  "sequence_order": [
+    "StartUp_About_Palco_Power_Systems_and_Scott_Electric_and_a_Welcome_to_Training.xlsx",
+    "StartUp_Add_Lines.xlsx",
+    "StartUp_Add_Startup_Notes.xlsx",
+    "StartUp_Assigned_Tech_Performs_Start.xlsx",
+    "StartUp_Create_Chargeable_SRO.xlsx",
+    "StartUp_Create_New_Unit.xlsx",
+    "StartUp_Create_Startup_Incident.xlsx",
+    "StartUp_Customer_Calls_For_Start_Up.xlsx",
+    "StartUp_Generator_Startup.xlsx",
+    "StartUp_Genset_Sold_by_Palco.xlsx",
+    "StartUp_Is_Original_Order_Known.xlsx",
+    "StartUp_No_Gen_Set_Not_sold_by_Palco.xlsx",
+    "StartUp_Opening_Slide_for_PPS.xlsx",
+    "StartUp_Order_Enquiry_Using_Serial_Number.xlsx",
+    "StartUp_Order_Number_is_known.xlsx",
+    "StartUp_Original_Sale_Order_Not_Known.xlsx",
+    "StartUp_Palco_Power_Systems.xlsx",
+    "StartUp_Perform_Order_Enquiry.xlsx",
+    "StartUp_Pictorial_representation_of_Quote_to_Cash_similar_to_Service_to_Cash.xlsx",
+    "StartUp_Print_Pick_ticket.xlsx",
+    "StartUp_Register_Unit.xlsx",
+    "StartUp_Schedule_startup.xlsx",
+    "StartUp_Shipping_Feed_back.xlsx",
+    "StartUp_Verify_Payment_Status.xlsx",
+    "StartUp_Yes_Genset_Sold_by_Palco.xlsx",
+    "StartUp_You_have_successfully_completed_this_SOP.xlsx"
+  ],
+  "extraction": {
+    "method": "file_level_join",
+    "join_style": "bullets",
+    "sep": " — ",
+    "text_columns_requested": [
+      "Task Description",
+      "What"
+    ],
+    "sources": [
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_About_Palco_Power_Systems_and_Scott_Electric_and_a_Welcome_to_Training.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Add_Lines.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Add_Startup_Notes.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Assigned_Tech_Performs_Start.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Create_Chargeable_SRO.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Create_New_Unit.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Create_Startup_Incident.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Customer_Calls_For_Start_Up.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Generator_Startup.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Genset_Sold_by_Palco.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Is_Original_Order_Known.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_No_Gen_Set_Not_sold_by_Palco.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Opening_Slide_for_PPS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Order_Enquiry_Using_Serial_Number.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Order_Number_is_known.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Original_Sale_Order_Not_Known.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Palco_Power_Systems.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Perform_Order_Enquiry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Pictorial_representation_of_Quote_to_Cash_similar_to_Service_to_Cash.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Print_Pick_ticket.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Register_Unit.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Schedule_startup.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Shipping_Feed_back.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Verify_Payment_Status.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_Yes_Genset_Sold_by_Palco.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/StartUp/Excel/StartUp_You_have_successfully_completed_this_SOP.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      }
+    ],
+    "files": [
+      {
+        "file": "StartUp_About_Palco_Power_Systems_and_Scott_Electric_and_a_Welcome_to_Training.xlsx",
+        "joined_text": "- About Palco Power Systems and Scott Electric and a Welcome to Training"
+      },
+      {
+        "file": "StartUp_Add_Lines.xlsx",
+        "joined_text": "- Add Lines"
+      },
+      {
+        "file": "StartUp_Add_Startup_Notes.xlsx",
+        "joined_text": "- Add Startup Notes"
+      },
+      {
+        "file": "StartUp_Assigned_Tech_Performs_Start.xlsx",
+        "joined_text": "- Assigned Tech Performs Start"
+      },
+      {
+        "file": "StartUp_Create_Chargeable_SRO.xlsx",
+        "joined_text": "- Create Chargeable SRO"
+      },
+      {
+        "file": "StartUp_Create_New_Unit.xlsx",
+        "joined_text": "- Create New Unit"
+      },
+      {
+        "file": "StartUp_Create_Startup_Incident.xlsx",
+        "joined_text": "- Create Startup Incident"
+      },
+      {
+        "file": "StartUp_Customer_Calls_For_Start_Up.xlsx",
+        "joined_text": "- Customer Calls For Start Up"
+      },
+      {
+        "file": "StartUp_Generator_Startup.xlsx",
+        "joined_text": "- Generator Startup"
+      },
+      {
+        "file": "StartUp_Genset_Sold_by_Palco.xlsx",
+        "joined_text": "- Genset Sold by Palco"
+      },
+      {
+        "file": "StartUp_Is_Original_Order_Known.xlsx",
+        "joined_text": "- Is Original Order Known"
+      },
+      {
+        "file": "StartUp_No_Gen_Set_Not_sold_by_Palco.xlsx",
+        "joined_text": "- No Gen Set Not sold by Palco — C:\\Users\\scottuser\\Documents\\SonetLumier\\Input\\SE_SLS_Enter_line_Opt2_112025_1211.pptx"
+      },
+      {
+        "file": "StartUp_Opening_Slide_for_PPS.xlsx",
+        "joined_text": "- Opening Slide for PPS"
+      },
+      {
+        "file": "StartUp_Order_Enquiry_Using_Serial_Number.xlsx",
+        "joined_text": "- Order Enquiry Using Serial Number"
+      },
+      {
+        "file": "StartUp_Order_Number_is_known.xlsx",
+        "joined_text": "- Order Number is known"
+      },
+      {
+        "file": "StartUp_Original_Sale_Order_Not_Known.xlsx",
+        "joined_text": "- Original Sale Order Not Known — For each method write a words on what this leans best for and a disclaimer that each user can choose their own way"
+      },
+      {
+        "file": "StartUp_Palco_Power_Systems.xlsx",
+        "joined_text": "- Palco Power Systems"
+      },
+      {
+        "file": "StartUp_Perform_Order_Enquiry.xlsx",
+        "joined_text": "- Perform Order Enquiry"
+      },
+      {
+        "file": "StartUp_Pictorial_representation_of_Quote_to_Cash_similar_to_Service_to_Cash.xlsx",
+        "joined_text": "- Pictorial representation of Quote to Cash similar to Service to Cash"
+      },
+      {
+        "file": "StartUp_Print_Pick_ticket.xlsx",
+        "joined_text": "- Print Pick ticket"
+      },
+      {
+        "file": "StartUp_Register_Unit.xlsx",
+        "joined_text": "- Register Unit"
+      },
+      {
+        "file": "StartUp_Schedule_startup.xlsx",
+        "joined_text": "- Schedule startup"
+      },
+      {
+        "file": "StartUp_Shipping_Feed_back.xlsx",
+        "joined_text": "- Shipping Feed back"
+      },
+      {
+        "file": "StartUp_Verify_Payment_Status.xlsx",
+        "joined_text": "- Verify Payment Status"
+      },
+      {
+        "file": "StartUp_Yes_Genset_Sold_by_Palco.xlsx",
+        "joined_text": "- Yes Genset Sold by Palco"
+      },
+      {
+        "file": "StartUp_You_have_successfully_completed_this_SOP.xlsx",
+        "joined_text": "- You have successfully completed this SOP"
+      }
+    ]
+  }
+,
+
+// ===== BEGIN DEFAULT NARR CONFIG (do not edit) =====
+  summarize: {
+  reading_grade: 8,
+  style: "short_simple",
+  max_sentence_len: 24,
+  bullets: false,
+  simple_grade: 5,
+  simple_max_len: 14,
+  simple_bullets: false
+},
+  output: {
+  timezone: "America/New_York",
+  timestamp_fmt: "DDMMYY_HHMM",
+  keep_latest: true
+},
+  logging: {
+  nonconformance_policy: "log_and_continue",
+  qa_filename_suffix: "_QA.txt"
+}
+// ===== END DEFAULT NARR CONFIG =====
+}

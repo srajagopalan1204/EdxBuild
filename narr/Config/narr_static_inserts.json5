@@ -1,0 +1,26 @@
+// Comments & trailing commas are allowed in .json5.
+{
+  "global": {
+    "notes": "SRO narration static inserts. Use 'files' to override only errant files.",
+    "policy_ref": "See SOP master for authoritative steps; this JSON is an aggregate aide.",
+  },
+
+  "files": {
+    // 1) Override columns only for this specific file (header drift fix)
+    "A17 Convert Estimate To SRO..xlsx": {
+      "columns_used": ["Task Description", "What"],
+      "owner": "Service Team",          // extra metadata passed through
+      "priority": "High",
+    },
+
+    // 2) Append one extra bullet/line to the computed narration
+    "Quick Create SRO.xlsx": {
+      "append_text": "- Reminder: validate Incident linkage before saving.",
+    },
+
+    // 3) Fully override computed narration (rare)
+    "Posting A Transaction_TS.xlsx": {
+      "override_text": "- Use the standard posting window per training; confirm GL dates.",
+    },
+  },
+}

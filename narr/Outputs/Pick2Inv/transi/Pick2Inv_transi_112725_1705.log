@@ -1,0 +1,21 @@
+2025-11-27 17:05:10,931 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/Pick2Inv/transi/Pick2Inv_transi_112725_1705.log
+2025-11-27 17:05:10,932 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/Pick2Inv/Raw/Pick2Inv_Raw_112725_1126.csv narr=/workspaces/EdxBuild/narr/Outputs/Pick2Inv/Pick2Inv_narr_latest.csv
+2025-11-27 17:05:10,948 [INFO] [poss_merge] suggest P9 @ 0.917 for Code=S001 (S001. About Scott Electric and Welcome to Training)
+2025-11-27 17:05:10,952 [INFO] [poss_merge] suggest P10 @ 0.929 for Code=S002 (S002. Quote to Cash Work Flow At SE Electrical Distribution)
+2025-11-27 17:05:10,958 [INFO] [poss_merge] suggest P11 @ 0.933 for Code=S003 (S003. Pictorial representation of Quote to Cash - At SE Electrical Distribution)
+2025-11-27 17:05:10,959 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-11-27 17:05:10,993 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-11-27 17:05:10,994 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-11-27 17:05:11,008 [INFO] [poss_merge] suggest P17 @ 0.754 for Code=S4 (S4. Shipping feedback with no change paper work in separate bin - At SE Electrical Distribution)
+2025-11-27 17:05:11,009 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-11-27 17:05:11,009 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-11-27 17:05:11,036 [INFO] [poss_merge] skip fuzzy for Code='D3' per rule
+2025-11-27 17:05:11,036 [INFO] [poss_merge] skip fuzzy for Code='Y3' per rule
+2025-11-27 17:05:11,047 [INFO] [poss_merge] suggest P4 @ 0.774 for Code=S7 (S7. Run Invoice processing - At SE Electrical Distribution)
+2025-11-27 17:05:11,054 [INFO] [poss_merge] suggest P4 @ 0.722 for Code=S8 (S8. Go To Invoice to Cash Major SOP - At SE Electrical Distribution)
+2025-11-27 17:05:11,054 [INFO] [poss_merge] skip fuzzy for Code='N3' per rule
+2025-11-27 17:05:11,062 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-27 17:05:11,069 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-11-27 17:05:11,078 [INFO] [poss_merge] suggest P23 @ 0.911 for Code=S999 (S999. You have successfully completed this SOP)
+2025-11-27 17:05:11,083 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/Pick2Inv/transi/Pick2Inv_poss_merge_112725_1705.csv
+2025-11-27 17:05:11,083 [INFO] Done.

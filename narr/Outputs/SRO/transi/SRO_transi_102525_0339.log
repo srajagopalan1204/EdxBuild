@@ -1,0 +1,22 @@
+2025-10-25 03:39:03,092 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/SRO/transi/SRO_transi_102525_0339.log
+2025-10-25 03:39:03,092 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/SRO/raw/SRO_Raw_102425_2324.csv narr=/workspaces/EdxBuild/narr/Outputs/SRO/SRO_narr_latest.csv
+2025-10-25 03:39:03,290 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-10-25 03:39:03,292 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-10-25 03:39:03,292 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-10-25 03:39:03,293 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-10-25 03:39:03,294 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-10-25 03:39:03,296 [INFO] [poss_merge] suggest P16 @ 0.821 for Code=S2 (S2. Quick Create an SRO)
+2025-10-25 03:39:03,297 [INFO] [poss_merge] skip fuzzy for Code='D3' per rule
+2025-10-25 03:39:03,297 [INFO] [poss_merge] skip fuzzy for Code='Y3' per rule
+2025-10-25 03:39:03,304 [INFO] [poss_merge] skip fuzzy for Code='D4' per rule
+2025-10-25 03:39:03,305 [INFO] [poss_merge] skip fuzzy for Code='Y4' per rule
+2025-10-25 03:39:03,315 [INFO] [poss_merge] suggest P15 @ 0.826 for Code=S14 (S14. Posting transactions)
+2025-10-25 03:39:03,317 [INFO] [poss_merge] suggest P7 @ 0.783 for Code=S16 (S16. Close SRO)
+2025-10-25 03:39:03,318 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-10-25 03:39:03,319 [INFO] [poss_merge] suggest P13 @ 0.789 for Code=S4 (S4. Create ISM Incident)
+2025-10-25 03:39:03,319 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-10-25 03:39:03,320 [INFO] [poss_merge] suggest P13 @ 0.750 for Code=S5 (S5. Create a CSD Incident)
+2025-10-25 03:39:03,321 [INFO] [poss_merge] skip fuzzy for Code='N3' per rule
+2025-10-25 03:39:03,321 [INFO] [poss_merge] skip fuzzy for Code='N4' per rule
+2025-10-25 03:39:03,326 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/SRO/transi/SRO_poss_merge_102525_0339.csv
+2025-10-25 03:39:03,326 [INFO] Done.

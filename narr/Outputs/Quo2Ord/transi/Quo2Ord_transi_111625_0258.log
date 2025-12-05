@@ -1,0 +1,14 @@
+2025-11-16 02:58:26,542 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/Quo2Ord/transi/Quo2Ord_transi_111625_0258.log
+2025-11-16 02:58:26,542 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/Quo2Ord/raw/Quo2Ord_Raw_111525_2109.csv narr=/workspaces/EdxBuild/narr/Outputs/Quo2Ord/Quo2Ord_narr_latest.csv
+2025-11-16 02:58:26,558 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-11-16 02:58:26,561 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-11-16 02:58:26,562 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-11-16 02:58:26,562 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-11-16 02:58:26,562 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-11-16 02:58:26,563 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-11-16 02:58:26,563 [INFO] [poss_merge] skip fuzzy for Code='D3' per rule
+2025-11-16 02:58:26,564 [INFO] [poss_merge] skip fuzzy for Code='Y3' per rule
+2025-11-16 02:58:26,569 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-16 02:58:26,569 [INFO] [poss_merge] skip fuzzy for Code='N3' per rule
+2025-11-16 02:58:26,576 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/Quo2Ord/transi/Quo2Ord_poss_merge_111625_0258.csv
+2025-11-16 02:58:26,577 [INFO] Done.

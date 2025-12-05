@@ -1,0 +1,18 @@
+{
+  // Canonical defaults (used if nothing overrides them)
+  "defaults": { "Entity": "Palco", "Function": "Service", "SubEntity": "" },
+
+  // Per-SOP overrides (add more SOPs here as you go)
+  "TechMobile": { "Entity": "Palco", "Function": "Service", "SubEntity": "" },
+  "SRO": { "Entity": "Palco", "Function": "Service", "SubEntity": "SRO" },
+  "Warranty": { "Entity": "Palco", "Function": "Service", "SubEntity": "Warranty" },
+  "StartUp": { "Entity": "Palco", "Function": "Service", "SubEntity": "StartUp" },
+  "Quo2Ord": { "Entity": "SE", "Function": "Sales", "SubEntity": "Quo2Ord" },
+  "LineEnt": { "Entity": "SE", "Function": "Sales", "SubEntity": "LineEnt" },
+  "Ord2Pick": { "Entity": "SE", "Function": "Sales", "SubEntity": "Ord2Pick" },
+  "ShipFB": { "Entity": "SE", "Function": "Operations", "SubEntity": "ShipFB" },
+  "Ord2Pick": { "Entity": "SE", "Function": "Operations", "SubEntity": "Pick2Inv" }
+
+  // Example to add later:
+  // ,"ServReqOrd": { "Entity": "Palco", "Function": "Service", "SubEntity": "" }
+}

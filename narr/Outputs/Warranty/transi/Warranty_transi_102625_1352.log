@@ -1,0 +1,28 @@
+2025-10-26 13:52:02,361 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/Warranty/transi/Warranty_transi_102625_1352.log
+2025-10-26 13:52:02,362 [INFO] [premerge] raw=/workspaces/EdxBuild/narr/Inputs/Warranty/raw/Warranty_Raw_102525_1749.csv narr=/workspaces/EdxBuild/narr/Outputs/Warranty/Warranty_narr_latest.csv resp= /workspaces/EdxBuild/narr/Outputs/Warranty/transi/Warranty_Resp_poss_merge_102625_1325.csv
+2025-10-26 13:52:02,370 [ERROR] FAILED: [Errno 2] No such file or directory: ' /workspaces/EdxBuild/narr/Outputs/Warranty/transi/Warranty_Resp_poss_merge_102625_1325.csv'
+Traceback (most recent call last):
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 228, in main
+    premerge(logger, args.sop, Path(args.raw), Path(args.narr), Path(args.resp), outdir)
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 112, in premerge
+    resp = read_csv(resp_poss_merge_path).copy()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/EdxBuild/narr/src/transi_gen_new.py", line 30, in read_csv
+    return pd.read_csv(path, encoding="utf-8-sig", engine="python")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/codespace/.local/lib/python3.12/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: ' /workspaces/EdxBuild/narr/Outputs/Warranty/transi/Warranty_Resp_poss_merge_102625_1325.csv'

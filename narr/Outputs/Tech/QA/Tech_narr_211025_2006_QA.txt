@@ -1,0 +1,13 @@
+SOP: Tech
+Inputs matched: 7
+  - Create New SRO Process Excel File (4) Updated 06 30 2025 1414 TD.xlsx
+  - PPS_SOP_FF_Travel to Site_KC_01_10_25.xlsx
+  - PPS_SOP_FF_Perform Site Work_KC_01_10_25.xlsx
+  - PPS_SOP_FF_Add Material_VM_07_07_25.xlsx
+  - PPS_SOP_FF_Travel Leaving Site_VM_07_07_25.xlsx
+  - PPS_SOP_FF_Change Status to Callback_KC_01_10_25.xlsx
+  - Change Status to Closed.xlsx
+
+Rows output: 8
+Columns: ['OPM_Step', 'Source_File', 'Source_Title', 'Step_narr_in', 'Step_narr_m_in', 'Step_narr_out', 'Step_narr_out_simple', 'Step_narr_m_out', 'Step_narr_m_out_simple']
+Issues: none detected

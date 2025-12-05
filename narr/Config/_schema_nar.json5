@@ -1,0 +1,49 @@
+{
+// JSON5 Schema (informal) for <SOP>_Nar.json5
+
+sop: <string>,                // SOP namespace (e.g., "Tech", "Sales")
+
+standard: {
+  sheet: <string>,            // default worksheet to read
+  columns: <array<string>>,   // expected column headers (normalized)
+},
+
+overrides: <array<object>>,   // per-file exceptions
+// override object structure:
+override: {
+  file: <string>,             // workbook file name (basename)
+  issue: <string>,            // short note on what differs
+  manual_map: <object>,       // map of { source_header: target_header }
+  sheet: <string|null>,       // optional alternate sheet name
+  columns: <array<string>|null>, // optional explicit column list for this file
+},
+
+file_titles: <object>,        // { basename: "Friendly Title" }
+
+sequence_order: <array<string>>, // explicit processing order (filenames)
+
+extraction: {
+  step_builder: <"concat_lines"|"first_nonempty">,
+  line_join: <string>,        // " " or "\\n" etc.
+  drop_values: <array<string>>,
+  preferred_text_columns: <array<string>>, // e.g., ["Detail","Step"]
+},
+
+summarize: {
+  reading_grade: <number>,    // target reading level (approx)
+  style: <"imperative_short"|"plain">,
+  max_sentence_len: <number>, // soft target (words)
+  bullets: <boolean>,
+},
+
+output: {
+  timezone: <string>,         // e.g., "America/New_York"
+  timestamp_fmt: <string>,    // e.g., "DDMMYY_HHMM"
+  keep_latest: <boolean>,
+},
+
+logging: {
+  nonconformance_policy: <"log_and_continue"|"halt_on_error">,
+  qa_filename_suffix: <string>,
+}
+}

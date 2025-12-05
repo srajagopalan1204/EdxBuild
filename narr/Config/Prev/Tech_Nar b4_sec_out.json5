@@ -1,0 +1,71 @@
+{
+// Narration config for SOP: Tech
+sop: "Tech",
+
+// Expected standard shape for most inputs
+standard: {
+  sheet: "Sheet1",                  // default worksheet to read
+  columns: [],   //no required header 
+},
+
+// File-specific overrides for non-conforming workbooks
+// - If a file is missing a standard column, map its source columns here.
+// - 'manual_map' keys are *source* headers in the workbook; values are standard targets.
+overrides: [
+  {
+    file: "Create New SRO Process Excel File (4) Updated 06 30 2025 1414 TD.xlsx",
+    issue: "uses 'Action' and 'Notes' instead of Step/Detail",
+    manual_map: { Action: "Step", Notes: "Detail" }
+  },
+  // Add additional overrides as discovered during QA
+],
+
+// Friendly source titles (used for Source_Title and ordering, if desired)
+file_titles: {
+  "Create New SRO Process Excel File (4) Updated 06 30 2025 1414 TD.xlsx": "OPM New SRO",
+  "PPS_SOP_FF_Travel to Site_KC_01_10_25.xlsx": "Travel to Site",
+  "PPS_SOP_FF_Perform Site Work_KC_01_10_25.xlsx": "Perform Site Work",
+  "PPS_SOP_FF_Add Material_VM_07_07_25.xlsx": "Add Material",
+  "PPS_SOP_FF_Travel Leaving Site_VM_07_07_25.xlsx": "Travel Leaving Site",
+  "PPS_SOP_FF_Change Status to Callback_KC_01_10_25.xlsx": "Change Status to Callback",
+  "Change Status to Closed.xlsx": "Change Status to Closed",
+},
+
+// Processing order → assigns OPM_Step = P1..Pn in this sequence
+sequence_order: [
+  "Create New SRO Process Excel File (4) Updated 06 30 2025 1414 TD.xlsx",
+  "PPS_SOP_FF_Travel to Site_KC_01_10_25.xlsx",
+  "PPS_SOP_FF_Perform Site Work_KC_01_10_25.xlsx",
+  "PPS_SOP_FF_Add Material_VM_07_07_25.xlsx",
+  "PPS_SOP_FF_Travel Leaving Site_VM_07_07_25.xlsx",
+  "PPS_SOP_FF_Change Status to Callback_KC_01_10_25.xlsx",
+  "Change Status to Closed.xlsx",
+],
+
+// Extraction behavior
+extraction: {
+  step_builder: "concat_lines",
+  line_join: " ",
+  drop_values: ["Subitems"],
+  preferred_text_columns: ["What", "Task Description", "Where", "Considerations", "Notes", "Action", "Description", "Instruction"],
+},
+
+// Summarization behavior for *_out columns (approx 8th-grade reading level)
+summarize: {
+  reading_grade: 8,
+  style: "imperative_short",     // short, action-oriented sentences
+  max_sentence_len: 24,          // soft target (words)
+  bullets: false,                // set true to emit bullets
+},
+
+// Output & logging
+output: {
+  timezone: "America/New_York",
+  timestamp_fmt: "DDMMYY_HHMM",     // e.g., 211025_1130
+  keep_latest: true,                // also write <SOP>_narr_latest.(csv|xlsx)
+},
+logging: {
+  nonconformance_policy: "log_and_continue", // log and continue where safe
+  qa_filename_suffix: "_QA.txt",             // appended to timestamped output base
+}
+}

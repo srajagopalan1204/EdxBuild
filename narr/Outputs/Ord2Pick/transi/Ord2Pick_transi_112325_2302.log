@@ -1,0 +1,20 @@
+2025-11-23 23:02:42,221 [INFO] Log -> /workspaces/EdxBuild/narr/Outputs/Ord2Pick/transi/Ord2Pick_transi_112325_2302.log
+2025-11-23 23:02:42,221 [INFO] [poss_merge] raw=/workspaces/EdxBuild/narr/Inputs/Ord2Pick/raw/Ord2Pick_Raw_112325_1700.csv narr=/workspaces/EdxBuild/narr/Outputs/Ord2Pick/Ord2Pick_narr_latest.csv
+2025-11-23 23:02:42,231 [INFO] [poss_merge] skip fuzzy for Code='M1' per rule
+2025-11-23 23:02:42,232 [INFO] [poss_merge] skip fuzzy for Code='D1' per rule
+2025-11-23 23:02:42,233 [INFO] [poss_merge] skip fuzzy for Code='Y1' per rule
+2025-11-23 23:02:42,233 [INFO] [poss_merge] skip fuzzy for Code='D2' per rule
+2025-11-23 23:02:42,233 [INFO] [poss_merge] skip fuzzy for Code='Y2' per rule
+2025-11-23 23:02:42,234 [INFO] [poss_merge] skip fuzzy for Code='D3' per rule
+2025-11-23 23:02:42,234 [INFO] [poss_merge] skip fuzzy for Code='Y3' per rule
+2025-11-23 23:02:42,235 [INFO] [poss_merge] skip fuzzy for Code='D4' per rule
+2025-11-23 23:02:42,235 [INFO] [poss_merge] skip fuzzy for Code='Y4' per rule
+2025-11-23 23:02:42,235 [INFO] [poss_merge] skip fuzzy for Code='D5' per rule
+2025-11-23 23:02:42,236 [INFO] [poss_merge] skip fuzzy for Code='Y5' per rule
+2025-11-23 23:02:42,236 [INFO] [poss_merge] skip fuzzy for Code='N5' per rule
+2025-11-23 23:02:42,237 [INFO] [poss_merge] skip fuzzy for Code='N4' per rule
+2025-11-23 23:02:42,237 [INFO] [poss_merge] skip fuzzy for Code='N3' per rule
+2025-11-23 23:02:42,237 [INFO] [poss_merge] skip fuzzy for Code='N2' per rule
+2025-11-23 23:02:42,238 [INFO] [poss_merge] skip fuzzy for Code='N1' per rule
+2025-11-23 23:02:42,241 [INFO] [poss_merge] wrote -> /workspaces/EdxBuild/narr/Outputs/Ord2Pick/transi/Ord2Pick_poss_merge_112325_2302.csv
+2025-11-23 23:02:42,242 [INFO] Done.

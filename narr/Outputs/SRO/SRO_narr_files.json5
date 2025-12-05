@@ -1,0 +1,300 @@
+// SRO narration aggregate (JSON5) — Tech_Nar-style schema.
+// Auto-generated. You may comment anywhere, but do not edit the guarded default config below.
+{
+  "sop": "SRO",
+  "standard": {},
+  "overrides": {},
+  "file_titles": {
+    "A17 Convert Estimate To SRO..xlsx": "A17 Convert Estimate To SRO.",
+    "AA3_ADDING TRANSACTIONS TO AN SRO_TS.xlsx": "AA3 ADDING TRANSACTIONS TO AN SRO TS",
+    "AA4_SCHEDULE NEW_TS.xlsx": "AA4 SCHEDULE NEW TS",
+    "ADDING LINES OPM.xlsx": "ADDING LINES OPM",
+    "ADDING OPERATIONS OPM.xlsx": "ADDING OPERATIONS OPM",
+    "C03_AA15_Create_SRO_Estimate_06172025_1307_TD.xlsx": "C03 AA15 Create SRO Estimate 06172025 1307 TD",
+    "CLOSE SRO_TS.xlsx": "CLOSE SRO TS",
+    "Call Backs Revised.xlsx": "Call Backs Revised",
+    "Create Incident ISM (6).xlsx": "Create Incident ISM (6)",
+    "Incident to SRO.xlsx": "Incident To SRO",
+    "Invoicing in ISM_TS.xlsx": "Invoicing In ISM TS",
+    "OPM Add Non Stock Items To Service Order.xlsx": "OPM Add Non Stock Items To Service Order",
+    "PPS_SOP_AA_Create Incident CSD_KC_01_10_25.xlsx": "PPS SOP AA Create Incident CSD KC 01 10 25",
+    "PRINT PO OPM.xlsx": "PRINT PO OPM",
+    "Posting A Transaction_TS.xlsx": "Posting A Transaction TS",
+    "Quick Create SRO.xlsx": "Quick Create SRO",
+    "RECEIVE NON STOCK PO.xlsx": "RECEIVE NON STOCK PO"
+  },
+  "sequence_order": [
+    "A17 Convert Estimate To SRO..xlsx",
+    "AA3_ADDING TRANSACTIONS TO AN SRO_TS.xlsx",
+    "AA4_SCHEDULE NEW_TS.xlsx",
+    "ADDING LINES OPM.xlsx",
+    "ADDING OPERATIONS OPM.xlsx",
+    "C03_AA15_Create_SRO_Estimate_06172025_1307_TD.xlsx",
+    "CLOSE SRO_TS.xlsx",
+    "Call Backs Revised.xlsx",
+    "Create Incident ISM (6).xlsx",
+    "Incident to SRO.xlsx",
+    "Invoicing in ISM_TS.xlsx",
+    "OPM Add Non Stock Items To Service Order.xlsx",
+    "PPS_SOP_AA_Create Incident CSD_KC_01_10_25.xlsx",
+    "PRINT PO OPM.xlsx",
+    "Posting A Transaction_TS.xlsx",
+    "Quick Create SRO.xlsx",
+    "RECEIVE NON STOCK PO.xlsx"
+  ],
+  "extraction": {
+    "method": "file_level_join",
+    "join_style": "bullets",
+    "sep": " — ",
+    "text_columns_requested": [
+      "Task Description",
+      "What"
+    ],
+    "sources": [
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/A17 Convert Estimate To SRO..xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 8
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/AA3_ADDING TRANSACTIONS TO AN SRO_TS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 19
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/AA4_SCHEDULE NEW_TS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 13
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/ADDING LINES OPM.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 7
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/ADDING OPERATIONS OPM.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 15
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/C03_AA15_Create_SRO_Estimate_06172025_1307_TD.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 9
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/CLOSE SRO_TS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 8
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/Call Backs Revised.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 11
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/Create Incident ISM (6).xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 7
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/Incident to SRO.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 7
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/Invoicing in ISM_TS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 8
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/OPM Add Non Stock Items To Service Order.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 13
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/PPS_SOP_AA_Create Incident CSD_KC_01_10_25.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/PRINT PO OPM.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 9
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/Posting A Transaction_TS.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 14
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/Quick Create SRO.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 11
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/SRO/RECEIVE NON STOCK PO.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 16
+      }
+    ],
+    "files": [
+      {
+        "file": "A17 Convert Estimate To SRO..xlsx",
+        "joined_text": "- How to convert an Estimate to an SRO — Navigate to Service Orders Screen:  Form-->Open-->Service Orders-->OK\n- Click on drop down for Status Field and select Estimate from drop down\n- Select the Funnel, filter in place, from the toolbar.\n- From listed estimates on left select the estimate to be converted to an Open SRO by clicking on Estimate Number\n- Click on the Aprove SRO Estimate button\n- Enter the person that approved the estimate\n- Click Ok\n- Click OK"
+      },
+      {
+        "file": "AA3_ADDING TRANSACTIONS TO AN SRO_TS.xlsx",
+        "joined_text": "- ADD TRANSACTIONS TO AN SRO\n- FROM THE SERVICE ORDER SCREEN\n- CLICK THE FIP FUNNEL\n- SELECT THE SRO\n- CLICK SRO TRANSACTIONS\n- CLICK THE BUBBLE FOR PLANNED\n- CLICK PLANNED MATERIAL,\n- SEARCH AND ADD AN ITEM,\n- MAKE SURE IT HAS OPERATION 10 WILL GO WITH MATERIAL\n- SELECT JEANETTE FROM THE DEPT. DROP DOWN\n- ENTER THE QUANTITY\n- CLICK THE PLUS TO ADD MORE MATERIAL TRANSACTIONS\n- CLICK SAVE\n- ADD THE WORK CODE FROM THE DROP DOWN\n- OPERARTION 20 WILL BE LABOR\n- SELECT JEANETTE FROM THE DEPT. DROP DOWN\n- TYPE THE PLANNED HOURS FOR THIS WORK CODE\n- CLICK THE PLUS TO ADD MORE LABOR TRANSACTIONS\n- CLICK SAVE"
+      },
+      {
+        "file": "AA4_SCHEDULE NEW_TS.xlsx",
+        "joined_text": "- SCHEDULE AN SRO\n- FROM THR SERVICE ORDER SCREEN\n- CLICK THE FIP FUNNEL\n- CLICK THE SRO\n- CHECK THE BOX FOR TO BE SCHEDULED\n- CLICK SAVE\n- CLICK SCHEDULE\n- USING THE DROP DOWN SELECT THE PRATNER(TECH) IN THE PARTNER SELECT FIELD\n- CLICK TO BE SCHEDULED\n- CLICK REFRESH (CIRCLE ARROW)\n- CLICK AND DRAG THE SRO TO THE DAY AND TIME YOU NEED IT SCHEULED\n- ENTER THE ESTIMATED HOURS, AD ANY NOTES FOR THE TECH\n- CLICK COMMIT"
+      },
+      {
+        "file": "ADDING LINES OPM.xlsx",
+        "joined_text": "- FROM THE SERVICE ORDER SCREEN\n- ADDING LINES — CLICK SRO LINES\n- IN THE ITEM TEXT BOX SEARCH FOR AN *ITEM NUMBER*\n- SELECT THE SERIAL NUMBER FROM THE UNITS DROP DOWN\n- CHANGE QTY TO 1 IN THE QTY FIELD\n- CLICK SAVE\n- EXIT SRO LINES SCREEN"
+      },
+      {
+        "file": "ADDING OPERATIONS OPM.xlsx",
+        "joined_text": "- ADDING OPERATIONS — FROM THE SERVICE ORDER SCREEN\n- CLICK SRO OPERATIONS\n- CLICK THE ADD NEW BUTTON\n- CHANGE THE LINE DROP DOWN TO 2\n- CREATE OPERATION 10 TROUBLE SERVICE\n- SELECT THE OPERATION CODE TRB AND DESCRIPTION TROUBLE SERVICE PARTS\n- CLICK THE ADD NEW BUTTON\n- CHANGE THE LINE DROP DOWN TO 2\n- CREATE OPERATION 2O TROUBLE SERVICE\n- SELECT THE OPERATION CODE TRB AND DESCRIPTION TROUBLE SERVICE LABOR\n- CLICK THE ADD NEW BUTTON\n- CHANGE THE LINE DROP DOWN TO 2\n- CREATE OPERATION 30 TROUBLE SERVICE\n- SELECT THE OPERATION CODE TRB AND DESCRIPTION TROUBLE SERVICE MISC\n- CLICK SAVE"
+      },
+      {
+        "file": "C03_AA15_Create_SRO_Estimate_06172025_1307_TD.xlsx",
+        "joined_text": "- How to create an SRO Estimate — Navigate to Quick Create Screen Form->Open-Service Orders\n- Select the funnel, filter in place, from the tool bar.\n- Select Quick Create top button on the right side\n- In Service Order Options section, From SRO Status Field, select estimate from drop down\n- In Service Order Options section, From the SRO Template Field, select T&M (Time and Material) from drop down.\n- In Customer Information section,  enter customer number (In this example, enter *1059*) Select PIC Electric from drop down.\n- Click OK.\n- Pop up screen confirms your assigned SRO number for this estimate.  (J indicates Jeannette, W indicates WV)\n- Clik OK."
+      },
+      {
+        "file": "CLOSE SRO_TS.xlsx",
+        "joined_text": "- CLOSE SRO — From the Service Order Screen\n- Click Filter In Place Icon At Top Left Of Service Order Screen To List SROs\n- Scroll List On Left Side Of Screen And Click On SRO That Is To Be Closed\n- Click On Close SRO Button\n- Confirm Chosen SRO To Close Is Displayed In Both The Starting And Ending SRO Fields. With the preview button selected click proccess\n- Select the commit buble\n- Click proccess\n- SRO Status Change To Closed Is Displayed At The Bottom Of The Service Order Close Utility Screen"
+      },
+      {
+        "file": "Call Backs Revised.xlsx",
+        "joined_text": "- How to create Call Back SRO — Navigate to Service Orders Screen Form->Open-Service Orders\n- Select the funnel, filter in place, from the tool bar.\n- Select Which Service Order needs a call back from the left side\n- Click Generate Callback SRO button on the right side\n- Verify the Create As a Callback SRO box is checked\n- Click OK\n- Under Material Substitution uncheck the Selected box\n- Click Save Icon in upper left of screen\n- Click OK\n- Confirm the Callback box is checked on the Service Orders Screen\n- Will give you  a prior SRO number to reference at the bottom right"
+      },
+      {
+        "file": "Create Incident ISM (6).xlsx",
+        "joined_text": "- Creating an Incident Only — Navigate to Incidents Screen Form->Open->Incidents\n- Select the funnel, filter in place, from the tool bar.\n- Select Quick Create from box on the right side.\n- Enter Customer name\n- Enter phone number\n- Enter a description of why the customer is calling.\n- Click OK."
+      },
+      {
+        "file": "Incident to SRO.xlsx",
+        "joined_text": "- Incident to SRO — From the incident screen click the funnel to filter\n- Select the incident you desire to turn into SRO\n- Click the status tab (middle of screen)\n- Click the reference drop down\n- Select SRO\n- Save\n- Click x-ref"
+      },
+      {
+        "file": "Invoicing in ISM_TS.xlsx",
+        "joined_text": "- Invoicing in ISM — Choose the SRO you are billing\n- Click billing\n- Click Set oper stat to invoice\n- Click Order invoicing\n- Click Process\n- Click Ok\n- Exit out of order invoiving\n- Click SX.e inquiry to view your SRO in CSD in shipped stage"
+      },
+      {
+        "file": "OPM Add Non Stock Items To Service Order.xlsx",
+        "joined_text": "- Add A Non Stock Item As Planned Material To A Service Order — From The SRO Transaction Screen\n- Right Click Item Field To Access Pop Up Menu\n- Click On SX.E Catalog/Non Stock Query In Pop Up Menu\n- Click On Item Field And Enter Needed Non Stock Part Number\n- Click On Description Field And Enter Description For Non Stock Part\n- Click On Pull Down Menu In Product Code Field To Select Product Code\n- Click On Pull Down Menu In Vendor Field To Select Vendor Code\n- Click On Unit Cost Field And Enter Purchase Price Of Non Stock Part\n- Click On Unit Price Field And Enter Selling Price Of Non Stock Part\n- Click On Qty Quantity Field And Enter Quantity Needed Of Non Stock Part\n- Click On Product Category Field And Enter A Product Category\n- Confirm That Check Box Is Checked To Create SX.E Purchase Order\n- Click OK Button At Bottom Of SX.E Catalog/Non Stock Query Screen To Confirm"
+      },
+      {
+        "file": "PPS_SOP_AA_Create Incident CSD_KC_01_10_25.xlsx",
+        "joined_text": "- Create Incident CSD"
+      },
+      {
+        "file": "PRINT PO OPM.xlsx",
+        "joined_text": "- PRINT A PO — CLICK MENU\n- CLICK PURCHASE\n- CLICK ENTRY\n- CLICK PURCHASE ORDER\n- CLICK PRINT\n- ENTER THE PO NUMBER\n- CHOOSE WHERE YOU WANT IT TO PRINT IN THE PRINT TYPE FIELD\n- CLICK SUBMIT\n- SEE POP UP CONFRIM PRINT REQUEST WAS SENT"
+      },
+      {
+        "file": "Posting A Transaction_TS.xlsx",
+        "joined_text": "- Posting A Transaction — From the service order screen click the funnel to filter\n- Select the SRO you desire\n- Click transactions\n- Click the circle next to planned\n- Post transaction\n- Repeat for all material transactions\n- If what was planned is different than qty used change post qty to show what was used\n- Click Ok\n- Click planned labor\n- Click post transaction\n- Check for accurate hours make changes if necessary\n- Click Ok\n- Repeat for all labor transactions\n- Exit out of service order transaction"
+      },
+      {
+        "file": "Quick Create SRO.xlsx",
+        "joined_text": "- Quick Create SRO\n- Click Form\n- Click Open\n- Search Quick SRO Create\n- select Quick SRO Create\n- Choose a Template\n- Select a customer\n- Enter the item you are servicing\n- select the unit from the drop down if the serial number exists\n- click save\n- click ok"
+      },
+      {
+        "file": "RECEIVE NON STOCK PO.xlsx",
+        "joined_text": "- RECEIVE THE NON STOCK — NAVIGATE TO TWL\n- CLICK RECEIVING\n- SELECT DOCK 1 FROM THE DROP DOWN\n- CLICK RECEIVING\n- CLICK PURCHASE ORDER\n- CLICK ENTER TO POPULATE OPEN POS\n- DRILL INTO YOUR PO\n- DRILL INTO THE NON STOCK ITEM\n- ENTER 1 IN ZONE AND CLICK ENTER\n- ENTER THE QUANTITY RECEIVED IN THE QTY BOX AND HIT ENTER\n- LEAVE STATUS BLANK UNLESS DAMAGED\n- PALLET WILL AUTO FILL ENTER PASSED\n- ENTER THORUGH THE SCREEN BACK TO THE STOCK RECEIVING SCREEN\n- CLICK THE BACK ARROW\n- CLICK YES TO CLOSE THE RT\n- PO HAS BEEN RECEIVED"
+      }
+    ]
+  }
+,
+
+// ===== BEGIN DEFAULT NARR CONFIG (do not edit) =====
+  summarize: {
+  reading_grade: 8,
+  style: "short_simple",
+  max_sentence_len: 24,
+  bullets: false,
+  simple_grade: 5,
+  simple_max_len: 14,
+  simple_bullets: false
+},
+  output: {
+  timezone: "America/New_York",
+  timestamp_fmt: "DDMMYY_HHMM",
+  keep_latest: true
+},
+  logging: {
+  nonconformance_policy: "log_and_continue",
+  qa_filename_suffix: "_QA.txt"
+}
+// ===== END DEFAULT NARR CONFIG =====
+}

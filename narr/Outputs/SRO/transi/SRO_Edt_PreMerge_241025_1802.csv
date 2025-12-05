@@ -1,0 +1,31 @@
+﻿Source_PPT,SlideIndex,SelectionTitle,Title,Code,Title_short,Image_sub_url,Deci_Question,Next1_Code,Next2_Code,match_code_OPM,OPM_Step,Source_Title,Narr1,Narr2,Narr3,Disp_next1,Disp_next2,Disp_next3,UAP url,UAP Label,start_here,Mismatch
+PPS_SRO_102425_1014.pptx,1,,Service Request OrderSOPPPT option,Slide_01,Slide_01,/images/SRO/Slide_01.png,,M1,,,,,Service Request OrderSOPPPT option,,,,,,,,No,No
+PPS_SRO_102425_1014.pptx,2,Trbl_SRO,Base Created by SR 09 24 2025,M1,Trbl_SRO,/images/SRO/M1.png,,S1,,,,,Base Created by SR 09 24 2025,,,Cust_call_rcvd,,,,,No,No
+PPS_SRO_102425_1014.pptx,3,Cust_call_rcvd,Base Created by SR 06 09 2025,S1,Cust_call_rcvd,/images/SRO/S1.png,,D1,,,,,Base Created by SR 06 09 2025,,,Which_dept,,,,,No,No
+PPS_SRO_102425_1014.pptx,4,Which_dept,Base Created by SR 06 09 2025,D1,Which_dept,/images/SRO/D1.png,Which Department Picked up the call ?,Y1,N1,,,,Base Created by SR 06 09 2025,,,Yes_Serv_Dep,Non_Srv_dep_Respnr,,,,No,No
+PPS_SRO_102425_1014.pptx,5,Yes_Serv_Dep,Base Created by SR 06 09 2025,Y1,Yes_Serv_Dep,/images/SRO/Y1.png,,D2,,,,,Base Created by SR 06 09 2025,,,Cret_Qk_SRO,,,,,No,No
+PPS_SRO_102425_1014.pptx,6,Cret_Qk_SRO,Base Created by SR 06 09 2025,D2,Cret_Qk_SRO,/images/SRO/D2.png,Do you have all the information to create an an SRO?,Y2,N2,,,,Base Created by SR 06 09 2025,,,Yes_All_inf_there,,No_SRO,,,No,No
+PPS_SRO_102425_1014.pptx,8,Yes_All_inf_there,Base Created by SR 09 29 2025,Y2,Yes_All_inf_there,/images/SRO/Y2.png,,S2,,,,,Base Created by SR 09 29 2025,,,Qk_cret_SRO,,,,,No,No
+PPS_SRO_102425_1014.pptx,9,Qk_cret_SRO,Base Created by SR 09 29 2025,S2,Qk_cret_SRO,/images/SRO/S2.png,,S3,,,,,Base Created by SR 09 29 2025,,,Add_SRO_lines,,,,,No,No
+PPS_SRO_102425_1014.pptx,10,Add_SRO_lines,Base Created by SR 09 29 2025,S3,Add_SRO_lines,/images/SRO/S3.png,,D3,,,,,Base Created by SR 09 29 2025,,,Need_more_lines,,,,,No,No
+PPS_SRO_102425_1014.pptx,11,Need_more_lines,Base Created by SR 09 29 2025,D3,Need_more_lines,/images/SRO/D3.png,Do you need to add more Lines to this SRO?,Y3,N3,,,,Base Created by SR 09 29 2025,,,Yes_add_Opr,,No_Add_Lns,,,No,No
+PPS_SRO_102425_1014.pptx,12,Yes_add_Opr,Base Created by SR 09 29 2025,Y3,Yes_add_Opr,/images/SRO/Y3.png,,S7,,,,,Base Created by SR 09 29 2025,,,Add_Opern,,,,,No,No
+PPS_SRO_102425_1014.pptx,13,Add_Opern,Base Created by SR 09 29 2025,S7,Add_Opern,/images/SRO/S7.png,,S8,,,,,Base Created by SR 09 29 2025,,,Add_pln_trns,,,,,No,No
+PPS_SRO_102425_1014.pptx,14,Add_pln_trns,Base Created by SR 09 29 2025,S8,Add_pln_trns,/images/SRO/S8.png,,D4,,,,,Base Created by SR 09 29 2025,,,Need_Non-Stock,,,,,No,No
+PPS_SRO_102425_1014.pptx,15,Need_Non-Stock,Base Created by SR 09 29 2025,D4,Need_Non-Stock,/images/SRO/D4.png,Do you need non Stock items to complete this SRO,Y4,N4,,,,Base Created by SR 09 29 2025,,,Yes_need_non-Stock,,No_Non-stock_Mat_needed,,,No,No
+PPS_SRO_102425_1014.pptx,16,Yes_need_non-Stock,Base Created by SR 09 29 2025,Y4,Yes_need_non-Stock,/images/SRO/Y4.png,,S9,,,,,Base Created by SR 09 29 2025,,,Add_non-stock_item,,,,,No,No
+PPS_SRO_102425_1014.pptx,17,Add_non-stock_item,Base Created by SR 09 29 2025,S9,Add_non-stock_item,/images/SRO/S9.png,,S10,,,,,Base Created by SR 09 29 2025,,,Prnt_Non-stock_PO,,,,,No,No
+PPS_SRO_102425_1014.pptx,18,Prnt_Non-stock_PO,Base Created by SR 09 29 2025,S10,Prnt_Non-stock_PO,/images/SRO/S10.png,,S11,,,,,Base Created by SR 09 29 2025,,,RCV_Non-stock_Mat,,,,,No,No
+PPS_SRO_102425_1014.pptx,19,RCV_Non-stock_Mat,Base Created by SR 09 29 2025,S11,RCV_Non-stock_Mat,/images/SRO/S11.png,,S12,,,,,Base Created by SR 09 29 2025,,,SCH_Tech_Apt,,,,,No,No
+PPS_SRO_102425_1014.pptx,20,SCH_Tech_Apt,Base Created by SR 09 29 2025,S12,SCH_Tech_Apt,/images/SRO/S12.png,,S13,,,,,Base Created by SR 09 29 2025,,,Do_TechM_SOP,,,,,No,No
+PPS_SRO_102425_1014.pptx,21,Do_TechM_SOP,Base Created by SR 09 29 2025,S13,Do_TechM_SOP,/images/SRO/S13.png,,S14,,,,,Base Created by SR 09 29 2025,,,Post_Trns,,,,,No,No
+PPS_SRO_102425_1014.pptx,22,Post_Trns,Base Created by SR 09 29 2025,S14,Post_Trns,/images/SRO/S14.png,,S15,,,,,Base Created by SR 09 29 2025,,,Srv_Inv,,,,,No,No
+PPS_SRO_102425_1014.pptx,23,Srv_Inv,Base Created by SR 09 29 2025,S15,Srv_Inv,/images/SRO/S15.png,,S16,,,,,Base Created by SR 09 29 2025,,,Close_SRO,,,,,No,No
+PPS_SRO_102425_1014.pptx,24,Close_SRO,Base Created by SR 09 29 2025,S16,Close_SRO,/images/SRO/S16.png,,N2,,,,,Base Created by SR 09 29 2025,,,No_SRO,,,,,No,No
+PPS_SRO_102425_1014.pptx,25,No_SRO,Base Created by SR 09 29 2025,N2,No_SRO,/images/SRO/N2.png,,S4,,,,,Base Created by SR 09 29 2025,,,Cret_ISM_Inci,,,,,No,No
+PPS_SRO_102425_1014.pptx,26,Cret_ISM_Inci,Base Created by SR 09 29 2025,S4,Cret_ISM_Inci,/images/SRO/S4.png,,N1,,,,,Base Created by SR 09 29 2025,,,Non_Srv_dep_Respnr,,,,,No,No
+PPS_SRO_102425_1014.pptx,27,Non_Srv_dep_Respnr,Base Created by SR 09 29 2025,N1,Non_Srv_dep_Respnr,/images/SRO/N1.png,,S5,,,,,Base Created by SR 09 29 2025,,,Cret_CSD_Inci,,,,,No,No
+PPS_SRO_102425_1014.pptx,28,Cret_CSD_Inci,Base Created by SR 09 29 2025,S5,Cret_CSD_Inci,/images/SRO/S5.png,,S6,,,,,Base Created by SR 09 29 2025,,,Cnvrt_Inci_2_SRO,,,,,No,No
+PPS_SRO_102425_1014.pptx,29,Cnvrt_Inci_2_SRO,Base Created by SR 09 29 2025,S6,Cnvrt_Inci_2_SRO,/images/SRO/S6.png,,N3,,,,,Base Created by SR 09 29 2025,,,No_Add_Lns,,,,,No,No
+PPS_SRO_102425_1014.pptx,30,No_Add_Lns,Base Created by SR 09 29 2025,N3,No_Add_Lns,/images/SRO/N3.png,,N4,,,,,Base Created by SR 09 29 2025,,,No_Non-stock_Mat_needed,,,,,No,No
+PPS_SRO_102425_1014.pptx,31,No_Non-stock_Mat_needed,Base Created by SR 09 29 2025,N4,No_Non-stock_Mat_needed,/images/SRO/N4.png,,,,,,,Base Created by SR 09 29 2025,,,,,,,,No,No

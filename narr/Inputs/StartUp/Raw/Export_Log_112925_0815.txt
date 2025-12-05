@@ -1,0 +1,31 @@
+﻿[2025-11-29 08:15:44] Starting export for: C:\Users\scottuser\Documents\SonetLumier\Input\PPS_Service_StrtUp_251123_1434.pptx
+[2025-11-29 08:15:44] OutDir=C:\Users\scottuser\Documents\SonetLumier\images\StartUp  OutMapDir=C:\Users\scottuser\Documents\SonetLumier\Slide_Map  SOP=StartUp  Prefixes=SDYNM
+[2025-11-29 08:15:47] Exported slide 1 -> S000.png
+[2025-11-29 08:15:47] Exported slide 2 -> S001.png
+[2025-11-29 08:15:48] Exported slide 3 -> S002.png
+[2025-11-29 08:15:48] Exported slide 4 -> S003.png
+[2025-11-29 08:15:48] Exported slide 5 -> M1.png
+[2025-11-29 08:15:48] Exported slide 6 -> S1.png
+[2025-11-29 08:15:48] Exported slide 7 -> D1.png
+[2025-11-29 08:15:49] Exported slide 8 -> Y1.png
+[2025-11-29 08:15:49] Exported slide 9 -> D2.png
+[2025-11-29 08:15:49] Exported slide 10 -> Y2.png
+[2025-11-29 08:15:49] Exported slide 11 -> S2.png
+[2025-11-29 08:15:49] Exported slide 12 -> S3.png
+[2025-11-29 08:15:49] Exported slide 13 -> S4.png
+[2025-11-29 08:15:49] Exported slide 14 -> S8.png
+[2025-11-29 08:15:49] Exported slide 15 -> S9.png
+[2025-11-29 08:15:49] Exported slide 16 -> S10.png
+[2025-11-29 08:15:49] Exported slide 17 -> S11.png
+[2025-11-29 08:15:49] Exported slide 18 -> S12.png
+[2025-11-29 08:15:49] Exported slide 19 -> S13.png
+[2025-11-29 08:15:49] Exported slide 20 -> S14.png
+[2025-11-29 08:15:49] Exported slide 21 -> S5.png
+[2025-11-29 08:15:49] Exported slide 22 -> S6.png
+[2025-11-29 08:15:49] Exported slide 23 -> S7.png
+[2025-11-29 08:15:50] Exported slide 24 -> N2.png
+[2025-11-29 08:15:50] Exported slide 25 -> N2.png
+[2025-11-29 08:15:50] Exported slide 26 -> N2.png
+[2025-11-29 08:15:50] Exported slide 27 -> S999.png
+[2025-11-29 08:15:50] Wrote CSV: C:\Users\scottuser\Documents\SonetLumier\Slide_Map\StartUp_Raw_112925_0815.csv
+[2025-11-29 08:15:50] Done.

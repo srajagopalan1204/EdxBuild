@@ -1,0 +1,26 @@
+﻿[2025-11-28 14:35:52] Starting export for: C:\Users\scottuser\Documents\SonetLumier\Input\SE_OPS_Shp_FB_112125_1340.pptx
+[2025-11-28 14:35:52] OutDir=C:\Users\scottuser\Documents\SonetLumier\images\ShipFB  OutMapDir=C:\Users\scottuser\Documents\SonetLumier\Slide_Map  SOP=ShipFB  Prefixes=SDYNM
+[2025-11-28 14:35:56] Exported slide 1 -> S000.png
+[2025-11-28 14:35:56] Exported slide 2 -> S001.png
+[2025-11-28 14:35:56] Exported slide 3 -> S002.png
+[2025-11-28 14:35:56] Exported slide 4 -> S003.png
+[2025-11-28 14:35:57] Exported slide 5 -> M1.png
+[2025-11-28 14:35:57] Exported slide 6 -> S1.png
+[2025-11-28 14:35:57] Exported slide 7 -> S2.png
+[2025-11-28 14:35:58] Exported slide 8 -> S3.png
+[2025-11-28 14:35:58] Exported slide 9 -> D1.png
+[2025-11-28 14:35:58] Exported slide 10 -> Y1.png
+[2025-11-28 14:35:59] Exported slide 11 -> S4.png
+[2025-11-28 14:35:59] Exported slide 12 -> D2.png
+[2025-11-28 14:35:59] Exported slide 13 -> Y2.png
+[2025-11-28 14:36:00] Exported slide 14 -> S5.png
+[2025-11-28 14:36:00] Exported slide 15 -> S6.png
+[2025-11-28 14:36:01] Exported slide 16 -> S7.png
+[2025-11-28 14:36:01] Exported slide 17 -> S8.png
+[2025-11-28 14:36:01] Exported slide 18 -> S9.png
+[2025-11-28 14:36:01] Exported slide 19 -> S10.png
+[2025-11-28 14:36:02] Exported slide 20 -> N1.png
+[2025-11-28 14:36:02] Exported slide 21 -> N2.png
+[2025-11-28 14:36:02] Exported slide 22 -> S999.png
+[2025-11-28 14:36:02] Wrote CSV: C:\Users\scottuser\Documents\SonetLumier\Slide_Map\ShipFB_Raw_112825_1435.csv
+[2025-11-28 14:36:02] Done.

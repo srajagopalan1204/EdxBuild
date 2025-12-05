@@ -1,0 +1,31 @@
+﻿Source_PPT,SlideIndex,SelectionTitle,Title,Code,Title_short,Image_sub_url,Deci_Question,Next1_Code,Next2_Code
+PPS_SRO_102425_1014.pptx,1,Service Request OrderSOPPPT option,Service Request Order SOP PPT option,,Service Request Order SOP PPT option,/images/SRO/SLIDE_1.png,,M1,
+PPS_SRO_102425_1014.pptx,2,M1. Trouble Service call SOP – Interactive,M1. Trouble Service call SOP - Interactive,M1,Trouble Service call SOP,/images/SRO/M1.png,,S1,
+PPS_SRO_102425_1014.pptx,3,S1. A call is received – Service Request Order (SRO),S1. A call is received,S1,A call is received,/images/SRO/S1.png,,D1,
+PPS_SRO_102425_1014.pptx,4,D1. Who Received the Call – Service Request Order (SRO),D1. Who Received the Call,D1,Who Received the Call,/images/SRO/D1.png,,Y1,N1
+PPS_SRO_102425_1014.pptx,5,Y1. Yes the Service Department Answered it – Service Request Order (SRO),Y1. Yes the Service Department Answered it,Y1,Yes the Service Department Answered it,/images/SRO/Y1.png,,D2,
+PPS_SRO_102425_1014.pptx,6,D2. Could you create a SRO? – Service Request Order (SRO),D2. Could you create a SRO?,D2,Could you create a SRO?,/images/SRO/D2.png,,Y2,N2
+PPS_SRO_102425_1014.pptx,7,Y2.  Yes I have info to create an SRO– Service Request Order (SRO),Y2. Yes I have info to create an SRO,Y2,Yes I have info to create an SRO,/images/SRO/Y2.png,,S2,
+PPS_SRO_102425_1014.pptx,8,S2. Quick Create an SRO– Service Request Order (SRO),S2. Quick Create an SRO,S2,Quick Create an SRO,/images/SRO/S2.png,,S3,
+PPS_SRO_102425_1014.pptx,9,S3. Add SRO lines - Service Request Order (SRO),S3. Add SRO lines,S3,Add SRO lines,/images/SRO/S3.png,,D3,
+PPS_SRO_102425_1014.pptx,10,D3. Need more lines- Service Request Order (SRO),D3. Need more lines,D3,Need more lines,/images/SRO/D3.png,,Y3,N3
+PPS_SRO_102425_1014.pptx,11,Y3. Yes need to add Operations. Quick Create an SRO - Service Request Order (SRO),Y3. Yes need to add Operations. Quick Create an SRO,Y3,Yes need to add Operations. Quick Create an SRO,/images/SRO/Y3.png,,S7,
+PPS_SRO_102425_1014.pptx,12,S7. Add Operations  - Service Request Order (SRO),S7. Add Operations,S7,Add Operations,/images/SRO/S7.png,,S8,
+PPS_SRO_102425_1014.pptx,13,S8. Add Planned Transaction. Quick Create an SRO - Service Request Order (SRO),S8. Add Planned Transaction. Quick Create an SRO,S8,Add Planned Transaction. Quick Create an SRO,/images/SRO/S8.png,,D4,
+PPS_SRO_102425_1014.pptx,14,D4. Does the  SRO need Non-Stock items - Service Request Order (SRO),D4. Does the SRO need Non-Stock items,D4,Does the SRO need Non,/images/SRO/D4.png,,Y4,N4
+PPS_SRO_102425_1014.pptx,15,Y4. Yes Non-stock Items are needed - Service Request Order (SRO),Y4. Yes Non-stock Items are needed,Y4,Yes Non,/images/SRO/Y4.png,,S9,
+PPS_SRO_102425_1014.pptx,16,S9. Add Non-stock items SRO - Service Request Order (SRO),S9. Add Non-stock items SRO,S9,Add Non,/images/SRO/S9.png,,S10,
+PPS_SRO_102425_1014.pptx,17,S10. Print Non-stock PO - Service Request Order (SRO),S10. Print Non-stock PO,S10,Print Non,/images/SRO/S10.png,,S11,
+PPS_SRO_102425_1014.pptx,18,S11. Receive Non-stock Inventory - Service Request Order (SRO),S11. Receive Non-stock Inventory,S11,Receive Non,/images/SRO/S11.png,,S12,
+PPS_SRO_102425_1014.pptx,19,S12. Schedule the SRO - Service Request Order (SRO),S12. Schedule the SRO,S12,Schedule the SRO,/images/SRO/S12.png,,S13,
+PPS_SRO_102425_1014.pptx,20,S13. A Sub SRO for Tech to go to site service and close the call- Service Request Order (SRO),S13. A Sub SRO for Tech to go to site service and close the call,S13,A Sub SRO for Tech to go to site service and close the call,/images/SRO/S13.png,,S14,
+PPS_SRO_102425_1014.pptx,21,S14. Posting transactions - Service Request Order (SRO),S14. Posting transactions,S14,Posting transactions,/images/SRO/S14.png,,S15,
+PPS_SRO_102425_1014.pptx,22,S15. Service Invoicing - Service Request Order (SRO),S15. Service Invoicing,S15,Service Invoicing,/images/SRO/S15.png,,S16,
+PPS_SRO_102425_1014.pptx,23,S16. Close SRO - Service Request Order (SRO),S16. Close SRO,S16,Close SRO,/images/SRO/S16.png,,N2,
+PPS_SRO_102425_1014.pptx,24,N2. Need ot create an Incident or “call back” - Service Request Order (SRO),"N2. Need ot create an Incident or ""call back""",N2,"Need ot create an Incident or ""call back""",/images/SRO/N2.png,,S4,
+PPS_SRO_102425_1014.pptx,25,S4. Create ISM Incident - Service Request Order (SRO),S4. Create ISM Incident,S4,Create ISM Incident,/images/SRO/S4.png,,N1,
+PPS_SRO_102425_1014.pptx,26,N1. No Other personnel received the call - Service Request Order (SRO),N1. No Other personnel received the call,N1,No Other personnel received the call,/images/SRO/N1.png,,S5,
+PPS_SRO_102425_1014.pptx,27,S5. Create a CSD Incident - Service Request Order (SRO),S5. Create a CSD Incident,S5,Create a CSD Incident,/images/SRO/S5.png,,S6,
+PPS_SRO_102425_1014.pptx,28,S6. Convert A Incident to an SRO- Service Request Order (SRO),S6. Convert A Incident to an SRO,S6,Convert A Incident to an SRO,/images/SRO/S6.png,,N3,
+PPS_SRO_102425_1014.pptx,29,N3. No Additional Lines SRO- Service Request Order (SRO),N3. No Additional Lines SRO,N3,No Additional Lines SRO,/images/SRO/N3.png,,N4,
+PPS_SRO_102425_1014.pptx,30,N4. No Non-stock Material Required- Service Request Order (SRO),N4. No Non-stock Material Required,N4,No Non-Stock Material Required ,/images/SRO/N4.png,,,

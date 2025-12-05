@@ -1,0 +1,61 @@
+// Ord2Pick narration aggregate (JSON5) — Tech_Nar-style schema.
+// Auto-generated. You may comment anywhere, but do not edit the guarded default config below.
+{
+  "sop": "Ord2Pick",
+  "standard": {},
+  "overrides": {},
+  "file_titles": {
+    "Overall_SLS_Ord2Pick__251123.xlsx": "Overall SLS Ord2pick 251123"
+  },
+  "sequence_order": [
+    "Overall_SLS_Ord2Pick__251123.xlsx"
+  ],
+  "extraction": {
+    "method": "file_level_join",
+    "join_style": "bullets",
+    "sep": " — ",
+    "text_columns_requested": [
+      "Task Description",
+      "What"
+    ],
+    "sources": [
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/Ord2Pick/Overall_SLS_Ord2Pick__251123.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 36
+      }
+    ],
+    "files": [
+      {
+        "file": "Overall_SLS_Ord2Pick__251123.xlsx",
+        "joined_text": "- S000. Opening Slide for Sales Order Line Entry Deck — this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow\n- S001. About Scott Electric and Welcome to Training — Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners. The company provides a broad range of electrical products, lighting, tools, and related services to support both day-to-day operations and long-term projects.\n\nWelcome to the Scott Electric Training Site_x000B_Welcome to the Scott Electric Training Site. This platform is designed to help you build the knowledge and skills needed to support our customers safely, accurately, and efficiently. Here you will find guided learning, reference materials, and role-based courses aligned with how we work every day — in sales, operations, service, administration, and support._x000B_Thank you for investing your time in training. Your commitment to learning and improvement is an important part of keeping Scott Electric strong, responsive, and customer-focused.\n- S002.  Quote to Cash Work Flow At SE Electrical Distribution — This site is a typical Quote to cache representation in what is called a workflow This outlines the various steps performed by various swim lanes if you will or functional groups and provides a overall picture of how we end up serving our customers and continuing to keep our creed of customer comes first\n- S003.  Pictorial representation of  Quote to Cash  - At SE Electrical Distribution — This slide is aptly named The Pictorial Representation of Quote to Cash at Scott Electric the distribution business \nWhile this light is the precursor to the focused area of Quote to cache the picture shows how the various phases within that task is directly or indirectly affecting other components within the system for example an inventory is consumed the inventory has to be replenished and that is done by the procure to pay cycle Similarly because a sales occurred there has to be accounting for the sale and also at the end of the day collection of the payment against the invoice so hence that goes into the financial side of the impact now because inventory is being both consumed replenished and in some cases being procured and directly shipped to the customer that has a direct impact on how the inventory is managed within the system\n- M1.  Sales Order  to Pick SOP - At SE Electrical Distribution — This is the master slide for the Order to Pick process within the Quote to Cash Work Flow. It should be noted that these steps are performed by the Sales Personnel. The input to this starts when the customer indicates that they are ready accept a previously given quote or they send us a Purchase Order (PO) or they call into our sales force who always eager to assist them, the next step is S1. Where the sales person initiates / creates a new slaes order by going to the menu, selecting sales , entry and sales order\n- S1. Initiate Sales order — The first step in the process of initiating a sales order this then leads to the next step which is an SOP in its own right \"Enter Sales Order SOP\"\n- S2. Enter Order Lines — This is a SOP in itself as there are many ways to enter lines in a sales order starting with easy line entry, Shopping list entry etc\n- D1. No  “Add-on’s” — Then decsion needs to be taken if this order or customer has any Add on charges etc that need to be processed at this time. The quest that is asked is Are their no Add on's a yes answer indicated that there are no add on and No answer indicates that there are add ons\n- Y1.  Yes - No Need  for “Add-on’s” — The user has Selected Yes to inidcate that there are no Add ons to be processed for this order\n- S3. Review Taxes and Totals — Since all other information has been entered prior to this step it is time to check the totals and review the the Taxes\n- D2. No COD tendering ? — A decsion has to be made whether this order is to billed on Account or if there is situation that it would be tendered or on Cash on Delivery basis. Hence the question No COD or Tendering needs to be asked and answered. A yes would indicate that this is not a tendered or COD sale. A no on the other hand would indicate that this order has to be processed as a tendered or COD Sale.\n- Y2. Yes “no COD Tendering” — Yes “no COD Tendering”\n- S4. Finish Sales Order — Finish Sales Order\n- D3. Is it a blanket or Fulfillment Order ? - Sales Order  to Pick SOP — Decision if this is a blanket or Fullfillment order\n- Y3. Yes, it is a Blanket or Fulfillment Order  - Sales Order  to Pick SOP — Yes this is a fullfillment order\n- S5. Create Blanket or Fulfillment Order  - Sales Order  to Pick SOP — Create Blanket or Fulillment order\n- D4. Sales order on hold ? - Sales Order  to Pick SOP — Is the sale order on hold\n- Y4. Sales Order is on Hold - Sales Order  to Pick SOP — Yes sales order is on hold\n- S6. Notification sent to Credit - Sales Order  to Pick SOP — Notify credit department to talk to customer and take action\n- D5. Was Credit Restored or COD or CC accepted? - Sales Order  to Pick SOP — Was credit restored ?\n- Y5.  Yes,  Credit Restored or COD or CC  was accepted? - Sales Order  to Pick SOP — Yes credit was was restored or COD or Cc terms were accepted by Customer for this order\n- S7. Print Customer Acknowledgement and Pick Ticket - Sales Order  to Pick SOP — Print customer Acknowledgement and Pick ticket\n- S8. Proceed to the Pick to Invoice SOP - Sales Order  to Pick SOP — Proceed to pick to Invoice SOP\n- N5. No Customer did not take any of the options presented- Sales Order  to Pick SOP — No customer did not take any options presented\n- S9. Cancel order inform Sales and update Reason code - Sales Order  to Pick SOP — Cancel order\n- N4. No, Sales order is not on hold - Sales Order  to Pick SOP — No sales order is not on hold\n- N3. No, Not a Blanket or Fulfillment Order- Sales Order  to Pick SOP — No this is not a blanket or fulfillment order\n- N2. No, This is a COD or Tendering Order - Sales Order  to Pick SOP — This is a COD or tendering order\n- S10. Collect Payment via CC or other - Sales Order  to Pick SOP — Collect payment\n- N1. No, There are “Add on” to add  - Sales Order  to Pick SOP — No there are Add on's that must entered now\n- S11. Add Add-on’s to the Sales order - Sales Order  to Pick SOP — Add \"Add ons\"\n- S999. You have successfully completed this SOP — You have successfully completed the module Order to pick SOP\n- S999. You have successfully completed this SOP — Congratulations you have now traversed all the possible paths for this SOP of port to sales order While it is good that you've traversed all the paths what you need to do is to practice and become efficient and be able to translate your current work to the new system Have a nice day\n- remember there are atleast 3 way to do something in Infor - the question which makes sense for the business and task at hand\n- For each method write a words on what this leans best for and a disclaimer that each user can choose their own way\n- C:\\Users\\scottuser\\Documents\\SonetLumier\\Input\\SE_SLS_Enter_line_Opt2_112025_1211.pptx"
+      }
+    ]
+  }
+,
+
+// ===== BEGIN DEFAULT NARR CONFIG (do not edit) =====
+  summarize: {
+  reading_grade: 8,
+  style: "short_simple",
+  max_sentence_len: 24,
+  bullets: false,
+  simple_grade: 5,
+  simple_max_len: 14,
+  simple_bullets: false
+},
+  output: {
+  timezone: "America/New_York",
+  timestamp_fmt: "DDMMYY_HHMM",
+  keep_latest: true
+},
+  logging: {
+  nonconformance_policy: "log_and_continue",
+  qa_filename_suffix: "_QA.txt"
+}
+// ===== END DEFAULT NARR CONFIG =====
+}
