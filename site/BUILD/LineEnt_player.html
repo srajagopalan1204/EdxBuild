@@ -45,7 +45,6 @@
     margin:112px auto 48px;
     padding:0 18px;
   }
-
   .card{
     background:var(--card);
     border:1px solid var(--line);
@@ -209,7 +208,8 @@
       </button>
 
       <button
-        onclick="goHome()"
+        onclick="goHome()
+"
         title="Go to the main Scott Electric training landing page">
         Home
       </button>
@@ -226,11 +226,26 @@ const CONFIG = {
   homeHref: "index.html#welcome"
 };
 
-// Project-aware absolute path helper:
-// Pages serve under /<repo>/..., while local dev is at /...
+// Absolute path helper tailored for /site/BUILD:
+// /EdxBuild/site/BUILD/LineEnt_player.html -> siteRoot = /EdxBuild/site/BUILD
 function toAbsolute(p){
-  const root = location.pathname.replace(/\/site\/BUILD\/.*$/, "");
-  return p.startsWith("/") ? (root + p) : (root + "/" + p);
+  const siteRoot = location.pathname.replace(/\/[^\/]+$/, ""); // e.g. /EdxBuild/site/BUILD
+  if (!p) return siteRoot + "/";
+  if (p.startsWith("http://") || p.startsWith("https://")) return p;
+  // normalise double slashes
+  p = p.replace(/\/{2,}/g, "/");
+  if (p.startsWith("/SOP/")) {
+    // Images live under the same /site/BUILD root as this page
+    return siteRoot + p; // -> /EdxBuild/site/BUILD/SOP/...
+  }
+  if (p.startsWith("/")) {
+    // Fallback: treat as repo-root-relative (/EdxBuild)
+    const parts = location.pathname.split("/");
+    const repoRoot = "/" + (parts[1] || "");
+    return repoRoot + p;
+  }
+  // relative path, keep it relative to /site/BUILD/
+  return siteRoot + "/" + p;
 }
 
 let data=null, byCode={}, historyStack=[], speaking=false;
@@ -250,7 +265,7 @@ function speak(text){
   } catch(e){ speaking=false; }
 }
 function escapeHTML(s){
-  return (s||"").replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]));
+  return (s||"").replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;","\">":"&gt;","\"":"&quot;"}[m]));
 }
 function escapeJS(s){
   return (s||"").replace(/`/g,"\\`").replace(/\\/g,"\\\\");
@@ -316,7 +331,17 @@ function render(code){
     crumbsEl.style.display='none';
   }
 
-  const img = f.image ? toAbsolute(f.image) : '';
+  // *** IMAGE PATH FIX FOR LINE ENTRY ***
+  let imgPath = f.image || '';
+  // JSON currently uses /SOP/images/SE/LineEnt/... but actual files are under
+  // /SOP/images/SE/Distro/LineEnt/...
+  if (imgPath.startsWith('/SOP/images/SE/LineEnt/')) {
+    imgPath = imgPath.replace('/SOP/images/SE/LineEnt/', '/SOP/images/SE/Distro/LineEnt/');
+  }
+  // normalise slashes
+  imgPath = imgPath.replace(/\/{2,}/g, '/');
+  const img = imgPath ? toAbsolute(imgPath) : '';
+
   const q=f.decision_question||'';
   const choices=Array.isArray(f.choices)?f.choices:[];
   const n1=(f.narr1||'').trim();
@@ -427,4 +452,3 @@ document.addEventListener('keydown',(e)=>{
 });
 load();
 </script>
-
