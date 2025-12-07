@@ -155,8 +155,7 @@
     <!-- TOP NAV: Back + Restart + story path + Load -->
     <button
       id="backTop"
-      onclick="back()
-"
+      onclick="back()"
       title="Go back to the previous step in this module">
       Back
     </button>
@@ -317,12 +316,17 @@ function render(code){
   }
 
   let imgPath = f.image || '';
+
   // Line Entry specific fix:
-  // story.json was originally built with Sales/LineEnt in the path,
-  // but the actual images live under Distro/LineEnt.
-  if (imgPath.startsWith("/SOP/images/SE/Sales/LineEnt/")) {
+  // story.json uses /SOP/images/SE/LineEnt/... but the actual
+  // files live under /SOP/images/SE/Distro/LineEnt/...
+  if (imgPath.startsWith("/SOP/images/SE/LineEnt/")) {
+    imgPath = imgPath.replace("/SOP/images/SE/LineEnt/", "/SOP/images/SE/Distro/LineEnt/");
+  } else if (imgPath.startsWith("/SOP/images/SE/Sales/LineEnt/")) {
+    // safety if any old frames still have Sales in the path
     imgPath = imgPath.replace("/SOP/images/SE/Sales/LineEnt/", "/SOP/images/SE/Distro/LineEnt/");
   }
+
   const img = imgPath ? toAbsolute(imgPath) : '';
   const q=f.decision_question||'';
   const choices=Array.isArray(f.choices)?f.choices:[];
@@ -434,4 +438,3 @@ document.addEventListener('keydown',(e)=>{
 });
 load();
 </script>
-
