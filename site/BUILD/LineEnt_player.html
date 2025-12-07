@@ -225,19 +225,11 @@ const CONFIG = {
   homeHref: "index.html#welcome"
 };
 
-// Absolute path helper: use the *folder of this page* as root.
-// For GitHub Pages: /EdxBuild/site/BUILD/LineEnt_player.html -> /EdxBuild/site/BUILD/
-// For local:        /site/BUILD/LineEnt_player.html          -> /site/BUILD/
+// Project-aware absolute path helper:
+// Pages serve under /<repo>/..., while local dev is at /...
 function toAbsolute(p){
-  const rootDir = location.pathname.replace(/[^\/]*$/, ""); // strip filename
-  if (!p) return rootDir;
-  if (p.startsWith("http://") || p.startsWith("https://")) return p;
-
-  // Ensure one slash between rootDir and leading-slash paths
-  if (p.startsWith("/")) {
-    return rootDir.replace(/\/$/, "") + p;
-  }
-  return rootDir + p;
+  const root = location.pathname.replace(/\/site\/BUILD\/.*$/, "");
+  return p.startsWith("/") ? (root + p) : (root + "/" + p);
 }
 
 let data=null, byCode={}, historyStack=[], speaking=false;
@@ -257,7 +249,7 @@ function speak(text){
   } catch(e){ speaking=false; }
 }
 function escapeHTML(s){
-  return (s||"").replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;","\">":"&gt;","\"":"&quot;"}[m]));
+  return (s||"").replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]));
 }
 function escapeJS(s){
   return (s||"").replace(/`/g,"\\`").replace(/\\/g,"\\\\");
@@ -323,24 +315,13 @@ function render(code){
     crumbsEl.style.display='none';
   }
 
-  let imgPath = f.image || '';
-
-  // If JSON ever has bare "S000.png" style or no leading slash, you can extend this,
-  // but right now JSON uses /SOP/images/SE/Distro/LineEnt/...
-  if (imgPath && !imgPath.startsWith("/") && imgPath.startsWith("SOP/")) {
-    imgPath = "/" + imgPath;
-  }
-
-  // Safety: normalize accidental double slashes like ...LineEnt//M1.png
-  imgPath = imgPath.replace(/\/{2,}/g, "/");
-
-  const img = imgPath ? toAbsolute(imgPath) : '';
+  const img = f.image ? toAbsolute(f.image) : '';
   const q=f.decision_question||'';
   const choices=Array.isArray(f.choices)?f.choices:[];
-  const n1=(f.narr1||'").trim();
-  const n2=(f.narr2||'").trim();
-  const n3=(f.narr3||'").trim();
-  const uapUrl=(f.uap_url||'").trim();
+  const n1=(f.narr1||'').trim();
+  const n2=(f.narr2||'').trim();
+  const n3=(f.narr3||'').trim();
+  const uapUrl=(f.uap_url||'').trim();
 
   const hearMeBtn   = n1
     ? `<button aria-label="Hear me (Narration 1)" title="Hear the narration for this step" onclick="speak(\`${escapeJS(n1)}\`)">Hear me</button>
