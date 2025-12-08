@@ -1,4 +1,5 @@
-<!doctype html><meta charset="utf-8" />
+<!doctype html>
+<meta charset="utf-8" />
 <title>Line Entry Options – SOP Player</title>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <style>
@@ -208,8 +209,7 @@
       </button>
 
       <button
-        onclick="goHome()
-"
+        onclick="goHome()"
         title="Go to the main Scott Electric training landing page">
         Home
       </button>
@@ -226,25 +226,41 @@ const CONFIG = {
   homeHref: "index.html#welcome"
 };
 
-// Absolute path helper tailored for /site/BUILD:
-// /EdxBuild/site/BUILD/LineEnt_player.html -> siteRoot = /EdxBuild/site/BUILD
+/*
+  Robust path helper.
+
+  - Uses /EdxBuild/site/BUILD as "siteRoot"
+  - Uses /EdxBuild as "repoRoot"
+  - Treats /SOP/... as living under /EdxBuild/site/BUILD/SOP/...
+*/
 function toAbsolute(p){
-  const siteRoot = location.pathname.replace(/\/[^\/]+$/, ""); // e.g. /EdxBuild/site/BUILD
+  const siteRoot = location.pathname.replace(/\/[^\/]+$/, "");            // /EdxBuild/site/BUILD
+  const repoRoot = location.pathname.replace(/\/site\/BUILD\/.*$/, "");   // /EdxBuild
+
   if (!p) return siteRoot + "/";
+
+  p = p.trim();
   if (p.startsWith("http://") || p.startsWith("https://")) return p;
-  // normalise double slashes
+
+  // Normalise any duplicate slashes (except protocol which we already handled)
   p = p.replace(/\/{2,}/g, "/");
+
+  // Images folder lives under site/BUILD
   if (p.startsWith("/SOP/")) {
-    // Images live under the same /site/BUILD root as this page
-    return siteRoot + p; // -> /EdxBuild/site/BUILD/SOP/...
+    return siteRoot + p;                        // -> /EdxBuild/site/BUILD/SOP/...
   }
+
+  // Already repo-root relative with /site/BUILD/ prefix
+  if (p.startsWith("/site/BUILD/")) {
+    return repoRoot + p;                        // -> /EdxBuild/site/BUILD/...
+  }
+
+  // Any other leading slash: treat as repo-root relative
   if (p.startsWith("/")) {
-    // Fallback: treat as repo-root-relative (/EdxBuild)
-    const parts = location.pathname.split("/");
-    const repoRoot = "/" + (parts[1] || "");
-    return repoRoot + p;
+    return repoRoot + p;                        // -> /EdxBuild/...
   }
-  // relative path, keep it relative to /site/BUILD/
+
+  // Otherwise, treat as relative to /site/BUILD
   return siteRoot + "/" + p;
 }
 
@@ -265,7 +281,7 @@ function speak(text){
   } catch(e){ speaking=false; }
 }
 function escapeHTML(s){
-  return (s||"").replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;","\">":"&gt;","\"":"&quot;"}[m]));
+  return (s||"").replace(/[&<>"]/g, m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[m]));
 }
 function escapeJS(s){
   return (s||"").replace(/`/g,"\\`").replace(/\\/g,"\\\\");
@@ -289,7 +305,8 @@ function goHome(){
 
 async function load(){
   stopTTS();
-  let path=document.getElementById('story').value.trim() || "/EdxBuild/story/LineEnt/story.json";
+  const defaultPath = "/EdxBuild/story/LineEnt/story.json";
+  let path=document.getElementById('story').value.trim() || defaultPath;
   const res=await fetch(path);
   if(!res.ok){ alert('Failed '+path+' ('+res.status+')'); return; }
   data=await res.json();
@@ -331,16 +348,24 @@ function render(code){
     crumbsEl.style.display='none';
   }
 
-  // *** IMAGE PATH FIX FOR LINE ENTRY ***
-  let imgPath = f.image || '';
-  // JSON currently uses /SOP/images/SE/LineEnt/... but actual files are under
-  // /SOP/images/SE/Distro/LineEnt/...
-  if (imgPath.startsWith('/SOP/images/SE/LineEnt/')) {
-    imgPath = imgPath.replace('/SOP/images/SE/LineEnt/', '/SOP/images/SE/Distro/LineEnt/');
+  // --- IMAGE PATH FIXES SPECIFIC TO LINEENT ---
+
+  // Raw path from JSON
+  let imgPath = f.image || "";
+
+  // 1) Old non-Distro paths: /SOP/images/SE/LineEnt/... -> /SOP/images/SE/Distro/LineEnt/...
+  if (imgPath.startsWith("/SOP/images/SE/LineEnt/")) {
+    imgPath = imgPath.replace(
+      "/SOP/images/SE/LineEnt/",
+      "/SOP/images/SE/Distro/LineEnt/"
+    );
   }
-  // normalise slashes
-  imgPath = imgPath.replace(/\/{2,}/g, '/');
-  const img = imgPath ? toAbsolute(imgPath) : '';
+
+  // 2) Normalise any double slashes, including things like .../LineEnt//M1.png
+  imgPath = imgPath.replace(/\/{2,}/g, "/");
+
+  // 3) Convert to absolute URL that matches GitHub Pages layout
+  const img = imgPath ? toAbsolute(imgPath) : "";
 
   const q=f.decision_question||'';
   const choices=Array.isArray(f.choices)?f.choices:[];
@@ -413,42 +438,55 @@ function outsideCloser(e){
         p2=document.getElementById("read2");
   const inside=(el)=> el && (el===e.target || el.contains(e.target));
   if(!inside(p1) && !inside(p2)){
-    if(p1) p1.style.display="none";
-    if(p2) p2.style.display="none";
+    if(p1) p1.style.display='none';
+    if(p2) p2.style.display='none';
   }
 }
 
 function choose(nextCode){
-  if(!nextCode) return;
+  if(!nextCode || !byCode[nextCode]) return;
   historyStack.push(nextCode);
   render(nextCode);
 }
+
 function goto(code){
-  const idx=historyStack.indexOf(code);
-  if(idx>=0){
-    historyStack=historyStack.slice(0,idx+1);
+  const idx = historyStack.indexOf(code);
+  if (idx === -1) {
+    historyStack.push(code);
+  } else {
+    historyStack = historyStack.slice(0, idx+1);
   }
   render(code);
 }
+
 function back(){
-  if(historyStack.length>1){
-    historyStack.pop();
-    render(historyStack[historyStack.length-1]);
-  }
-}
-function restart(){
-  if(!data) return;
-  stopTTS();
-  const s=data.start_code || (data.frames[0] && data.frames[0].frame_code);
-  historyStack=[s];
-  render(s);
+  if(historyStack.length <= 1) return;
+  historyStack.pop();
+  const last = historyStack[historyStack.length-1];
+  render(last);
 }
 
-document.addEventListener('keydown',(e)=>{
-  if(e.key==='Escape'){
-    closeRead('read1');
-    closeRead('read2');
+function restart(){
+  stopTTS();
+  if(!data || !data.frames || !data.frames.length) return;
+  const start=data.start_code || (data.frames[0] && data.frames[0].frame_code);
+  historyStack=[start];
+  render(start);
+}
+
+window.addEventListener("keydown", (e)=>{
+  if(e.key === "ArrowLeft"){
+    back();
+  } else if(e.key === "ArrowRight"){
+    const curCode = historyStack[historyStack.length-1];
+    const f = byCode[curCode];
+    if (f && Array.isArray(f.choices) && f.choices[0]) {
+      choose(f.choices[0].to);
+    }
   }
 });
-load();
+
+// Auto-load on first open so you don't have to click "Load" every time
+window.addEventListener("load", load);
 </script>
+
