@@ -5,3 +5,7 @@ logs/
 site/.xxx
 tree_after_narupload.txt
 __pycache__/
+
+# backups
+*.tar.gz
+*.zip
