@@ -1,0 +1,1 @@
+- Validate → Generate → Preview → Promote.

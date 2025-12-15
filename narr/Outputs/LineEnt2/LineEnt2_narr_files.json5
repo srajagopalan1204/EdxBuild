@@ -1,0 +1,943 @@
+// LineEnt narration aggregate (JSON5) — Tech_Nar-style schema.
+// Generated: 2025-12-05 20:02:27 (America/New_York)
+// Authors: Subi Rajagopalan   with assistance from ChatGPT (OpenAI)
+{
+  "sop": "LineEnt",
+  "file_titles": {
+    "LineEnt_D1._A_decision_on_whether_the_user_want_to_enter_lines_using_Easy_entry_-_At_SE_.xlsx": "Lineent D1. A Decision On Whether The User Want To Enter Lines Using Easy Entry At Se",
+    "LineEnt_D2._A_decision_on_whether_the_user_want_to_enter_lines_using_Shopping_List_entry.xlsx": "Lineent D2. A Decision On Whether The User Want To Enter Lines Using Shopping List Entry",
+    "LineEnt_D3._A_decision_on_to_enter_line_items_using_Quick_entry_needs_to_be_taken.xlsx": "Lineent D3. A Decision On To Enter Line Items Using Quick Entry Needs To Be Taken",
+    "LineEnt_D4._Last_product.xlsx": "Lineent D4. Last Product",
+    "LineEnt_D5._Was_Product_found_.xlsx": "Lineent D5. Was Product Found",
+    "LineEnt_D6._Is_this_a_Build_on_Demand_Product.xlsx": "Lineent D6. Is This A Build On Demand Product",
+    "LineEnt_M1._Sales_Order_Line_Entry_-_At_SE_Electrical_Distribution.xlsx": "Lineent M1. Sales Order Line Entry At Se Electrical Distribution",
+    "LineEnt_N1._No_the_user_is_not_using_Easy_line_Entry.xlsx": "Lineent N1. No The User Is Not Using Easy Line Entry",
+    "LineEnt_N2._No_the_user_is_not_using_Shopping_List_Entry.xlsx": "Lineent N2. No The User Is Not Using Shopping List Entry",
+    "LineEnt_N3._No_the_user_is_not_using_Quick_Line_Entry.xlsx": "Lineent N3. No The User Is Not Using Quick Line Entry",
+    "LineEnt_N4._No_More_products_need_to_be_entered.xlsx": "Lineent N4. No More Products Need To Be Entered",
+    "LineEnt_N5._No_Product_was_not_found.xlsx": "Lineent N5. No Product Was Not Found",
+    "LineEnt_N6._No_It_is_not_a_Build_on_demand_Product.xlsx": "Lineent N6. No It Is Not A Build On Demand Product",
+    "LineEnt_S000._Opening_Slide_for_Sales_Order_Line_Entry_Deck.xlsx": "Lineent S000. Opening Slide For Sales Order Line Entry Deck",
+    "LineEnt_S001._About_Scott_Electric_and_Welcome_to_Training.xlsx": "Lineent S001. About Scott Electric And Welcome To Training",
+    "LineEnt_S002._Quote_to_Cash_Work_Flow_At_SE_Electrical_Distribution.xlsx": "Lineent S002. Quote To Cash Work Flow At Se Electrical Distribution",
+    "LineEnt_S003._Pictorial_representation_of_Quote_to_Cash_-_At_SE_Electrical_Distribution.xlsx": "Lineent S003. Pictorial Representation Of Quote To Cash At Se Electrical Distribution",
+    "LineEnt_S1._Easy_Line_entry_Selected-.xlsx": "Lineent S1. Easy Line Entry Selected",
+    "LineEnt_S10._Quick_line_entry.xlsx": "Lineent S10. Quick Line Entry",
+    "LineEnt_S11._Enter_Product_Number.xlsx": "Lineent S11. Enter Product Number",
+    "LineEnt_S12._Enter_Quantity_required.xlsx": "Lineent S12. Enter Quantity Required",
+    "LineEnt_S13._Enter_Price_Optional_as_system_would_offer_best_price_for_the_customer-.xlsx": "Lineent S13. Enter Price Optional As System Would Offer Best Price For The Customer",
+    "LineEnt_S14._Add_Quick_List_lines.xlsx": "Lineent S14. Add Quick List Lines",
+    "LineEnt_S15._Advanced_line_entry_selected.xlsx": "Lineent S15. Advanced Line Entry Selected",
+    "LineEnt_S16._Enter_Product_Info.xlsx": "Lineent S16. Enter Product Info",
+    "LineEnt_S17._Accept_Product.xlsx": "Lineent S17. Accept Product",
+    "LineEnt_S18._Enter_Qty_uom.xlsx": "Lineent S18. Enter Qty Uom",
+    "LineEnt_S19._Create_Add_Kit_Components.xlsx": "Lineent S19. Create Add Kit Components",
+    "LineEnt_S2._Search_Products_to_add_-.xlsx": "Lineent S2. Search Products To Add",
+    "LineEnt_S20._Create_Non-Stock_Product.xlsx": "Lineent S20. Create Non Stock Product",
+    "LineEnt_S21._Confirm_Pricing.xlsx": "Lineent S21. Confirm Pricing",
+    "LineEnt_S22._Add_lines_to_sales_order.xlsx": "Lineent S22. Add Lines To Sales Order",
+    "LineEnt_S3._Enter_the_Quantity_required.xlsx": "Lineent S3. Enter The Quantity Required",
+    "LineEnt_S4._Add_additional_product_to_Sales_order.xlsx": "Lineent S4. Add Additional Product To Sales Order",
+    "LineEnt_S5._Shopping_List_Entry.xlsx": "Lineent S5. Shopping List Entry",
+    "LineEnt_S6._select_shopping_list_type.xlsx": "Lineent S6. Select Shopping List Type",
+    "LineEnt_S7._Enter_List_Criteria.xlsx": "Lineent S7. Enter List Criteria",
+    "LineEnt_S8._Enter_Quantity.xlsx": "Lineent S8. Enter Quantity",
+    "LineEnt_S9._Add_additional_products_to_the_list.xlsx": "Lineent S9. Add Additional Products To The List",
+    "LineEnt_S999._You_have_successfully_completed_this_SOP.xlsx": "Lineent S999. You Have Successfully Completed This Sop",
+    "LineEnt_Y1._User_has_selected_Easy_entry.xlsx": "Lineent Y1. User Has Selected Easy Entry",
+    "LineEnt_Y2._Yes_Line_entry_using_shopping_list_is_being_used.xlsx": "Lineent Y2. Yes Line Entry Using Shopping List Is Being Used",
+    "LineEnt_Y3._Yes_Quick_line_entry_was_selected.xlsx": "Lineent Y3. Yes Quick Line Entry Was Selected",
+    "LineEnt_Y4._Yes_No_more_products_to_enter.xlsx": "Lineent Y4. Yes No More Products To Enter",
+    "LineEnt_Y5._Yes_Product_was_found.xlsx": "Lineent Y5. Yes Product Was Found",
+    "LineEnt_Y6._Yes_it_is_a_build_on_Demand_Product.xlsx": "Lineent Y6. Yes It Is A Build On Demand Product"
+  },
+  "sequence_order": [
+    "LineEnt_D1._A_decision_on_whether_the_user_want_to_enter_lines_using_Easy_entry_-_At_SE_.xlsx",
+    "LineEnt_D2._A_decision_on_whether_the_user_want_to_enter_lines_using_Shopping_List_entry.xlsx",
+    "LineEnt_D3._A_decision_on_to_enter_line_items_using_Quick_entry_needs_to_be_taken.xlsx",
+    "LineEnt_D4._Last_product.xlsx",
+    "LineEnt_D5._Was_Product_found_.xlsx",
+    "LineEnt_D6._Is_this_a_Build_on_Demand_Product.xlsx",
+    "LineEnt_M1._Sales_Order_Line_Entry_-_At_SE_Electrical_Distribution.xlsx",
+    "LineEnt_N1._No_the_user_is_not_using_Easy_line_Entry.xlsx",
+    "LineEnt_N2._No_the_user_is_not_using_Shopping_List_Entry.xlsx",
+    "LineEnt_N3._No_the_user_is_not_using_Quick_Line_Entry.xlsx",
+    "LineEnt_N4._No_More_products_need_to_be_entered.xlsx",
+    "LineEnt_N5._No_Product_was_not_found.xlsx",
+    "LineEnt_N6._No_It_is_not_a_Build_on_demand_Product.xlsx",
+    "LineEnt_S000._Opening_Slide_for_Sales_Order_Line_Entry_Deck.xlsx",
+    "LineEnt_S001._About_Scott_Electric_and_Welcome_to_Training.xlsx",
+    "LineEnt_S002._Quote_to_Cash_Work_Flow_At_SE_Electrical_Distribution.xlsx",
+    "LineEnt_S003._Pictorial_representation_of_Quote_to_Cash_-_At_SE_Electrical_Distribution.xlsx",
+    "LineEnt_S1._Easy_Line_entry_Selected-.xlsx",
+    "LineEnt_S10._Quick_line_entry.xlsx",
+    "LineEnt_S11._Enter_Product_Number.xlsx",
+    "LineEnt_S12._Enter_Quantity_required.xlsx",
+    "LineEnt_S13._Enter_Price_Optional_as_system_would_offer_best_price_for_the_customer-.xlsx",
+    "LineEnt_S14._Add_Quick_List_lines.xlsx",
+    "LineEnt_S15._Advanced_line_entry_selected.xlsx",
+    "LineEnt_S16._Enter_Product_Info.xlsx",
+    "LineEnt_S17._Accept_Product.xlsx",
+    "LineEnt_S18._Enter_Qty_uom.xlsx",
+    "LineEnt_S19._Create_Add_Kit_Components.xlsx",
+    "LineEnt_S2._Search_Products_to_add_-.xlsx",
+    "LineEnt_S20._Create_Non-Stock_Product.xlsx",
+    "LineEnt_S21._Confirm_Pricing.xlsx",
+    "LineEnt_S22._Add_lines_to_sales_order.xlsx",
+    "LineEnt_S3._Enter_the_Quantity_required.xlsx",
+    "LineEnt_S4._Add_additional_product_to_Sales_order.xlsx",
+    "LineEnt_S5._Shopping_List_Entry.xlsx",
+    "LineEnt_S6._select_shopping_list_type.xlsx",
+    "LineEnt_S7._Enter_List_Criteria.xlsx",
+    "LineEnt_S8._Enter_Quantity.xlsx",
+    "LineEnt_S9._Add_additional_products_to_the_list.xlsx",
+    "LineEnt_S999._You_have_successfully_completed_this_SOP.xlsx",
+    "LineEnt_Y1._User_has_selected_Easy_entry.xlsx",
+    "LineEnt_Y2._Yes_Line_entry_using_shopping_list_is_being_used.xlsx",
+    "LineEnt_Y3._Yes_Quick_line_entry_was_selected.xlsx",
+    "LineEnt_Y4._Yes_No_more_products_to_enter.xlsx",
+    "LineEnt_Y5._Yes_Product_was_found.xlsx",
+    "LineEnt_Y6._Yes_it_is_a_build_on_Demand_Product.xlsx"
+  ],
+  "extraction": {
+    "method": "file_level_join",
+    "join_style": "bullets",
+    "sep": " — ",
+    "text_columns_requested": [
+      "Task Description",
+      "What"
+    ],
+    "sources": [
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_D1._A_decision_on_whether_the_user_want_to_enter_lines_using_Easy_entry_-_At_SE_.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_D2._A_decision_on_whether_the_user_want_to_enter_lines_using_Shopping_List_entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_D3._A_decision_on_to_enter_line_items_using_Quick_entry_needs_to_be_taken.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_D4._Last_product.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_D5._Was_Product_found_.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_D6._Is_this_a_Build_on_Demand_Product.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_M1._Sales_Order_Line_Entry_-_At_SE_Electrical_Distribution.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_N1._No_the_user_is_not_using_Easy_line_Entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_N2._No_the_user_is_not_using_Shopping_List_Entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_N3._No_the_user_is_not_using_Quick_Line_Entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_N4._No_More_products_need_to_be_entered.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_N5._No_Product_was_not_found.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_N6._No_It_is_not_a_Build_on_demand_Product.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S000._Opening_Slide_for_Sales_Order_Line_Entry_Deck.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S001._About_Scott_Electric_and_Welcome_to_Training.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S002._Quote_to_Cash_Work_Flow_At_SE_Electrical_Distribution.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S003._Pictorial_representation_of_Quote_to_Cash_-_At_SE_Electrical_Distribution.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S1._Easy_Line_entry_Selected-.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S10._Quick_line_entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S11._Enter_Product_Number.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S12._Enter_Quantity_required.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S13._Enter_Price_Optional_as_system_would_offer_best_price_for_the_customer-.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S14._Add_Quick_List_lines.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S15._Advanced_line_entry_selected.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S16._Enter_Product_Info.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S17._Accept_Product.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S18._Enter_Qty_uom.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S19._Create_Add_Kit_Components.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S2._Search_Products_to_add_-.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S20._Create_Non-Stock_Product.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S21._Confirm_Pricing.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S22._Add_lines_to_sales_order.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S3._Enter_the_Quantity_required.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S4._Add_additional_product_to_Sales_order.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S5._Shopping_List_Entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S6._select_shopping_list_type.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S7._Enter_List_Criteria.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S8._Enter_Quantity.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S9._Add_additional_products_to_the_list.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_S999._You_have_successfully_completed_this_SOP.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_Y1._User_has_selected_Easy_entry.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_Y2._Yes_Line_entry_using_shopping_list_is_being_used.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_Y3._Yes_Quick_line_entry_was_selected.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_Y4._Yes_No_more_products_to_enter.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_Y5._Yes_Product_was_found.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      },
+      {
+        "file": "/workspaces/EdxBuild/narr/Inputs/LineEnt/Excel/LineEnt_Y6._Yes_it_is_a_build_on_Demand_Product.xlsx",
+        "sheet": "default",
+        "columns_used": [
+          "Task Description",
+          "What"
+        ],
+        "rows": 1
+      }
+    ],
+    "files": [
+      {
+        "file": "LineEnt_D1._A_decision_on_whether_the_user_want_to_enter_lines_using_Easy_entry_-_At_SE_.xlsx",
+        "joined_text": "- D1.  A decision on  whether the user want to enter lines  using “Easy” entry - At SE Electrical Distribution — The user is about to enter the order lines and is faced with the decision on which order entry method best suits the current order Hence the question is asked would you like to use Easy order entry",
+        "step_code": "D1",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha6",
+        "oth2": "ha ha 7"
+      },
+      {
+        "file": "LineEnt_D2._A_decision_on_whether_the_user_want_to_enter_lines_using_Shopping_List_entry.xlsx",
+        "joined_text": "- D2.  A decision on  whether the user want to enter lines  using “Shopping List” entry — The user has chosen not to use the easy entry and is now asked if they would lie to use a shopping list",
+        "step_code": "D2",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha12",
+        "oth2": "ha ha 13"
+      },
+      {
+        "file": "LineEnt_D3._A_decision_on_to_enter_line_items_using_Quick_entry_needs_to_be_taken.xlsx",
+        "joined_text": "- D3.  A decision on  to enter line items using “Quick” entry  needs to be taken — The user chose not use the Easy entry or the Shopping list entry methods so has ot decide if they  would like to enter using the quick entry",
+        "step_code": "D3",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha19",
+        "oth2": "ha ha 20"
+      },
+      {
+        "file": "LineEnt_D4._Last_product.xlsx",
+        "joined_text": "- D4. Last product? — The user needs to check if this is the last line on the order if so suitable actions need to be taken if not another line would be added",
+        "step_code": "D4",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha25",
+        "oth2": "ha ha 26"
+      },
+      {
+        "file": "LineEnt_D5._Was_Product_found_.xlsx",
+        "joined_text": "- D5. Was Product found ? — The product requested by the customer in not found in the system Even though items are constantly added to the catalog from lists provided by the manufacturer some times products may still be not defined hence this decision has to be made",
+        "step_code": "D5",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha33",
+        "oth2": "ha ha 34"
+      },
+      {
+        "file": "LineEnt_D6._Is_this_a_Build_on_Demand_Product.xlsx",
+        "joined_text": "- D6. Is this a Build on Demand Product? — A decision needs to be taken if the item selected is a Build on demand kit product",
+        "step_code": "D6",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha37",
+        "oth2": "ha ha 38"
+      },
+      {
+        "file": "LineEnt_M1._Sales_Order_Line_Entry_-_At_SE_Electrical_Distribution.xlsx",
+        "joined_text": "- M1.  Sales Order  Line Entry - At SE Electrical Distribution — Use these instructions to enter a Stock Order (SO) for a customer.\n\nSelect Sales > Entry > Order.\nSelect Stock Order in the Order Type field.\nComplete the remaining fields on the page, and then click Next.\nAdd line items.\nSee Line entry modes.\n\nClick Taxes and Totals.\nVerify or complete the tax information.\nApply any discounts or addons. Click Recalculate to update the order total.\nOptionally, click Freight Rate Shop to view shipping options.\nClick Collect Payment.\nComplete the payment information.\nIf you are accepting a cash, check, or credit card payment, verify the journal settings and then click OK.\nClick Save to complete the order.",
+        "step_code": "M1",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha5",
+        "oth2": "ha ha 6"
+      },
+      {
+        "file": "LineEnt_N1._No_the_user_is_not_using_Easy_line_Entry.xlsx",
+        "joined_text": "- N1. No, the user is not using Easy line Entry — No the user has chosen not to use the quick line entry hence would move to the next decsion point",
+        "step_code": "N1",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha28",
+        "oth2": "ha ha 29"
+      },
+      {
+        "file": "LineEnt_N2._No_the_user_is_not_using_Shopping_List_Entry.xlsx",
+        "joined_text": "- N2. No, the user is not using “Shopping List” Entry — No the user is not using a Shopping list and so would have to move to the next decision point",
+        "step_code": "N2",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha29",
+        "oth2": "ha ha 30"
+      },
+      {
+        "file": "LineEnt_N3._No_the_user_is_not_using_Quick_Line_Entry.xlsx",
+        "joined_text": "- N3. No, the user is not using “Quick Line” Entry — No the user is not using a quick line entry method and hence has to move to the next decsion block",
+        "step_code": "N3",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha30",
+        "oth2": "ha ha 31"
+      },
+      {
+        "file": "LineEnt_N4._No_More_products_need_to_be_entered.xlsx",
+        "joined_text": "- N4. No, More products need to be entered — No, More products need to be entered",
+        "step_code": "N4",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha43",
+        "oth2": "ha ha 44"
+      },
+      {
+        "file": "LineEnt_N5._No_Product_was_not_found.xlsx",
+        "joined_text": "- N5. No, Product was not found — No the product was not found hence a Non stock item would have to be created using the SE specific rules",
+        "step_code": "N5",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha43",
+        "oth2": "ha ha 44"
+      },
+      {
+        "file": "LineEnt_N6._No_It_is_not_a_Build_on_demand_Product.xlsx",
+        "joined_text": "- N6. No, It is not a Build on demand Product — No this is not a build on demand product hence can follow the standard path chosen for line entry",
+        "step_code": "N6",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha42",
+        "oth2": "ha ha 43"
+      },
+      {
+        "file": "LineEnt_S000._Opening_Slide_for_Sales_Order_Line_Entry_Deck.xlsx",
+        "joined_text": "- S000. Opening Slide for Sales Order Line Entry Deck — this deck of slides or pictures is the quote to order process which is part of quote to cash Work Flow",
+        "step_code": "S000",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha1",
+        "oth2": "ha ha 2"
+      },
+      {
+        "file": "LineEnt_S001._About_Scott_Electric_and_Welcome_to_Training.xlsx",
+        "joined_text": "- S001. About Scott Electric and Welcome to Training — Scott Electric is a leading independent wholesale electrical distributor, serving electrical, mechanical, and general contractors, industrial customers, government agencies, and retail partners. The company provides a broad range of electrical products, lighting, tools, and related services to support both day-to-day operations and long-term projects.\n\nWelcome to the Scott Electric Training Site_x000B_Welcome to the Scott Electric Training Site. This platform is designed to help you build the knowledge and skills needed to support our customers safely, accurately, and efficiently. Here you will find guided learning, reference materials, and role-based courses aligned with how we work every day — in sales, operations, service, administration, and support._x000B_Thank you for investing your time in training. Your commitment to learning and improvement is an important part of keeping Scott Electric strong, responsive, and customer-focused.",
+        "step_code": "S001",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha2",
+        "oth2": "ha ha 3"
+      },
+      {
+        "file": "LineEnt_S002._Quote_to_Cash_Work_Flow_At_SE_Electrical_Distribution.xlsx",
+        "joined_text": "- S002.  Quote to Cash Work Flow At SE Electrical Distribution — This site is a typical Quote to cache representation in what is called a workflow This outlines the various steps performed by various swim lanes if you will or functional groups and provides a overall picture of how we end up serving our customers and continuing to keep our creed of customer comes first",
+        "step_code": "S002",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha3",
+        "oth2": "ha ha 4"
+      },
+      {
+        "file": "LineEnt_S003._Pictorial_representation_of_Quote_to_Cash_-_At_SE_Electrical_Distribution.xlsx",
+        "joined_text": "- S003.  Pictorial representation of  Quote to Cash  - At SE Electrical Distribution — This slide is aptly named The Pictorial Representation of Quote to Cash at Scott Electric the distribution business \nWhile this light is the precursor to the focused area of Quote to cache the picture shows how the various phases within that task is directly or indirectly affecting other components within the system for example an inventory is consumed the inventory has to be replenished and that is done by the procure to pay cycle Similarly because a sales occurred there has to be accounting for the sale and also at the end of the day collection of the payment against the invoice so hence that goes into the financial side of the impact now because inventory is being both consumed replenished and in some cases being procured and directly shipped to the customer that has a direct impact on how the inventory is managed within the system",
+        "step_code": "S003",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha4",
+        "oth2": "ha ha 5"
+      },
+      {
+        "file": "LineEnt_S1._Easy_Line_entry_Selected-.xlsx",
+        "joined_text": "- S1. Easy Line entry Selected- — Easy\n\nUse this mode to conduct a global search for a product. You can use values such as cross-reference values and the product description to search a product. You can add a single line item or multiple line items to the order in this mode.\n\nIf you specify a price before dropping the line to the grid, it is treated as a price override. The price that is entered is used regardless of what is set up on the Product Setup or Product Warehouse Product Setup record.\nNote: Pricing logic is not initiated when you select products in Easy Line Entry mode. If you use PD Pricing Setup records to set pricing and discounts for most of your products, you can enable alerts about products with associated PD records. Select the Check for Non-Standard Products in Easy and Quick Line Entry option in Sales Order Entry-Order Entry Defaults.\nsome things to note about easy line entry\nThe price that is displayed is based on product records. You can select Check for Non-Standard Products in Easy and Quick Line Entry in Sales Order Entry-Order Entry Defaults to receive alerts about promotional products that are set up in PD Pricing Setup and other non-standard and restricted products. Hold your mouse over the warning or error icon to view messages. You cannot add products with errors to the order.",
+        "step_code": "S1",
+        "uap_label": "13_Add Items Using Easy Line Entry",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/7969a0f7-c09a-48bf-b76a-6a81b23472b0?contextId=d8a3b962-08bf-4d5f-bdaa-cd31b1159dc8",
+        "oth1": "ha8",
+        "oth2": "ha ha 9"
+      },
+      {
+        "file": "LineEnt_S10._Quick_line_entry.xlsx",
+        "joined_text": "- S10. Quick line entry — Quick\nSelect Sales > Entry > Order.\nSpecify the required information on the Initiate page, and then click Next.\nSelect Line Entry > Quick.\nSpecify the quantity.\nSpecify the product.\nClick Add.\nOptionally, change the price or unit.\nAdd additional products to the grid.\nClick Add Lines to add the lines in the grid to the order.\nFinish the order.\nUse this mode to add multiple lines to an order simultaneously. Quick line entry requires fewer steps and processing time than single line entry. Use this method if you use a scanner to enter products on the order.\nNote: Pricing logic is not initiated when you select products in Quick Line Entry mode. If you use PD Pricing Setup records to set pricing and discounts for most of your products, you can enable alerts about products with associated PD records. Select the Check for Non-Standard Products in Easy and Quick Line Entry option in Sales Order Entry-Order Entry Defaults.",
+        "step_code": "S10",
+        "uap_label": "Enter using Quick line Entry (No UAP)",
+        "uap_url": "",
+        "oth1": "ha21",
+        "oth2": "ha ha 22"
+      },
+      {
+        "file": "LineEnt_S11._Enter_Product_Number.xlsx",
+        "joined_text": "- S11. Enter Product Number — During line entry products are searched in the easy mode the search option is Product and within that typing a few characters from the product will bring up matching list and will show you the quantity on hand under :in stock\"",
+        "step_code": "S11",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha22",
+        "oth2": "ha ha 23"
+      },
+      {
+        "file": "LineEnt_S12._Enter_Quantity_required.xlsx",
+        "joined_text": "- S12. Enter Quantity required — Before entering the quantity ensure that the product is available so the delivery requirements of the customer are met",
+        "step_code": "S12",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha23",
+        "oth2": "ha ha 24"
+      },
+      {
+        "file": "LineEnt_S13._Enter_Price_Optional_as_system_would_offer_best_price_for_the_customer-.xlsx",
+        "joined_text": "- S13. Enter Price  Optional as system would offer best price for the customer- — Price over ride should be an",
+        "step_code": "S13",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha24",
+        "oth2": "ha ha 25"
+      },
+      {
+        "file": "LineEnt_S14._Add_Quick_List_lines.xlsx",
+        "joined_text": "- S14. Add Quick List lines — Quick\n\nUse this mode to add multiple lines to an order simultaneously. Quick line entry requires fewer steps and processing time than single line entry. Use this method if you use a scanner to enter products on the order.\nNote: Pricing logic is not initiated when you select products in Quick Line Entry mode. If you use PD Pricing Setup records to set pricing and discounts for most of your products, you can enable alerts about products with associated PD records. Select the Check for Non-Standard Products in Easy and Quick Line Entry option in Sales Order Entry-Order Entry Defaults.",
+        "step_code": "S14",
+        "uap_label": "Add quick lists (No UAP)",
+        "uap_url": "",
+        "oth1": "ha27",
+        "oth2": "ha ha 28"
+      },
+      {
+        "file": "LineEnt_S15._Advanced_line_entry_selected.xlsx",
+        "joined_text": "- S15. Advanced line entry selected — Advanced\n\nUse this mode to add a single line item to the order. In this mode, you can specify additional information that may be required for processing, such as sourcing, serial or lot number assignment, or pricing changes. Values for the line item that may differ from the order, such as Promise Date and Rush status, are available in the Extended Fields section. You can also use this mode to add a printed or internal comment to the line.\n\nAll line entry modes in Sales Order Entry are available, with these exceptions:\n\nOn Correction orders, only the Advanced and Return Multiple modes are available.\nOn Direct Orders,only the Advanced mode is available.\n\nIf you specify a product on a line and click Finish before you add the line to the order, these events occur:\n\nThe line is added to the order.\nThe order is completed.",
+        "step_code": "S15",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha31",
+        "oth2": "ha ha 32"
+      },
+      {
+        "file": "LineEnt_S16._Enter_Product_Info.xlsx",
+        "joined_text": "- S16. Enter Product Info",
+        "step_code": "S16",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha32",
+        "oth2": "ha ha 33"
+      },
+      {
+        "file": "LineEnt_S17._Accept_Product.xlsx",
+        "joined_text": "- S17. Accept Product — Since the product matching the requirement was found the appropriate action can now be taken",
+        "step_code": "S17",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha35",
+        "oth2": "ha ha 36"
+      },
+      {
+        "file": "LineEnt_S18._Enter_Qty_uom.xlsx",
+        "joined_text": "- S18. Enter Qty /uom — Enter the quantity and unit of issue",
+        "step_code": "S18",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha36",
+        "oth2": "ha ha 37"
+      },
+      {
+        "file": "LineEnt_S19._Create_Add_Kit_Components.xlsx",
+        "joined_text": "- S19. Create Add Kit Components — In Sales Order Entry, you can source single or multiple components for build-on-demand (BOD) or nonstock kits. You can tie a stock or nonstock component line to a purchase order or warehouse transfer, including a direct order. If a component of the prebuilt kit is another prebuilt kit, then you can tie the component kit to a work order.\n\nKit component sourcing is initiated on the Kits page in Advanced Line Entry. You can source one or more components from the Multi-Comp Sourcing page. You can also source a component when you add a component to a kit.\n\nIf you create a fabricated kit in Sales Order Entry, then you must source the components in KP Work Order Center Entry.\n\nTies are only created if the quantity ordered is less than the quantity reserved. To create a tie for a component that has the full quantity reserved, add the kit to the sales order without sourcing the component. Then, in the Kit Details section for the component, change the reserved amount for component to less than the quantity needed before creating the tie. The tie is created for the quantity ordered less the quantity reserved.\n\nNote: You cannot delete a component that is tied to a source document from a sales order.\nUse these instructions to create a tie for one or more components:\n\nCreate a stock order.\nIn Advanced Line Entry, specify the BOD or nonstock kit in the Product field, and then specify the quantity.\nClick Kits.\nSelect one or more components to tie to a sourcing document, and then click Multi-Comp Sourcing.\nSpecify the product source.\nComplete the remaining fields for the selected product source.\nWhen you are sourcing a single component, the ARP vendor or warehouse is displayed. When you are sourcing multiple components, the ARP vendor or warehouse is not displayed because the ARP for each component can be different.\n\nClick Submit, and then click the left arrow to return to Advanced Line Entry.\nClick Add to add the line to the order. .\nFinish the order.",
+        "step_code": "S19",
+        "uap_label": "17-Enter Sales Order for Kits",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/ed322c6e-5326-45be-9e40-5deb9164b1ea?contextId=4c116798-abf1-4daf-b5d8-d2d249ecdaf2",
+        "oth1": "ha39",
+        "oth2": "ha ha 40"
+      },
+      {
+        "file": "LineEnt_S2._Search_Products_to_add_-.xlsx",
+        "joined_text": "- S2. Search Products to add - — During line entry products are searched in the easy mode the search option is Product and within that typing a few characters from the product will bring up matching list and will show you the quantity on hand under :in stock\"",
+        "step_code": "S2",
+        "uap_label": "01_Product Inquiry",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/8d450b15-6b66-418a-839f-22628f8d8ca3?contextId=131788f7-2931-41c6-8ef3-a61b879b71f9",
+        "oth1": "ha9",
+        "oth2": "ha ha 10"
+      },
+      {
+        "file": "LineEnt_S20._Create_Non-Stock_Product.xlsx",
+        "joined_text": "- S20. Create Non-Stock Product — Create a non stock product if the user is authorized to do should follow the following steps\n\nUse these instructions to create an order for a product that your warehouse does not stock. You can enter a nonstock product if Yes is selected for Allow Entry of Non-Stocks on your SA Operator Setup record.\nUse these instructions to create an order for a product that your warehouse does not stock. You can enter a nonstock product if Yes is selected for Allow Entry of Non-Stocks on your SA Operator Setup record.\n\nSelect Sales > Entry > Order.\nCreate or maintain an order.\nIn Advanced Line Entry, select Non-Stock in the Line Type field.\nOn the Non-stock page, specify the nonstock product in the Product field.\nIf the product already exists in the catalog, in inventory, or as an existing nonstock item, click Yes to use that product and its settings.\n\nIf the Use Previous Non-Stock Settings option is selected in SA Operator Setup, the default product category from SA Administrator Options-Products-Defaults is assigned to the line. If there is no default product category, the product category from the most recent, active nonstock receipt is assigned. If there are no active nonstock receipts in Product Adjust Non-stock/Direct Order Entry, the product category from the most recent, inactive receipt is assigned.\n\nIf the product is available in the ordering warehouse, or is an active nonstock that is set up in Product Adjust Non-stock/Direct Order Entry, and the Allow Non Stock Qty Ship Override option is selected in SA Operator Setup, you can force ship the available quantity to fill this order. If the product is available in another warehouse, you are notified that nonstock surplus exists in another warehouse. You can then tie this order to a warehouse transfer.\n\nIf you use the existing settings, and surplus stock or nonstock product is available in other warehouses, an additional notification about surplus availability is displayed. You can change the warehouse to obtain the item from the other warehouse.\n\nSpecify a product description and a product category.\nThe product description is included on orders, invoices, and pick tickets.\n\nTo source the product from a vendor, specify the vendor and product line.\nIf you entered a quote order and plan to copy it to a direct order, you must specify a vendor. Otherwise, specify a warehouse in the next step. If you do not specify a vendor or warehouse, the nonstock line on the quote order is not copied to the direct order.\n\nTo source the product from another warehouse, specify the warehouse.\nDepending on the product, the Non-Stock Quantity Available and Stock Quantity Available for the warehouse is displayed on this page. Use the Product lookup to see the quantities that are available in other warehouses.\n\nIf you entered a quote order and plan to copy it to a direct order, you must enter a warehouse. Otherwise, specify a vendor number in the previous step. If you do not enter a vendor or warehouse, the nonstock line on the quote order is not copied to the direct order.\n\nOptionally, select one of these values in the Item Type field:\nReview For Inventory\nSelect this value if you expect frequent orders of the nonstock product and think it should be added to stocked inventory. An Event Manager trigger is created. It notifies someone in your organization to convert this item to stock and review it in future replenishment cycles. This value is available only if the Event Manager event is active.\nCreate As OAN-NS\nSelect this value to create the nonstock product as an order as needed-nonstock (OAN-NS) product. To make this value available, a valid value must be selected for Allow OAN-NS Stocking in OE for Catalog on your SA Operator Setup record.\nCreate As Catalog\nSelect this value to create a catalog product from this product. To make this value available, the Catalog Stocked option in SA Administrator Options-Products-Defaults-Sales Processing must be selected.\nIf you selected Create As OAN-NS or Create As Catalog in the previous step, click Default Fields.\nSpecify the unit, serial or lot control, and special price/costing values to include on the Product Catalog Setup or Product Setup record.\nClick Submit.\nSpecify a cost and other pricing information.\nIf you do not specify a cost, then the order cannot be invoice processed. If the product is associated with a Pricing and Discounting record, you can adjust the price level on the Pricing view. This applies to all price levels.\nOptionally, select these options:\nBack Order\nSelect this option to automatically create a back order when the shipped quantity is less than the ordered quantity.\n\nIf Allow Back Order is not selected on the customer record, this message is displayed when you exit the Non-Stock page: Non-Stock Product; No Back Order Scheduled; Adjusted if Exists.\n\nYou must then clear the Back Order option in the Nonstock page or the Extended Fields section on the Order Entry Advanced Line Entry page.\n\nCreate Purchase Order\nIf you specified a vendor in a previous step, select this option to create a purchase order for the product.\n\nTo make this value available, a valid value must be selected for PO/WT Ties on your SA Operator Setup record.\n\nYou cannot create a sourcing purchase order for a vendor or a vendor ship from that does not allow purchase orders.\n\nRush\nSelect this option to expedite the product. You can specify a rush amount in the Extended Fields section.\nCopy Comments\nSelect this option to copy comments from the sales order line to the source document.\n\nNCNR\nSelect this option if the nonstock is non-cancellable, non-returnable product.\nComplete the remaining applicable fields, and then click Submit.\nSpecify the quantity, and verify the unit and price.\nTo tie the line a PO or WT, click Sourcing.\nSelect the product source.\nSpecify or make changes to the related product source information.\nClick Submit.\nClick Add to add the line to the order.\nIf the source document was created, the number is displayed. If the line is tied to a purchase order or transfer, the number of the source document is displayed.\nComplete the order.\nIf you add additional nonstock products to the order, the default settings for the previous nonstock product on the order are displayed. This feature is not available if No is selected for Use Previous Non-Stock Settings on your SA Operator Setup record.\n\nSelect Sales > Entry > Order.\nCreate or maintain an order.\nIn Advanced Line Entry, select Non-Stock in the Line Type field.\nOn the Non-stock page, specify the nonstock product in the Product field.\nIf the product already exists in the catalog, in inventory, or as an existing nonstock item, click Yes to use that product and its settings.\n\nIf the Use Previous Non-Stock Settings option is selected in SA Operator Setup, the default product category from SA Administrator Options-Products-Defaults is assigned to the line. If there is no default product category, the product category from the most recent, active nonstock receipt is assigned. If there are no active nonstock receipts in Product Adjust Non-stock/Direct Order Entry, the product category from the most recent, inactive receipt is assigned.\n\nIf the product is available in the ordering warehouse, or is an active nonstock that is set up in Product Adjust Non-stock/Direct Order Entry, and the Allow Non Stock Qty Ship Override option is selected in SA Operator Setup, you can force ship the available quantity to fill this order. If the product is available in another warehouse, you are notified that nonstock surplus exists in another warehouse. You can then tie this order to a warehouse transfer.\n\nIf you use the existing settings, and surplus stock or nonstock product is available in other warehouses, an additional notification about surplus availability is displayed. You can change the warehouse to obtain the item from the other warehouse.\n\nSpecify a product description and a product category.\nThe product description is included on orders, invoices, and pick tickets.\n\nTo source the product from a vendor, specify the vendor and product line.\nIf you entered a quote order and plan to copy it to a direct order, you must specify a vendor. Otherwise, specify a warehouse in the next step. If you do not specify a vendor or warehouse, the nonstock line on the quote order is not copied to the direct order.\n\nTo source the product from another warehouse, specify the warehouse.\nDepending on the product, the Non-Stock Quantity Available and Stock Quantity Available for the warehouse is displayed on this page. Use the Product lookup to see the quantities that are available in other warehouses.\n\nIf you entered a quote order and plan to copy it to a direct order, you must enter a warehouse. Otherwise, specify a vendor number in the previous step. If you do not enter a vendor or warehouse, the nonstock line on the quote order is not copied to the direct order.\n\nOptionally, select one of these values in the Item Type field:\nReview For Inventory\nSelect this value if you expect frequent orders of the nonstock product and think it should be added to stocked inventory. An Event Manager trigger is created. It notifies someone in your organization to convert this item to stock and review it in future replenishment cycles. This value is available only if the Event Manager event is active.\nCreate As OAN-NS\nSelect this value to create the nonstock product as an order as needed-nonstock (OAN-NS) product. To make this value available, a valid value must be selected for Allow OAN-NS Stocking in OE for Catalog on your SA Operator Setup record.\nCreate As Catalog\nSelect this value to create a catalog product from this product. To make this value available, the Catalog Stocked option in SA Administrator Options-Products-Defaults-Sales Processing must be selected.\nIf you selected Create As OAN-NS or Create As Catalog in the previous step, click Default Fields.\nSpecify the unit, serial or lot control, and special price/costing values to include on the Product Catalog Setup or Product Setup record.\nClick Submit.\nSpecify a cost and other pricing information.\nIf you do not specify a cost, then the order cannot be invoice processed. If the product is associated with a Pricing and Discounting record, you can adjust the price level on the Pricing view. This applies to all price levels.\nOptionally, select these options:\nBack Order\nSelect this option to automatically create a back order when the shipped quantity is less than the ordered quantity.\n\nIf Allow Back Order is not selected on the customer record, this message is displayed when you exit the Non-Stock page: Non-Stock Product; No Back Order Scheduled; Adjusted if Exists.\n\nYou must then clear the Back Order option in the Nonstock page or the Extended Fields section on the Order Entry Advanced Line Entry page.\n\nCreate Purchase Order\nIf you specified a vendor in a previous step, select this option to create a purchase order for the product.\n\nTo make this value available, a valid value must be selected for PO/WT Ties on your SA Operator Setup record.\n\nYou cannot create a sourcing purchase order for a vendor or a vendor ship from that does not allow purchase orders.\n\nRush\nSelect this option to expedite the product. You can specify a rush amount in the Extended Fields section.\nCopy Comments\nSelect this option to copy comments from the sales order line to the source document.\n\nNCNR\nSelect this option if the nonstock is non-cancellable, non-returnable product.\nComplete the remaining applicable fields, and then click Submit.\nSpecify the quantity, and verify the unit and price.\nTo tie the line a PO or WT, click Sourcing.\nSelect the product source.\nSpecify or make changes to the related product source information.\nClick Submit.\nClick Add to add the line to the order.\nIf the source document was created, the number is displayed. If the line is tied to a purchase order or transfer, the number of the source document is displayed.\nComplete the order.\nIf you add additional nonstock products to the order, the default settings for the previous nonstock product on the order are displayed. This feature is not available if No is selected for Use Previous Non-Stock Settings on your SA Operator Setup record.",
+        "step_code": "S20",
+        "uap_label": "06_Enter a Non-Stock Product on an Order",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/f97aa974-919d-4d99-9636-744790f472cc?contextId=a1856482-743b-42ae-9935-0b1dd402a198",
+        "oth1": "ha44",
+        "oth2": "ha ha 45"
+      },
+      {
+        "file": "LineEnt_S21._Confirm_Pricing.xlsx",
+        "joined_text": "- S21. Confirm Pricing — Selling products for highest price paid\nIf a customer places an order for a product and has historically paid a higher price than the price that defaults in Sales Order Entry, you can set system options to force the higher price for that product and customer. This ensures that the customer is not offered the product at a price less than they are accustomed to paying, and you receive the highest margin on the sale. This may also encourage customers to agree to a contract price to receive a better price in the future.\n\nTo implement the Highest Price Paid pricing search, you must set two options in SA Administrator Options-Documents-Sales Orders: Months History and Exclude Level 2. These options define the number of months of sales history to search for the highest price, and whether to exclude Price Type Level 2 sales in the search.\n\nThe Highest Price Paid search is not conducted if the original default price was determined using a contract price. A contract price is a Price Type level 1 (Customer/Product) PD Pricing Setup record. The contract price is not changed by the Highest Price Paid search. Additionally, if you use Price Type level 2 pricing records (Cust/Prod Price Type, Cust/Prod Line, Cust/Prod Cat, or Cust/Rebate Type), and the Exclude Level 2 option is selected, any prices that originally default on the sales order line using level 2 pricing records are not overridden by the highest price paid.\n\nIf you use promotional pricing, you still have the option to choose between the promotional price and non-promotional price. The non-promotional price reflects the highest price, if it applies. If you do not have permission to select a promotional price (the Access Promo Price in OE option in SA Operator Setup-Entry Options is not selected), the Promo Price Default selection in SA Administrator Options-Documents-Sales Orders determines the price to use: Lowest, Promo, or Regular. This automatic selection may result in the promo price instead of the highest price being selected.\n\nYou can override contractual level pricing with multiple level price search. This pricing search can conflict with the Highest Price Paid search. We recommend you select one method or the other, not both.\n\nWhen a sales order line price is replaced with a higher price by this search, the order number, suffix, and line number are stored on the new order line. In addition, the Price Origin Code is set to “H”. This code is displayed in Sales Order Inquiry and Sales Customer Pricing Inquiry. To prevent the highest price search in Sales Customer Pricing Inquiry, select Return/Ignore Highest Price.\n\nRun the Sales Order Master List Report to see the Highest Price Order and Line that affected the Highest Price calculation. This is printed under the Original System Line Data section.",
+        "step_code": "S21",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha40",
+        "oth2": "ha ha 41"
+      },
+      {
+        "file": "LineEnt_S22._Add_lines_to_sales_order.xlsx",
+        "joined_text": "- S22. Add lines to sales order — Add more lines using one of the methods discussed",
+        "step_code": "S22",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha41",
+        "oth2": "ha ha 42"
+      },
+      {
+        "file": "LineEnt_S3._Enter_the_Quantity_required.xlsx",
+        "joined_text": "- S3. Enter the Quantity required — Before entering the quantity ensure that the product is available so the delivery requirements of the customer are met",
+        "step_code": "S3",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha10",
+        "oth2": "ha ha 11"
+      },
+      {
+        "file": "LineEnt_S4._Add_additional_product_to_Sales_order.xlsx",
+        "joined_text": "- S4. Add additional product to Sales order — by searching for it and ading after entering the qualtitiy",
+        "step_code": "S4",
+        "uap_label": "13_Add Items Using Easy Line Entry",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/7969a0f7-c09a-48bf-b76a-6a81b23472b0?contextId=d8a3b962-08bf-4d5f-bdaa-cd31b1159dc8",
+        "oth1": "ha11",
+        "oth2": "ha ha 12"
+      },
+      {
+        "file": "LineEnt_S5._Shopping_List_Entry.xlsx",
+        "joined_text": "- S5. Shopping List Entry — ou can access the Shopping List feature from Line Entry menu in Sales Order Entry-Select Products. You can create a Shopping List that is based on promotional products, past sales, previous orders, product lists, and Infor CPQ product configurations. Promotional products are based on pricing records in PD Pricing Setup. Past sales and previous orders are based on the customer's transaction history. Product lists are set up in Product List Setup. Product lists are often used to sell slow-moving products or overstocked products. Products configured in CPQ can be returned as individual shopping list components.\n\nUse the Shopping List function to perform these actions:\n\nSelect products from a customer’s ordering history within a month/year range.\nSelect products that are listed in the ordering history and automatically batch load the products into the sales order as separate line items.\nSelect products from a list of specific previous orders or from a specific product list.\nUse the Shopping List to show a list with these elements:\n\nAll of the products a customer has ordered in the last two months\nThe last quantity ordered for each product\nThe last price that was given for each product\nPast sales totals for products by month\nYou can select individual products from the Shopping List to add to the order, or add all products from the Shopping List to the order. You can change the quantity to order for each product.",
+        "step_code": "S5",
+        "uap_label": "01_Review the Shopping List",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/3b861bdc-d798-4398-93df-90c128af60bc?contextId=4c116798-abf1-4daf-b5d8-d2d249ecdaf2",
+        "oth1": "ha14",
+        "oth2": "ha ha 15"
+      },
+      {
+        "file": "LineEnt_S6._select_shopping_list_type.xlsx",
+        "joined_text": "- S6. select shopping list type — Promotional Products shopping list\nPromotional products are products that are on sale at a special price or discount for a limited time. Promotional pricing records are set up in PD Pricing Setup at either the product or product price type level. When you add the product to the customer’s order, the price is obtained from PD Pricing Setup. The promotional price is then charged to the customer. You can view pricing detail in the Pricing view in the Add Line Item section of Sales Order Entry.\n\nTo view all current promotions, select the Shopping List option and then click Promotional Products. Recalling a large number of records can affect your system’s performance. To minimize the number of records to sort through, specify the maximum number of records to display.\n\nYou can also filter the records that are displayed in Customer Order Pad Filter Setup to view only specific customers, customer types, and product categories. When filters are defined, those particular records are not displayed in the Shopping List. When you select to automatically launch this style, each time the Shopping List is accessed, promotional pricing is launched. If you clear the Automatically Launch This Style option, you can select from the different styles available.\n\nPast Sales shopping list\nYou can select products from a list of products that the customer has purchased previously by selecting Past Sales. Specify a range of months and the number of product records to recall for the Shopping List. You can also include past sales for these types of products:\n\nNonstocks products\nProducts that were sold from the warehouse on the order to the customer on the order and the customer's ship tos.\nProducts that were sold to the customer or ship to on the order from any warehouse.\nThe recommended quantity for the products in the Shopping List is based on the first order found. To see past sales information as monthly totals, use the Past Sales window.\n\nPrevious Orders shopping list\nCustomers often order the same product repeatedly, or duplicate entire orders. The Previous Orders function lets you import product from up to 10 past orders into the current Shopping List. These orders can originate from any customer account. Because your pricing might have changed since the original order was shipped, you can have the system re-price the products or retain the original pricing. The recommended quantity is based on the first order found.\n\nProduct List shopping list\nProduct lists are user-defined lists of product set up in Product List Setup. Sales personnel or inbound call centers use these lists primarily to promote product sales on slow-moving products or overstocked products to their customers. If you use a Product List, select the Product List Type and specify the number of products you want to recall. The product list is then moved into your current Shopping List. The recommended quantity is based on the product list.",
+        "step_code": "S6",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha15",
+        "oth2": "ha ha 16"
+      },
+      {
+        "file": "LineEnt_S7._Enter_List_Criteria.xlsx",
+        "joined_text": "- S7. Enter List Criteria — The ordering history information is from the SM Extended Totals Warehouse/Product by Customer Report. The information contained in this file is automatically updated each time Sales Entry Processing Invoice Processing Report is generated, if the Customer, Product Category by Warehouse options are selected in SA Administrator Options-Sales History-Levels. The Update Sales Manager option must also be selected in Sales Entry Processing Invoice Processing Report.\n\nYou can filter the ordering history information by setting up records in Customer Order Pad Filter Setup for specific customers or customer types and product categories. When you set up a customer or customer type with product categories in Customer Order Pad Filter Setup, those product categories are not displayed when you use the Shopping List.",
+        "step_code": "S7",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha16",
+        "oth2": "ha ha 17"
+      },
+      {
+        "file": "LineEnt_S8._Enter_Quantity.xlsx",
+        "joined_text": "- S8. Enter Quantity — Before entering the quantity ensure that the product is available so the delivery requirements of the customer are met",
+        "step_code": "S8",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha17",
+        "oth2": "ha ha 18"
+      },
+      {
+        "file": "LineEnt_S9._Add_additional_products_to_the_list.xlsx",
+        "joined_text": "- S9. Add  additional products to the list — by searching for it and ading after entering the qualtitiy or from other shopiing lists",
+        "step_code": "S9",
+        "uap_label": "13-Copy Customer Sales Order",
+        "uap_url": "https://scottelectricusa.uap.infor.com/#/content/7c48240e-5e1d-4c52-98a3-b2c080251b5b?contextId=4c116798-abf1-4daf-b5d8-d2d249ecdaf2",
+        "oth1": "ha18",
+        "oth2": "ha ha 19"
+      },
+      {
+        "file": "LineEnt_S999._You_have_successfully_completed_this_SOP.xlsx",
+        "joined_text": "- S999. You have successfully completed this SOP — Congratulations you have now traversed all the possible paths for this SOP of port to sales order While it is good that you've traversed all the paths what you need to do is to practice and become efficient and be able to translate your current work to the new system Have a nice day",
+        "step_code": "S999",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha45",
+        "oth2": "ha ha 46"
+      },
+      {
+        "file": "LineEnt_Y1._User_has_selected_Easy_entry.xlsx",
+        "joined_text": "- Y1.  User has selected  Easy entry — User has opted to use the easy line entry Easy\n\nUse this mode to conduct a global search for a product. You can use values such as cross-reference values and the product description to search a product. You can add a single line item or multiple line items to the order in this mode.\n\nIf you specify a price before dropping the line to the grid, it is treated as a price override. The price that is entered is used regardless of what is set up on the Product Setup or Product Warehouse Product Setup record.\nNote: Pricing logic is not initiated when you select products in Easy Line Entry mode. If you use PD Pricing Setup records to set pricing and discounts for most of your products, you can enable alerts about products with associated PD records. Select the Check for Non-Standard Products in Easy and Quick Line Entry option in Sales Order Entry-Order Entry Defaults.",
+        "step_code": "Y1",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha7",
+        "oth2": "ha ha 8"
+      },
+      {
+        "file": "LineEnt_Y2._Yes_Line_entry_using_shopping_list_is_being_used.xlsx",
+        "joined_text": "- Y2. Yes, Line entry using shopping list is being used — the user has chosen to use a \"Shopping list \" Method of entry",
+        "step_code": "Y2",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha13",
+        "oth2": "ha ha 14"
+      },
+      {
+        "file": "LineEnt_Y3._Yes_Quick_line_entry_was_selected.xlsx",
+        "joined_text": "- Y3. Yes, Quick line entry was selected — The user has opted to use quick line entry \n\nThe user should note \n\nNote: Pricing logic is not initiated when you select products in Quick Line Entry mode. If you use PD Pricing Setup records to set pricing and discounts for most of your products, you can enable alerts about products with associated PD records. Select the Check for Non-Standard Products in Easy and Quick Line Entry option in Sales Order Entry-Order Entry Defaults.",
+        "step_code": "Y3",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha20",
+        "oth2": "ha ha 21"
+      },
+      {
+        "file": "LineEnt_Y4._Yes_No_more_products_to_enter.xlsx",
+        "joined_text": "- Y4. Yes, No more products to enter — Yes there are no more products to be added as per this selection by the user",
+        "step_code": "Y4",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha26",
+        "oth2": "ha ha 27"
+      },
+      {
+        "file": "LineEnt_Y5._Yes_Product_was_found.xlsx",
+        "joined_text": "- Y5. Yes, Product was found — Yes product was found",
+        "step_code": "Y5",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha34",
+        "oth2": "ha ha 35"
+      },
+      {
+        "file": "LineEnt_Y6._Yes_it_is_a_build_on_Demand_Product.xlsx",
+        "joined_text": "- Y6. Yes it is a build on Demand Product — It is identified as a kit product",
+        "step_code": "Y6",
+        "uap_label": "",
+        "uap_url": "",
+        "oth1": "ha38",
+        "oth2": "ha ha 39"
+      }
+    ]
+  }
+}

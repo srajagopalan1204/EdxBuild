@@ -1,0 +1,84 @@
+.
+├── EdxBuild_bootstrap_20251023_2022.zip
+├── README.md
+├── SOP
+│   └── images
+├── build
+├── build_narr_SEL_20251023_2035.zip
+├── docs
+│   ├── HTML_Build_checker
+│   ├── IMAGE_NAMING.md
+│   └── STAGING_CHECKLIST.md
+├── env
+│   ├── Integrated
+│   ├── Production
+│   └── Unit_staging
+├── index.html
+├── logs
+│   ├── LineEnt_validate_120525_2038.log
+│   ├── Ord2Pick_validate_112425_0242.log
+│   ├── Pick2Inv_validate_112725_1818.log
+│   ├── Quo2Ord_validate_111625_1455.log
+│   ├── Quo2Ord_validate_111625_1500.log
+│   ├── SRO_validate_ServReqOrd102525_0600.log
+│   ├── SRO_validate_ServReqOrd102525_0616.log
+│   ├── SRO_validate_ServReqOrd102525_0617.log
+│   ├── ShipFB_validate_112825_2135.log
+│   ├── StartUp_validate_112925_1621.log
+│   ├── Warranty_validate_102625_1455.log
+│   ├── Warranty_validate_102625_1517.log
+│   ├── Warranty_validate_102625_1518.log
+│   ├── XXXX_validate_112825_2133.log
+│   ├── csv_to_story_LineEnt_120525_2041.log
+│   ├── csv_to_story_Ord2Pick_112425_0252.log
+│   ├── csv_to_story_Pick2Inv_112725_1826.log
+│   ├── csv_to_story_Quo2Ord_111625_1502.log
+│   ├── csv_to_story_ShipFB_112825_2137.log
+│   ├── csv_to_story_StartUp_112925_1624.log
+│   ├── csv_to_story_servreqord_102525_1622.log
+│   ├── csv_to_story_techmobile.log
+│   ├── csv_to_story_warranty_102625_1523.log
+│   ├── find_narr_latest_20251025_230347.txt
+│   ├── img_diag_20251024_005259.txt
+│   ├── pages_diag_20251024_002936.txt
+│   ├── pages_diag_postfix_20251024_003620.txt
+│   └── validate_techmobile.log
+├── narr
+│   ├── Config
+│   ├── Inputs
+│   ├── Outputs
+│   ├── docs
+│   ├── logs
+│   └── src
+├── requirements.txt
+├── root_and_2_down.txt
+├── site
+│   └── BUILD
+├── src
+│   ├── Prev
+│   ├── build_player.py
+│   ├── config
+│   ├── csv_to_story copy.py
+│   ├── csv_to_story.py
+│   ├── host_build.py
+│   ├── promote.py
+│   └── validate_env.py
+├── story
+│   ├── LineEnt
+│   ├── LineEnt2
+│   ├── Ord2Pick
+│   ├── Pick2Inv
+│   ├── Quo2Ord
+│   ├── ServReqOrd
+│   ├── ShipFB
+│   ├── StartUp
+│   ├── TechMobile
+│   └── Warranty
+├── templates
+│   ├── Prev
+│   ├── sop_frame.json5
+│   ├── sop_html_shell.html
+│   └── sop_player.html
+└── tree_after_narupload.txt
+
+36 directories, 46 files

@@ -1,0 +1,1 @@
+- Use versioned names like G1_v1.png; never overwrite.
